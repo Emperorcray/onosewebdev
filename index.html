@@ -17,7 +17,6 @@
         <nav>
             <div>
                 <div id="mySidenav" class="sidenav">
-                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()" title="close">&times;</a>
                     <a href="#About">About</a> <br>
                     <a href="#Education">Services</a> <br>
                     <a href="#projects">Projects</a> <br>
@@ -33,7 +32,7 @@
                 <a href="#projects">Projects</a>
                 <a href="#contact">Contact</a>
             </div>
-            <a href="" class="Resume">Resume</a>
+            <a href="javascript:void(0)" class="Resume">Resume</a>
         </nav>
     </header>
     <section>
@@ -57,7 +56,36 @@
         </div>
         <div class="tech_stack">
             <div class="tech_stack_heading">MY SKILLS</div>
-            <div></div>
+            <div class="stack_div">
+                <button class="html">
+                    <img src="images/html_logo.png" alt="">
+                    <p>HTML</p>
+                </button>
+                <button class="css">
+                    <img src="images/CSS_logo.png" alt="">
+                    <p>CSS</p>
+                </button>
+                <button class="javascript">
+                    <img src="images/javacript_logo.webp" alt="">
+                    <p>JavaScript</p>
+                </button>
+                <button class="tailwind">
+                    <img src="images/tailwind_logo.png" alt="">
+                    <p>Tailwindcss</p>
+                </button>
+                <button class="bootstrap">
+                    <img src="images/bootstrap_logo.png" alt="">
+                    <p>Bootstrap</p>
+                </button>
+                <button class="php">
+                    <img src="images/php_logo.png" alt="">
+                    <p>PHP</p>
+                </button>
+                <button class="mysql">
+                    <img src="images/mysql_logo.svg" alt="">
+                    <p>MySQL</p>
+                </button>
+            </div>
         </div>
         <div class="services" id="services">
             <div class="services_heading">My Services</div>
@@ -89,11 +117,10 @@
             <div class="projects_heading">Projects</div>
             <div class="projects_div">
                 <div>
-                    <p class="project_name">Luxel-Interiors</p>
                     <img src="images/luxelinteriors.png" alt="" class="project_img">
+                    <p class="project_name">Luxel-Interiors</p>
                     <p class="project_info">This is an E-commerce website built to make buying and selling of furnitures ans interior decors easier</p>
                     <div class="project_stack">
-                        <p class="stack_heading">TECH STACK:</p>
                         <p>HTML</p>
                         <p>CSS</p>
                         <p>JavaScript</p>
@@ -101,7 +128,7 @@
                         <p>MySQL</p>
                     </div>
                     <div class="project_links">
-                        <a href="https://github.com/Emperorcray/Luxel-interiors" class="github_repo"><i class="bi bi-github"></i></a>
+                        <a href="https://github.com/Emperorcray/Luxel-interiors" class="github_repo">GitHub<i class="bi bi-github"></i></a>
                         <a href="" class="demo">Demo</a>
                     </div>             
                 </div>
@@ -119,21 +146,33 @@
         </div>
         <div class="contacts" id="contact">
             <div class="contacts_heading">Contacts</div>
-            <div class="socials">
-                <div class="connect">
-                    <p>Connect with Me</p>
-                    <div>
-                        <a href="https://github.com/Emperorcray" class="github_link" title="Github"><i class="bi bi-github"></i></a>
-                        <a href="https://www.linkedin.com/in/onosetaleeboh" class="linkedin_link" title="LinkedIn"><i class="fi fi-brands-linkedin"></i></a>
-                        <a href="https://x.com/Cray77786" class="x_link" title="X"><i class="fi fi-brands-twitter-alt-square"></i></a>
-                    </div>
-                </div>
-                <div class="email_me">
-                    <p>Email Me</p>
-                    <div>onosetaleeboh2006@gmail.com</div>
-                </div>
-            </div>
+            <form action="">
+                <p>Get In Touch</p>
+                <label for="" class="fullname">
+                    Name: <br>
+                    <input type="text" required>
+                </label>
+                <label for="" class="email">
+                    Email: <br>
+                    <input type="email" required>
+                </label>
+                <label for="" class="message">
+                    Message: <br>
+                    <textarea name="" id="" required></textarea>
+                </label>
+                <input type="submit" value="Send Message" class="submit">
+            </form>
         </div>
     </section>
+    <footer>
+        <div class="footer_heading">STAY CONNECTED</div>
+        <p>Follow me on my social media channels and stay updated with me.</p>
+        <div class="footer_links">
+            <a href="https://github.com/Emperorcray" class="github_footer" target="_blank"><i class="bi bi-github"></i></a>
+            <a href="https://x.com/Cray77786" class="x_footer" target="_blank"><i class="fi fi-brands-twitter-alt-square"></i></a>
+            <a href="https://www.linkedin.com/in/onosetaleeboh" class="linkedin_footer" target="_blank"><i class="fi fi-brands-linkedin"></i></a>
+            <a href="" class="email_footer">Email</a>
+        </div>
+    </footer>
 </body>
 </html>
