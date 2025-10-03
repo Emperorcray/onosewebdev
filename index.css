@@ -24,53 +24,61 @@ body{
         backdrop-filter: blur(30px);
         position: fixed;
     }
-    .sidenav{
-        position: fixed;
-        z-index: 1;
-        height: 70vh;
-        width: 30vw;
+   /* The side navigation menu */
+    .sidenav {
+        height: 60vh; /* 100% Full-height */
+        width: 0; /* 0 width - change this with JavaScript */
+        position: fixed; /* Stay in place */
+        z-index: 1; /* Stay on top */
+        top: 0; /* Stay at the top */
+        left: 0;
+        background-color: #111; /* Black*/
+        overflow-x: hidden; /* Disable horizontal scroll */
+        padding-top: 60px; /* Place content 60px from the top */
+        transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+        margin-left: 40px;
         border-radius: 18px 18px 18px 18px;
-        margin-left: -130px;
-        background-color: black;
-        display: none;
-        place-content: center;
-        gap: 10px;
-        transition-duration: 300ms;
-    }
-    .sidenav>a{
-        border: 1px solid black;
-        color: white;
-        display: inline-block;
-        width: 20vw;
-        height: 8vh;
-        text-align: center;
         align-content: center;
+    }
+
+    /* The navigation menu links */
+    .sidenav a {
+        padding: 8px 8px 8px 32px;
         text-decoration: none;
-        border-radius: 18px 18px 18px 18px;
-        font-weight: 600;
+        font-size: 25px;
+        color: #818181;
+        display: block;
+        transition: 0.3s;
+        text-align: center;
     }
-    .sidenav>a:hover{
-        transition-duration: 300ms;
-        background-color: #ff16f4;
-        border: 1px solid #ff16f4;
-        color: black;
-        box-shadow: 0px 0px 20px #ff16f4;
+
+    /* When you mouse over the navigation links, change their color */
+    .sidenav a:hover {
+    color: #ff16f4;
+    transition-duration: 300ms
     }
-    .sidebar{
+
+    /* Position and style the close button (top right corner) */
+    .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+        margin-left: 50px;
         color: white;
-        font-size: 22px;
+        border: none;
+        background-color: transparent;
         cursor: pointer;
     }
-    .sidebar:hover .sidenav{
-        display: block;
+
+    /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+    #main {
+    transition: margin-left .5s;
+    padding: 20px;
     }
-    .closebtn{
-        text-align: end;
-    }
-    .closebtn>a{
-        font-size: 30px;
+    .sidemenu>i{
         color: white;
-        text-decoration: none;
+        cursor: pointer;
     }
     .logo{
         font-size: 20px;
