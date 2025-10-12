@@ -6634,7 +6634,6 @@ body{
     .About_info{
         height: 40vh;
         width: 40vw;
-        border: 1px solid white;
     }
     .name{
         font-size: 26px;
@@ -9030,6 +9029,7 @@ body{
         color: white;
         border: 2px solid #ff16f4;
         border-radius: 18px 18px 18px 18px;
+        font-size: 13px;
     }
     .nav_links>a:hover{
         background-color: #ff16f4;
