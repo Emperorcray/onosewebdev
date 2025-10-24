@@ -12503,14 +12503,14 @@ body{
 }
 @media screen and (min-width:1200px){
     header{
-        height: 16vh;
+        height: 80px;
         width: 100%;
         display: flex;
         justify-content: center;
         align-items: center;
     }
     nav{
-        height: 10vh;
+        height: 70px;
         width: 100%;
         display: flex;
         justify-content: space-evenly;
@@ -12537,7 +12537,7 @@ body{
         justify-content: space-evenly;
     }
     .nav_links>a{
-        height: 6vh;
+        height: 35px;
         width: 8vw;
         display: inline-block;
         text-decoration: none;
@@ -12556,7 +12556,7 @@ body{
         transition-duration: 300ms;
     }
     .Resume{
-        height: 6vh;
+        height: 35px;
         width: 8vw;
         border-radius: 18px 18px 18px 18px;
         display: inline-block;
@@ -12573,7 +12573,7 @@ body{
         box-shadow: 0px 0px 18px #ff16f4;
     }
     section{
-        height: 650vh;
+        height: 4100px;
         width: 100%;
         border: 2px solid white;
         border-top: none;
@@ -12581,14 +12581,15 @@ body{
         border-right: none;
     }
     .About{
-        height: 90vh;
+        height: 600px;
         width: 100%;
+        border: 1px solid white;
         display: flex;
         justify-content: space-evenly;
         align-items: center;
     }
     .About_img{
-        height: 80vh;
+        height: 500px;
         width: 30vw;
     }
     .About_img>img{
@@ -12597,8 +12598,9 @@ body{
         border-radius: 100px 100px 100px 100px;
     }
     .About_info{
-        height: 70vh;
+        height: 400px;
         width: 40vw;
+        border: 1px solid white;
     }
     .name{
         font-size: 28px;
