@@ -12583,7 +12583,6 @@ body{
     .About{
         height: 600px;
         width: 100%;
-        border: 1px solid white;
         display: flex;
         justify-content: space-evenly;
         align-items: center;
@@ -12600,7 +12599,6 @@ body{
     .About_info{
         height: 400px;
         width: 40vw;
-        border: 1px solid white;
     }
     .name{
         font-size: 28px;
@@ -12613,7 +12611,7 @@ body{
         color: #ff16f4;
     }
     .info{
-        height: 19vh;
+        height: 130px;
         width: 100%;
     }
     .info>p{
@@ -12639,13 +12637,13 @@ body{
         color: white;
     }
     .download_resume{
-        height: 15vh;
+        height: 100px;
         width: 100%;
         align-content: center;
         text-align: center;
     }
     .download_resume>a{
-        height: 9vh;
+        height: 60px;
         width: 16vw;
         display: inline-block;
         align-content: center;
@@ -12662,7 +12660,7 @@ body{
         box-shadow: 0px 0px 18px #ad00b1;
     }
     .tech_stack{
-        height: 68vh;
+        height: 350px;
         width: 100%;
         align-content: center;
     }
@@ -12673,13 +12671,13 @@ body{
         font-size: 35px;
     }
     .stack_div{
-        height: 40vh;
+        height: 200px;
         width: 100%;
         text-align: center;
         align-content: center;
     }
     .html,.css,.javascript,.tailwind,.bootstrap,.php,.mysql{
-        height: 16vh;
+        height: 100px;
         width: 10vw;
         background-color: transparent;
         border-radius: 8px 8px 8px 8px;
@@ -12693,7 +12691,7 @@ body{
         background-color: #9999993d;
     }
     .html>img{
-        height: 5vh;
+        height: 29px;
     }
     .html>p{
         color: white;
@@ -12708,7 +12706,7 @@ body{
         transition-duration: 300ms;
     }
     .css>img{
-        height: 4.5vh;
+        height: 27px;
     }
     .css>p{
         color: white;
@@ -12723,7 +12721,7 @@ body{
         transition-duration: 300ms;
     }
     .javascript>img{
-        height: 4.8vh;
+        height: 29px;
     }
     .javascript>p{
         color: white;
@@ -12733,7 +12731,7 @@ body{
         border: 1.5px solid lightblue;
     }
     .tailwind>img{
-        height: 4.5vh;
+        height: 28px;
     }
     .tailwind>p{
         color: white;
@@ -12753,7 +12751,7 @@ body{
         transition-duration: 300ms;
     }
     .bootstrap>img{
-        height: 4.5vh;
+        height: 28px;
     }
     .bootstrap>p{
         color: white;
@@ -12768,7 +12766,7 @@ body{
         background-color: #9999993d;
     }
     .php>img{
-        height: 4.5vh;
+        height: 28px;
     }
     .php>p{
         color: white;
@@ -12783,14 +12781,14 @@ body{
         background-color: #9999993d;
     }
     .mysql>img{
-        height: 4.5vh;
+        height: 28px;
     }
     .mysql>p{
         color: white;
         font-weight: 600;
     }
     .services{
-        height: 80vh;
+        height: 450px;
         width: 100%;
         align-content: center;
     }
@@ -12801,14 +12799,14 @@ body{
         font-size: 34px;
     }
     .my_offer{
-        height: 60vh;
+        height: 360px;
         display: flex;
         justify-content: space-evenly;
         align-items: center;
         flex-wrap: wrap;
     }
     .the_offers{
-        height: 20vh;
+        height: 140px;
         width: 30vw;
         text-align: center;
         align-content: center;
@@ -12836,6 +12834,7 @@ body{
     .projects{
         height: 120vh;
         width: 100%;
+        border: 1px solid white;
         align-content: center;
     }
     .projects_heading{
