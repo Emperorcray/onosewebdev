@@ -8380,14 +8380,14 @@ body{
 }
 @media screen and (min-width:843px) and (max-width:893px){
     header{
-        height: 16vh;
+        height: 80px;
         width: 100%;
         display: flex;
         justify-content: center;
         align-items: center;
     }
     nav{
-        height: 10vh;
+        height: 70px;
         width: 100%;
         display: flex;
         justify-content: space-evenly;
@@ -8427,10 +8427,8 @@ body{
         color: black;
         box-shadow: 0px 0px 20px #ff16f4;
     }
-    .sidebar{
+    .sidemenu{
         color: white;
-        font-size: 22px;
-        cursor: pointer;
     }
     .closebtn{
         text-align: end;
@@ -8449,7 +8447,7 @@ body{
         display: none;
     }
     .Resume{
-        height: 6vh;
+        height: 35px;
         width: 13vw;
         border-radius: 18px 18px 18px 18px;
         display: inline-block;
@@ -8466,7 +8464,7 @@ body{
         box-shadow: 0px 0px 18px #ff16f4;
     }
     section{
-        height: 650vh;
+        height: 3500px;
         width: 100%;
         border: 2px solid white;
         border-top: none;
@@ -8474,15 +8472,15 @@ body{
         border-right: none;
     }
     .About{
-        height: 90vh;
+        height: 600px;
         width: 100%;
         display: flex;
         justify-content: space-evenly;
         align-items: center;
     }
     .About_img{
-        height: 70vh;
-        width: 30vw;
+        height: 500px;
+        width: 36vw;
     }
     .About_img>img{
         height: 100%;
@@ -8490,21 +8488,21 @@ body{
         border-radius: 100px 100px 100px 100px;
     }
     .About_info{
-        height: 70vh;
+        height: 400px;
         width: 40vw;
     }
     .name{
-        font-size: 28px;
+        font-size: 26px;
         font-weight: 700;
         color: white;
     }
     .job{
-        font-size: 28px;
+        font-size: 26px;
         font-weight: 700;
         color: #ff16f4;
     }
     .info{
-        height: 19vh;
+        height: 130px;
         width: 100%;
     }
     .info>p{
@@ -8530,15 +8528,14 @@ body{
         color: white;
     }
     .download_resume{
-        height: 15vh;
+        height: 100px;
         width: 100%;
         align-content: center;
         text-align: center;
-        font-size: 14px;
     }
     .download_resume>a{
-        height: 9vh;
-        width: 16vw;
+        height: 60px;
+        width: 18vw;
         display: inline-block;
         align-content: center;
         text-align: center;
@@ -8547,7 +8544,7 @@ body{
         text-decoration: none;
         color: black;
         font-weight: 600;
-        font-size: 12px;
+        font-size: 13px;
     }
     .download_resume>a:hover{
         transition-duration: 300ms;
@@ -8555,7 +8552,7 @@ body{
         box-shadow: 0px 0px 18px #ad00b1;
     }
     .tech_stack{
-        height: 68vh;
+        height: 350px;
         width: 100%;
         align-content: center;
     }
@@ -8566,13 +8563,13 @@ body{
         font-size: 35px;
     }
     .stack_div{
-        height: 40vh;
+        height: 200px;
         width: 100%;
         text-align: center;
         align-content: center;
     }
     .html,.css,.javascript,.tailwind,.bootstrap,.php,.mysql{
-        height: 16vh;
+        height: 100px;
         width: 12vw;
         background-color: transparent;
         border-radius: 8px 8px 8px 8px;
@@ -8586,7 +8583,7 @@ body{
         background-color: #9999993d;
     }
     .html>img{
-        height: 5vh;
+        height: 29px;
     }
     .html>p{
         color: white;
@@ -8601,7 +8598,7 @@ body{
         transition-duration: 300ms;
     }
     .css>img{
-        height: 4.5vh;
+        height: 27px;
     }
     .css>p{
         color: white;
@@ -8616,7 +8613,7 @@ body{
         transition-duration: 300ms;
     }
     .javascript>img{
-        height: 4.8vh;
+        height: 29px;
     }
     .javascript>p{
         color: white;
@@ -8626,7 +8623,7 @@ body{
         border: 1.5px solid lightblue;
     }
     .tailwind>img{
-        height: 4.5vh;
+        height: 28px;
     }
     .tailwind>p{
         color: white;
@@ -8646,7 +8643,7 @@ body{
         transition-duration: 300ms;
     }
     .bootstrap>img{
-        height: 4.5vh;
+        height: 28px;
     }
     .bootstrap>p{
         color: white;
@@ -8661,7 +8658,7 @@ body{
         background-color: #9999993d;
     }
     .php>img{
-        height: 4.5vh;
+        height: 28px;
     }
     .php>p{
         color: white;
@@ -8676,14 +8673,14 @@ body{
         background-color: #9999993d;
     }
     .mysql>img{
-        height: 4.5vh;
+        height: 28px;
     }
     .mysql>p{
         color: white;
         font-weight: 600;
     }
     .services{
-        height: 80vh;
+        height: 450px;
         width: 100%;
         align-content: center;
     }
@@ -8694,41 +8691,40 @@ body{
         font-size: 34px;
     }
     .my_offer{
-        height: 60vh;
-        width: 100%;
+        height: 360px;
         display: flex;
         justify-content: space-evenly;
         align-items: center;
         flex-wrap: wrap;
     }
     .the_offers{
-        height: 25vh;
-        width: 38vw;
-        display: grid;
-        place-content: center;
-        gap: 10px;
+        height: 140px;
+        width: 36vw;
+        text-align: center;
+        align-content: center;
         border-radius: 8px 8px 8px 8px;
     }
     .the_offers:hover{
         transition-duration: 300ms;
-        box-shadow: 0px 0px 30px #ff16f4;
+        box-shadow: 0px 0px 20px #ff16f4;
     }
     .the_offers>i{
         font-size: 20px;
         color: #ff16f4;
+        text-align: center;
     }
     .the_offers>p{
         font-weight: 600;
         font-size: 18px;
         color: white;
+        text-align: center;
     }
     .the_offers>div{
-        width: 30vw;
         font-size: 13px;
         color: white;
     }
     .projects{
-        height: 120vh;
+        height: 700px;
         width: 100%;
         align-content: center;
     }
@@ -8739,16 +8735,15 @@ body{
         text-align: center;
     }
     .projects_div{
-        height: 90vh;
+        height: 530px;
         width: 100%;
-
         display: flex;
         justify-content: space-evenly;
         align-items: center;
     }
     .projects_div>div{
-        height: 76vh;
-        width: 35vw;
+        height: 450px;
+        width: 40vw;
         border: 2px solid #ff16f4;
         align-content: center;
         text-align: center;
@@ -8766,16 +8761,16 @@ body{
         color: #ff16f4;
     }
     .project_img{
-        height: 24vh;
-        width: 30vw;
+        height: 200px;
+        width: 34vw;
     }
     .project_info{
-        height: 13vh;
+        height: 60px;
         color: white;
         border: 1px solid black;
         text-align: center;
         align-content: center;
-        font-size: 13px;
+        font-size: 14px;
     }
     .project_stack{
         display: flex;
@@ -8785,13 +8780,13 @@ body{
         margin-top: 4px;
     }
     .project_stack>p{
-        width: 6vw;
-        height: 4vh;
+        width: 7vw;
+        height: 30px;
         border: 1px solid #ff16f4;
         align-content: center;
         border-radius: 18px 18px 18px 18px;
         background-color: #ff16f4;
-        font-size: 11px;
+        font-size: 12px;
         box-shadow: 3px 3px 0px white;
         font-weight: 600;
     }
@@ -8802,7 +8797,7 @@ body{
         margin-top: 10px;
     }
     .github_repo{
-        height: 5vh;
+        height: 30px;
         width: 8vw;
         transition-duration: 300ms;
         text-align: center;
@@ -8828,7 +8823,7 @@ body{
         color: black;
         display: inline-block;
         width: 10vw;
-        height: 5vh;
+        height: 30px;
         text-decoration: none;
         text-align: center;
         align-content: center;
@@ -8841,8 +8836,9 @@ body{
         background-color: purple;
     }
     .certifications{
-        height: 150vh;
+        height: 500px;
         width: 100%;
+        align-content: center;
     }
     .certifications_heading{
         color: #ff16f4;
@@ -8851,16 +8847,57 @@ body{
         text-align: center;
     }
     .certifications_div{
-        height: 140vh;
-        display: grid;
-        place-content: center;
+        height: 350px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
     }
-    .freecodecamp_cert{
-        height: 120vh;
-        width: 50vw;
+    .certificates{
+        height: 300px;
+        width: 36vw;
+        border-radius: 20px 20px 20px 20px;
+        text-align: center;
+        align-content: center;
+    }
+    .certificates:hover{
+        transition-duration: 300ms;
+        box-shadow: 0px 0px 25px #ff16f4;
+    }
+    .certificate_name{
+        color: #ff16f4;
+        font-weight: 600;
+        font-size: 18px;
+    }
+    .platform{
+        color: white;
+        font-weight: 600;
+        font-size: 16px;
+    }
+    .view_certificate{
+        height: 80px;
+        width: 100%;
+        align-content: center;
+    }
+    
+    .view_certificate>a{
+        height: 35px;
+        width: 10vw;
+        border: 1px solid #ff16f4;
+        background-color: #ff16f4;
+        color: black;
+        display: inline-block;
+        align-content: center;
+        border-radius: 10px 10px 10px 10px;
+        text-decoration: none;
+        font-weight: 600;
+    }
+    .view_certificate>a:hover{
+        transition: 300ms;
+        box-shadow: 0px 0px 10px #ff16f4;
     }
     .contacts{
-        height: 120vh;
+        height: 800px;
         width: 100%;
         display: grid;
         place-content: center;
@@ -8873,7 +8910,7 @@ body{
     }
     
     form{
-        height: 95vh;
+        height: 600px;
         width: 50vw;
         border: 2px solid #ff16f4;
         display: grid;
@@ -8888,13 +8925,13 @@ body{
         text-align: center;
     }
     .fullname,.email{
-        height: 15vh;
+        height: 80px;
         width: 40vw;
         color: white;
         font-weight: 500;
     }
     .fullname>input,.email>input{
-        height: 6vh;
+        height: 40px;
         width: 39vw;
         border-radius: 6px 6px 6px 6px;
         border: 1.5px solid white;
@@ -8907,13 +8944,13 @@ body{
         outline: 1.5px solid #ff16f4;
     }
     .message{
-        height: 24vh;
+        height: 130px;
         width: 40vw;
         align-content: center;
         color: white;
     }
     .message>textarea{
-        height: 15vh;
+        height: 85px;
         width: 39vw;
         text-indent: 20px;
         background-color: transparent;
@@ -8926,8 +8963,8 @@ body{
         outline: 1.5px solid #ff16f4;
     }
     .submit{
-        height: 8vh;
-        font-size: 18px;
+        height: 50px;
+        font-size: 20px;
         font-weight: 600;
         border: 1px solid #ff16f4;
         background-color: #ff16f4;
@@ -8940,7 +8977,7 @@ body{
         border: 1px solid #d100d9;
     }
     footer{
-        height: 40vh;
+        height: 300px;
         width: 100%;
         display: grid;
         place-content: center;
@@ -8980,19 +9017,22 @@ body{
     }
     .email_footer{
         color: orangered;
+        text-decoration: none;
+        font-size: 34px;
     }
+
 
 }
 @media screen and (min-width:894px) and (max-width:944px){
     header{
-        height: 16vh;
+        height: 80px;
         width: 100%;
         display: flex;
         justify-content: center;
         align-items: center;
     }
     nav{
-        height: 10vh;
+        height: 70px;
         width: 100%;
         display: flex;
         justify-content: space-evenly;
@@ -9019,7 +9059,7 @@ body{
         justify-content: space-evenly;
     }
     .nav_links>a{
-        height: 6vh;
+        height: 35px;
         width: 8vw;
         display: inline-block;
         text-decoration: none;
@@ -9029,7 +9069,7 @@ body{
         color: white;
         border: 2px solid #ff16f4;
         border-radius: 18px 18px 18px 18px;
-        font-size: 13px;
+        font-size: 14px;
     }
     .nav_links>a:hover{
         background-color: #ff16f4;
@@ -9039,7 +9079,7 @@ body{
         transition-duration: 300ms;
     }
     .Resume{
-        height: 6vh;
+        height: 35px;
         width: 8vw;
         border-radius: 18px 18px 18px 18px;
         display: inline-block;
@@ -9050,13 +9090,14 @@ body{
         background-color: #ff16f4;
         color: black;
         font-weight: 600;
+        font-size: 14px;
     }
     .Resume:hover{
         transition-duration: 150ms;
         box-shadow: 0px 0px 18px #ff16f4;
     }
     section{
-        height: 650vh;
+        height: 3600px;
         width: 100%;
         border: 2px solid white;
         border-top: none;
@@ -9064,15 +9105,15 @@ body{
         border-right: none;
     }
     .About{
-        height: 90vh;
+        height: 600px;
         width: 100%;
         display: flex;
         justify-content: space-evenly;
         align-items: center;
     }
     .About_img{
-        height: 70vh;
-        width: 30vw;
+        height: 500px;
+        width: 36vw;
     }
     .About_img>img{
         height: 100%;
@@ -9080,21 +9121,21 @@ body{
         border-radius: 100px 100px 100px 100px;
     }
     .About_info{
-        height: 70vh;
+        height: 400px;
         width: 40vw;
     }
     .name{
-        font-size: 28px;
+        font-size: 26px;
         font-weight: 700;
         color: white;
     }
     .job{
-        font-size: 28px;
+        font-size: 26px;
         font-weight: 700;
         color: #ff16f4;
     }
     .info{
-        height: 19vh;
+        height: 130px;
         width: 100%;
     }
     .info>p{
@@ -9120,15 +9161,14 @@ body{
         color: white;
     }
     .download_resume{
-        height: 15vh;
+        height: 100px;
         width: 100%;
         align-content: center;
         text-align: center;
-        font-size: 14px;
     }
     .download_resume>a{
-        height: 9vh;
-        width: 16vw;
+        height: 60px;
+        width: 18vw;
         display: inline-block;
         align-content: center;
         text-align: center;
@@ -9137,6 +9177,7 @@ body{
         text-decoration: none;
         color: black;
         font-weight: 600;
+        font-size: 13px;
     }
     .download_resume>a:hover{
         transition-duration: 300ms;
@@ -9144,7 +9185,7 @@ body{
         box-shadow: 0px 0px 18px #ad00b1;
     }
     .tech_stack{
-        height: 68vh;
+        height: 350px;
         width: 100%;
         align-content: center;
     }
@@ -9155,13 +9196,13 @@ body{
         font-size: 35px;
     }
     .stack_div{
-        height: 40vh;
+        height: 200px;
         width: 100%;
         text-align: center;
         align-content: center;
     }
     .html,.css,.javascript,.tailwind,.bootstrap,.php,.mysql{
-        height: 16vh;
+        height: 100px;
         width: 12vw;
         background-color: transparent;
         border-radius: 8px 8px 8px 8px;
@@ -9175,7 +9216,7 @@ body{
         background-color: #9999993d;
     }
     .html>img{
-        height: 5vh;
+        height: 29px;
     }
     .html>p{
         color: white;
@@ -9190,7 +9231,7 @@ body{
         transition-duration: 300ms;
     }
     .css>img{
-        height: 4.5vh;
+        height: 27px;
     }
     .css>p{
         color: white;
@@ -9205,7 +9246,7 @@ body{
         transition-duration: 300ms;
     }
     .javascript>img{
-        height: 4.8vh;
+        height: 29px;
     }
     .javascript>p{
         color: white;
@@ -9215,7 +9256,7 @@ body{
         border: 1.5px solid lightblue;
     }
     .tailwind>img{
-        height: 4.5vh;
+        height: 28px;
     }
     .tailwind>p{
         color: white;
@@ -9235,7 +9276,7 @@ body{
         transition-duration: 300ms;
     }
     .bootstrap>img{
-        height: 4.5vh;
+        height: 28px;
     }
     .bootstrap>p{
         color: white;
@@ -9250,7 +9291,7 @@ body{
         background-color: #9999993d;
     }
     .php>img{
-        height: 4.5vh;
+        height: 28px;
     }
     .php>p{
         color: white;
@@ -9265,14 +9306,14 @@ body{
         background-color: #9999993d;
     }
     .mysql>img{
-        height: 4.5vh;
+        height: 28px;
     }
     .mysql>p{
         color: white;
         font-weight: 600;
     }
     .services{
-        height: 80vh;
+        height: 450px;
         width: 100%;
         align-content: center;
     }
@@ -9283,41 +9324,40 @@ body{
         font-size: 34px;
     }
     .my_offer{
-        height: 60vh;
-        width: 100%;
+        height: 360px;
         display: flex;
         justify-content: space-evenly;
         align-items: center;
         flex-wrap: wrap;
     }
     .the_offers{
-        height: 25vh;
-        width: 32vw;
-        display: grid;
-        place-content: center;
-        gap: 10px;
+        height: 140px;
+        width: 36vw;
+        text-align: center;
+        align-content: center;
         border-radius: 8px 8px 8px 8px;
     }
     .the_offers:hover{
         transition-duration: 300ms;
-        box-shadow: 0px 0px 30px #ff16f4;
+        box-shadow: 0px 0px 20px #ff16f4;
     }
     .the_offers>i{
         font-size: 20px;
         color: #ff16f4;
+        text-align: center;
     }
     .the_offers>p{
         font-weight: 600;
         font-size: 18px;
         color: white;
+        text-align: center;
     }
     .the_offers>div{
-        width: 25vw;
         font-size: 13px;
         color: white;
     }
     .projects{
-        height: 120vh;
+        height: 700px;
         width: 100%;
         align-content: center;
     }
@@ -9328,16 +9368,15 @@ body{
         text-align: center;
     }
     .projects_div{
-        height: 90vh;
+        height: 530px;
         width: 100%;
-
         display: flex;
         justify-content: space-evenly;
         align-items: center;
     }
     .projects_div>div{
-        height: 76vh;
-        width: 35vw;
+        height: 450px;
+        width: 40vw;
         border: 2px solid #ff16f4;
         align-content: center;
         text-align: center;
@@ -9355,16 +9394,16 @@ body{
         color: #ff16f4;
     }
     .project_img{
-        height: 28vh;
-        width: 30vw;
+        height: 200px;
+        width: 34vw;
     }
     .project_info{
-        height: 13vh;
+        height: 60px;
         color: white;
         border: 1px solid black;
         text-align: center;
         align-content: center;
-        font-size: 13px;
+        font-size: 14px;
     }
     .project_stack{
         display: flex;
@@ -9374,13 +9413,13 @@ body{
         margin-top: 4px;
     }
     .project_stack>p{
-        width: 6vw;
-        height: 4vh;
+        width: 7vw;
+        height: 30px;
         border: 1px solid #ff16f4;
         align-content: center;
         border-radius: 18px 18px 18px 18px;
         background-color: #ff16f4;
-        font-size: 11px;
+        font-size: 12px;
         box-shadow: 3px 3px 0px white;
         font-weight: 600;
     }
@@ -9391,7 +9430,7 @@ body{
         margin-top: 10px;
     }
     .github_repo{
-        height: 5vh;
+        height: 30px;
         width: 8vw;
         transition-duration: 300ms;
         text-align: center;
@@ -9417,7 +9456,7 @@ body{
         color: black;
         display: inline-block;
         width: 10vw;
-        height: 5vh;
+        height: 30px;
         text-decoration: none;
         text-align: center;
         align-content: center;
@@ -9430,8 +9469,9 @@ body{
         background-color: purple;
     }
     .certifications{
-        height: 150vh;
+        height: 500px;
         width: 100%;
+        align-content: center;
     }
     .certifications_heading{
         color: #ff16f4;
@@ -9440,16 +9480,57 @@ body{
         text-align: center;
     }
     .certifications_div{
-        height: 140vh;
-        display: grid;
-        place-content: center;
+        height: 350px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
     }
-    .freecodecamp_cert{
-        height: 120vh;
-        width: 50vw;
+    .certificates{
+        height: 300px;
+        width: 36vw;
+        border-radius: 20px 20px 20px 20px;
+        text-align: center;
+        align-content: center;
+    }
+    .certificates:hover{
+        transition-duration: 300ms;
+        box-shadow: 0px 0px 25px #ff16f4;
+    }
+    .certificate_name{
+        color: #ff16f4;
+        font-weight: 600;
+        font-size: 18px;
+    }
+    .platform{
+        color: white;
+        font-weight: 600;
+        font-size: 16px;
+    }
+    .view_certificate{
+        height: 80px;
+        width: 100%;
+        align-content: center;
+    }
+    
+    .view_certificate>a{
+        height: 35px;
+        width: 10vw;
+        border: 1px solid #ff16f4;
+        background-color: #ff16f4;
+        color: black;
+        display: inline-block;
+        align-content: center;
+        border-radius: 10px 10px 10px 10px;
+        text-decoration: none;
+        font-weight: 600;
+    }
+    .view_certificate>a:hover{
+        transition: 300ms;
+        box-shadow: 0px 0px 10px #ff16f4;
     }
     .contacts{
-        height: 120vh;
+        height: 800px;
         width: 100%;
         display: grid;
         place-content: center;
@@ -9462,7 +9543,7 @@ body{
     }
     
     form{
-        height: 95vh;
+        height: 600px;
         width: 50vw;
         border: 2px solid #ff16f4;
         display: grid;
@@ -9477,13 +9558,13 @@ body{
         text-align: center;
     }
     .fullname,.email{
-        height: 15vh;
+        height: 80px;
         width: 40vw;
         color: white;
         font-weight: 500;
     }
     .fullname>input,.email>input{
-        height: 6vh;
+        height: 40px;
         width: 39vw;
         border-radius: 6px 6px 6px 6px;
         border: 1.5px solid white;
@@ -9496,13 +9577,13 @@ body{
         outline: 1.5px solid #ff16f4;
     }
     .message{
-        height: 24vh;
+        height: 130px;
         width: 40vw;
         align-content: center;
         color: white;
     }
     .message>textarea{
-        height: 15vh;
+        height: 85px;
         width: 39vw;
         text-indent: 20px;
         background-color: transparent;
@@ -9515,7 +9596,7 @@ body{
         outline: 1.5px solid #ff16f4;
     }
     .submit{
-        height: 8vh;
+        height: 50px;
         font-size: 20px;
         font-weight: 600;
         border: 1px solid #ff16f4;
@@ -9529,7 +9610,7 @@ body{
         border: 1px solid #d100d9;
     }
     footer{
-        height: 40vh;
+        height: 300px;
         width: 100%;
         display: grid;
         place-content: center;
@@ -9569,19 +9650,21 @@ body{
     }
     .email_footer{
         color: orangered;
+        text-decoration: none;
+        font-size: 34px;
     }
 
 }
 @media screen and (min-width:945px) and (max-width:995px){
     header{
-        height: 16vh;
+        height: 80px;
         width: 100%;
         display: flex;
         justify-content: center;
         align-items: center;
     }
     nav{
-        height: 10vh;
+        height: 70px;
         width: 100%;
         display: flex;
         justify-content: space-evenly;
@@ -9608,7 +9691,7 @@ body{
         justify-content: space-evenly;
     }
     .nav_links>a{
-        height: 6vh;
+        height: 35px;
         width: 8vw;
         display: inline-block;
         text-decoration: none;
@@ -9618,6 +9701,7 @@ body{
         color: white;
         border: 2px solid #ff16f4;
         border-radius: 18px 18px 18px 18px;
+        font-size: 14px;
     }
     .nav_links>a:hover{
         background-color: #ff16f4;
@@ -9627,7 +9711,7 @@ body{
         transition-duration: 300ms;
     }
     .Resume{
-        height: 6vh;
+        height: 35px;
         width: 8vw;
         border-radius: 18px 18px 18px 18px;
         display: inline-block;
@@ -9638,13 +9722,14 @@ body{
         background-color: #ff16f4;
         color: black;
         font-weight: 600;
+        font-size: 14px;
     }
     .Resume:hover{
         transition-duration: 150ms;
         box-shadow: 0px 0px 18px #ff16f4;
     }
     section{
-        height: 650vh;
+        height: 3600px;
         width: 100%;
         border: 2px solid white;
         border-top: none;
@@ -9652,15 +9737,15 @@ body{
         border-right: none;
     }
     .About{
-        height: 90vh;
+        height: 600px;
         width: 100%;
         display: flex;
         justify-content: space-evenly;
         align-items: center;
     }
     .About_img{
-        height: 70vh;
-        width: 30vw;
+        height: 500px;
+        width: 32vw;
     }
     .About_img>img{
         height: 100%;
@@ -9668,26 +9753,26 @@ body{
         border-radius: 100px 100px 100px 100px;
     }
     .About_info{
-        height: 70vh;
+        height: 400px;
         width: 40vw;
     }
     .name{
-        font-size: 28px;
+        font-size: 26px;
         font-weight: 700;
         color: white;
     }
     .job{
-        font-size: 28px;
+        font-size: 26px;
         font-weight: 700;
         color: #ff16f4;
     }
     .info{
-        height: 19vh;
+        height: 130px;
         width: 100%;
     }
     .info>p{
         color: white;
-        font-size: 16px;
+        font-size: 18px;
         font-weight: 500;
     }
     .profiles{
@@ -9708,15 +9793,14 @@ body{
         color: white;
     }
     .download_resume{
-        height: 15vh;
+        height: 100px;
         width: 100%;
         align-content: center;
         text-align: center;
-        font-size: 14px;
     }
     .download_resume>a{
-        height: 9vh;
-        width: 16vw;
+        height: 60px;
+        width: 18vw;
         display: inline-block;
         align-content: center;
         text-align: center;
@@ -9732,7 +9816,7 @@ body{
         box-shadow: 0px 0px 18px #ad00b1;
     }
     .tech_stack{
-        height: 68vh;
+        height: 350px;
         width: 100%;
         align-content: center;
     }
@@ -9743,13 +9827,13 @@ body{
         font-size: 35px;
     }
     .stack_div{
-        height: 40vh;
+        height: 200px;
         width: 100%;
         text-align: center;
         align-content: center;
     }
     .html,.css,.javascript,.tailwind,.bootstrap,.php,.mysql{
-        height: 16vh;
+        height: 100px;
         width: 10vw;
         background-color: transparent;
         border-radius: 8px 8px 8px 8px;
@@ -9763,7 +9847,7 @@ body{
         background-color: #9999993d;
     }
     .html>img{
-        height: 5vh;
+        height: 29px;
     }
     .html>p{
         color: white;
@@ -9778,7 +9862,7 @@ body{
         transition-duration: 300ms;
     }
     .css>img{
-        height: 4.5vh;
+        height: 27px;
     }
     .css>p{
         color: white;
@@ -9793,7 +9877,7 @@ body{
         transition-duration: 300ms;
     }
     .javascript>img{
-        height: 4.8vh;
+        height: 29px;
     }
     .javascript>p{
         color: white;
@@ -9803,7 +9887,7 @@ body{
         border: 1.5px solid lightblue;
     }
     .tailwind>img{
-        height: 4.5vh;
+        height: 28px;
     }
     .tailwind>p{
         color: white;
@@ -9823,7 +9907,7 @@ body{
         transition-duration: 300ms;
     }
     .bootstrap>img{
-        height: 4.5vh;
+        height: 28px;
     }
     .bootstrap>p{
         color: white;
@@ -9838,7 +9922,7 @@ body{
         background-color: #9999993d;
     }
     .php>img{
-        height: 4.5vh;
+        height: 28px;
     }
     .php>p{
         color: white;
@@ -9853,14 +9937,14 @@ body{
         background-color: #9999993d;
     }
     .mysql>img{
-        height: 4.5vh;
+        height: 28px;
     }
     .mysql>p{
         color: white;
         font-weight: 600;
     }
     .services{
-        height: 80vh;
+        height: 450px;
         width: 100%;
         align-content: center;
     }
@@ -9871,41 +9955,40 @@ body{
         font-size: 34px;
     }
     .my_offer{
-        height: 60vh;
-        width: 100%;
+        height: 360px;
         display: flex;
         justify-content: space-evenly;
         align-items: center;
         flex-wrap: wrap;
     }
     .the_offers{
-        height: 25vh;
+        height: 140px;
         width: 30vw;
-        display: grid;
-        place-content: center;
-        gap: 10px;
+        text-align: center;
+        align-content: center;
         border-radius: 8px 8px 8px 8px;
     }
     .the_offers:hover{
         transition-duration: 300ms;
-        box-shadow: 0px 0px 30px #ff16f4;
+        box-shadow: 0px 0px 20px #ff16f4;
     }
     .the_offers>i{
         font-size: 20px;
         color: #ff16f4;
+        text-align: center;
     }
     .the_offers>p{
         font-weight: 600;
         font-size: 18px;
         color: white;
+        text-align: center;
     }
     .the_offers>div{
-        width: 23vw;
         font-size: 13px;
         color: white;
     }
     .projects{
-        height: 120vh;
+        height: 700px;
         width: 100%;
         align-content: center;
     }
@@ -9916,15 +9999,14 @@ body{
         text-align: center;
     }
     .projects_div{
-        height: 90vh;
+        height: 530px;
         width: 100%;
-
         display: flex;
         justify-content: space-evenly;
         align-items: center;
     }
     .projects_div>div{
-        height: 76vh;
+        height: 450px;
         width: 35vw;
         border: 2px solid #ff16f4;
         align-content: center;
@@ -9943,11 +10025,11 @@ body{
         color: #ff16f4;
     }
     .project_img{
-        height: 28vh;
-        width: 30vw;
+        height: 200px;
+        width: 34vw;
     }
     .project_info{
-        height: 13vh;
+        height: 60px;
         color: white;
         border: 1px solid black;
         text-align: center;
@@ -9963,12 +10045,12 @@ body{
     }
     .project_stack>p{
         width: 6vw;
-        height: 4vh;
+        height: 30px;
         border: 1px solid #ff16f4;
         align-content: center;
         border-radius: 18px 18px 18px 18px;
         background-color: #ff16f4;
-        font-size: 11px;
+        font-size: 12px;
         box-shadow: 3px 3px 0px white;
         font-weight: 600;
     }
@@ -9979,7 +10061,7 @@ body{
         margin-top: 10px;
     }
     .github_repo{
-        height: 5vh;
+        height: 30px;
         width: 8vw;
         transition-duration: 300ms;
         text-align: center;
@@ -10005,7 +10087,7 @@ body{
         color: black;
         display: inline-block;
         width: 10vw;
-        height: 5vh;
+        height: 30px;
         text-decoration: none;
         text-align: center;
         align-content: center;
@@ -10018,8 +10100,9 @@ body{
         background-color: purple;
     }
     .certifications{
-        height: 150vh;
+        height: 500px;
         width: 100%;
+        align-content: center;
     }
     .certifications_heading{
         color: #ff16f4;
@@ -10028,16 +10111,57 @@ body{
         text-align: center;
     }
     .certifications_div{
-        height: 140vh;
-        display: grid;
-        place-content: center;
+        height: 350px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
     }
-    .freecodecamp_cert{
-        height: 120vh;
-        width: 50vw;
+    .certificates{
+        height: 300px;
+        width: 30vw;
+        border-radius: 20px 20px 20px 20px;
+        text-align: center;
+        align-content: center;
+    }
+    .certificates:hover{
+        transition-duration: 300ms;
+        box-shadow: 0px 0px 25px #ff16f4;
+    }
+    .certificate_name{
+        color: #ff16f4;
+        font-weight: 600;
+        font-size: 18px;
+    }
+    .platform{
+        color: white;
+        font-weight: 600;
+        font-size: 16px;
+    }
+    .view_certificate{
+        height: 80px;
+        width: 100%;
+        align-content: center;
+    }
+    
+    .view_certificate>a{
+        height: 35px;
+        width: 10vw;
+        border: 1px solid #ff16f4;
+        background-color: #ff16f4;
+        color: black;
+        display: inline-block;
+        align-content: center;
+        border-radius: 10px 10px 10px 10px;
+        text-decoration: none;
+        font-weight: 600;
+    }
+    .view_certificate>a:hover{
+        transition: 300ms;
+        box-shadow: 0px 0px 10px #ff16f4;
     }
     .contacts{
-        height: 120vh;
+        height: 800px;
         width: 100%;
         display: grid;
         place-content: center;
@@ -10050,7 +10174,7 @@ body{
     }
     
     form{
-        height: 95vh;
+        height: 600px;
         width: 50vw;
         border: 2px solid #ff16f4;
         display: grid;
@@ -10065,13 +10189,13 @@ body{
         text-align: center;
     }
     .fullname,.email{
-        height: 15vh;
+        height: 80px;
         width: 40vw;
         color: white;
         font-weight: 500;
     }
     .fullname>input,.email>input{
-        height: 6vh;
+        height: 40px;
         width: 39vw;
         border-radius: 6px 6px 6px 6px;
         border: 1.5px solid white;
@@ -10084,13 +10208,13 @@ body{
         outline: 1.5px solid #ff16f4;
     }
     .message{
-        height: 24vh;
+        height: 130px;
         width: 40vw;
         align-content: center;
         color: white;
     }
     .message>textarea{
-        height: 15vh;
+        height: 85px;
         width: 39vw;
         text-indent: 20px;
         background-color: transparent;
@@ -10103,7 +10227,7 @@ body{
         outline: 1.5px solid #ff16f4;
     }
     .submit{
-        height: 8vh;
+        height: 50px;
         font-size: 20px;
         font-weight: 600;
         border: 1px solid #ff16f4;
@@ -10117,7 +10241,7 @@ body{
         border: 1px solid #d100d9;
     }
     footer{
-        height: 40vh;
+        height: 300px;
         width: 100%;
         display: grid;
         place-content: center;
@@ -10157,19 +10281,21 @@ body{
     }
     .email_footer{
         color: orangered;
+        text-decoration: none;
+        font-size: 34px;
     }
 
 }
 @media screen and (min-width:996px) and (max-width:1046px){
     header{
-        height: 16vh;
+        height: 80px;
         width: 100%;
         display: flex;
         justify-content: center;
         align-items: center;
     }
     nav{
-        height: 10vh;
+        height: 70px;
         width: 100%;
         display: flex;
         justify-content: space-evenly;
@@ -10196,7 +10322,7 @@ body{
         justify-content: space-evenly;
     }
     .nav_links>a{
-        height: 6vh;
+        height: 35px;
         width: 8vw;
         display: inline-block;
         text-decoration: none;
@@ -10206,6 +10332,7 @@ body{
         color: white;
         border: 2px solid #ff16f4;
         border-radius: 18px 18px 18px 18px;
+        font-size: 14px;
     }
     .nav_links>a:hover{
         background-color: #ff16f4;
@@ -10215,7 +10342,7 @@ body{
         transition-duration: 300ms;
     }
     .Resume{
-        height: 6vh;
+        height: 35px;
         width: 8vw;
         border-radius: 18px 18px 18px 18px;
         display: inline-block;
@@ -10226,13 +10353,14 @@ body{
         background-color: #ff16f4;
         color: black;
         font-weight: 600;
+        font-size: 14px;
     }
     .Resume:hover{
         transition-duration: 150ms;
         box-shadow: 0px 0px 18px #ff16f4;
     }
     section{
-        height: 650vh;
+        height: 3600px;
         width: 100%;
         border: 2px solid white;
         border-top: none;
@@ -10240,15 +10368,15 @@ body{
         border-right: none;
     }
     .About{
-        height: 90vh;
+        height: 600px;
         width: 100%;
         display: flex;
         justify-content: space-evenly;
         align-items: center;
     }
     .About_img{
-        height: 80vh;
-        width: 30vw;
+        height: 500px;
+        width: 32vw;
     }
     .About_img>img{
         height: 100%;
@@ -10256,21 +10384,21 @@ body{
         border-radius: 100px 100px 100px 100px;
     }
     .About_info{
-        height: 70vh;
+        height: 400px;
         width: 40vw;
     }
     .name{
-        font-size: 28px;
+        font-size: 26px;
         font-weight: 700;
         color: white;
     }
     .job{
-        font-size: 28px;
+        font-size: 26px;
         font-weight: 700;
         color: #ff16f4;
     }
     .info{
-        height: 19vh;
+        height: 130px;
         width: 100%;
     }
     .info>p{
@@ -10296,14 +10424,14 @@ body{
         color: white;
     }
     .download_resume{
-        height: 15vh;
+        height: 100px;
         width: 100%;
         align-content: center;
         text-align: center;
     }
     .download_resume>a{
-        height: 9vh;
-        width: 16vw;
+        height: 60px;
+        width: 18vw;
         display: inline-block;
         align-content: center;
         text-align: center;
@@ -10319,7 +10447,7 @@ body{
         box-shadow: 0px 0px 18px #ad00b1;
     }
     .tech_stack{
-        height: 68vh;
+        height: 350px;
         width: 100%;
         align-content: center;
     }
@@ -10330,13 +10458,13 @@ body{
         font-size: 35px;
     }
     .stack_div{
-        height: 40vh;
+        height: 200px;
         width: 100%;
         text-align: center;
         align-content: center;
     }
     .html,.css,.javascript,.tailwind,.bootstrap,.php,.mysql{
-        height: 16vh;
+        height: 100px;
         width: 10vw;
         background-color: transparent;
         border-radius: 8px 8px 8px 8px;
@@ -10350,7 +10478,7 @@ body{
         background-color: #9999993d;
     }
     .html>img{
-        height: 5vh;
+        height: 29px;
     }
     .html>p{
         color: white;
@@ -10365,7 +10493,7 @@ body{
         transition-duration: 300ms;
     }
     .css>img{
-        height: 4.5vh;
+        height: 27px;
     }
     .css>p{
         color: white;
@@ -10380,7 +10508,7 @@ body{
         transition-duration: 300ms;
     }
     .javascript>img{
-        height: 4.8vh;
+        height: 29px;
     }
     .javascript>p{
         color: white;
@@ -10390,7 +10518,7 @@ body{
         border: 1.5px solid lightblue;
     }
     .tailwind>img{
-        height: 4.5vh;
+        height: 28px;
     }
     .tailwind>p{
         color: white;
@@ -10410,7 +10538,7 @@ body{
         transition-duration: 300ms;
     }
     .bootstrap>img{
-        height: 4.5vh;
+        height: 28px;
     }
     .bootstrap>p{
         color: white;
@@ -10425,7 +10553,7 @@ body{
         background-color: #9999993d;
     }
     .php>img{
-        height: 4.5vh;
+        height: 28px;
     }
     .php>p{
         color: white;
@@ -10440,14 +10568,14 @@ body{
         background-color: #9999993d;
     }
     .mysql>img{
-        height: 4.5vh;
+        height: 28px;
     }
     .mysql>p{
         color: white;
         font-weight: 600;
     }
     .services{
-        height: 80vh;
+        height: 450px;
         width: 100%;
         align-content: center;
     }
@@ -10458,41 +10586,40 @@ body{
         font-size: 34px;
     }
     .my_offer{
-        height: 60vh;
-        width: 100%;
+        height: 360px;
         display: flex;
         justify-content: space-evenly;
         align-items: center;
         flex-wrap: wrap;
     }
     .the_offers{
-        height: 25vh;
+        height: 140px;
         width: 30vw;
-        display: grid;
-        place-content: center;
-        gap: 10px;
+        text-align: center;
+        align-content: center;
         border-radius: 8px 8px 8px 8px;
     }
     .the_offers:hover{
         transition-duration: 300ms;
-        box-shadow: 0px 0px 30px #ff16f4;
+        box-shadow: 0px 0px 20px #ff16f4;
     }
     .the_offers>i{
         font-size: 20px;
         color: #ff16f4;
+        text-align: center;
     }
     .the_offers>p{
         font-weight: 600;
         font-size: 18px;
         color: white;
+        text-align: center;
     }
     .the_offers>div{
-        width: 23vw;
         font-size: 13px;
         color: white;
     }
     .projects{
-        height: 120vh;
+        height: 700px;
         width: 100%;
         align-content: center;
     }
@@ -10503,15 +10630,14 @@ body{
         text-align: center;
     }
     .projects_div{
-        height: 90vh;
+        height: 530px;
         width: 100%;
-
         display: flex;
         justify-content: space-evenly;
         align-items: center;
     }
     .projects_div>div{
-        height: 76vh;
+        height: 450px;
         width: 35vw;
         border: 2px solid #ff16f4;
         align-content: center;
@@ -10530,16 +10656,16 @@ body{
         color: #ff16f4;
     }
     .project_img{
-        height: 30vh;
-        width: 30vw;
+        height: 200px;
+        width: 34vw;
     }
     .project_info{
-        height: 13vh;
+        height: 60px;
         color: white;
         border: 1px solid black;
         text-align: center;
         align-content: center;
-        font-size: 15px;
+        font-size: 14px;
     }
     .project_stack{
         display: flex;
@@ -10550,12 +10676,12 @@ body{
     }
     .project_stack>p{
         width: 6vw;
-        height: 4vh;
+        height: 30px;
         border: 1px solid #ff16f4;
         align-content: center;
         border-radius: 18px 18px 18px 18px;
         background-color: #ff16f4;
-        font-size: 13px;
+        font-size: 12px;
         box-shadow: 3px 3px 0px white;
         font-weight: 600;
     }
@@ -10566,7 +10692,7 @@ body{
         margin-top: 10px;
     }
     .github_repo{
-        height: 5vh;
+        height: 30px;
         width: 8vw;
         transition-duration: 300ms;
         text-align: center;
@@ -10592,7 +10718,7 @@ body{
         color: black;
         display: inline-block;
         width: 10vw;
-        height: 5vh;
+        height: 30px;
         text-decoration: none;
         text-align: center;
         align-content: center;
@@ -10605,8 +10731,9 @@ body{
         background-color: purple;
     }
     .certifications{
-        height: 150vh;
+        height: 500px;
         width: 100%;
+        align-content: center;
     }
     .certifications_heading{
         color: #ff16f4;
@@ -10615,16 +10742,57 @@ body{
         text-align: center;
     }
     .certifications_div{
-        height: 140vh;
-        display: grid;
-        place-content: center;
+        height: 350px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
     }
-    .freecodecamp_cert{
-        height: 120vh;
-        width: 50vw;
+    .certificates{
+        height: 300px;
+        width: 30vw;
+        border-radius: 20px 20px 20px 20px;
+        text-align: center;
+        align-content: center;
+    }
+    .certificates:hover{
+        transition-duration: 300ms;
+        box-shadow: 0px 0px 25px #ff16f4;
+    }
+    .certificate_name{
+        color: #ff16f4;
+        font-weight: 600;
+        font-size: 18px;
+    }
+    .platform{
+        color: white;
+        font-weight: 600;
+        font-size: 16px;
+    }
+    .view_certificate{
+        height: 80px;
+        width: 100%;
+        align-content: center;
+    }
+    
+    .view_certificate>a{
+        height: 35px;
+        width: 10vw;
+        border: 1px solid #ff16f4;
+        background-color: #ff16f4;
+        color: black;
+        display: inline-block;
+        align-content: center;
+        border-radius: 10px 10px 10px 10px;
+        text-decoration: none;
+        font-weight: 600;
+    }
+    .view_certificate>a:hover{
+        transition: 300ms;
+        box-shadow: 0px 0px 10px #ff16f4;
     }
     .contacts{
-        height: 120vh;
+        height: 800px;
         width: 100%;
         display: grid;
         place-content: center;
@@ -10637,7 +10805,7 @@ body{
     }
     
     form{
-        height: 95vh;
+        height: 600px;
         width: 50vw;
         border: 2px solid #ff16f4;
         display: grid;
@@ -10652,13 +10820,13 @@ body{
         text-align: center;
     }
     .fullname,.email{
-        height: 15vh;
+        height: 80px;
         width: 40vw;
         color: white;
         font-weight: 500;
     }
     .fullname>input,.email>input{
-        height: 6vh;
+        height: 40px;
         width: 39vw;
         border-radius: 6px 6px 6px 6px;
         border: 1.5px solid white;
@@ -10671,13 +10839,13 @@ body{
         outline: 1.5px solid #ff16f4;
     }
     .message{
-        height: 24vh;
+        height: 130px;
         width: 40vw;
         align-content: center;
         color: white;
     }
     .message>textarea{
-        height: 15vh;
+        height: 85px;
         width: 39vw;
         text-indent: 20px;
         background-color: transparent;
@@ -10690,7 +10858,7 @@ body{
         outline: 1.5px solid #ff16f4;
     }
     .submit{
-        height: 8vh;
+        height: 50px;
         font-size: 20px;
         font-weight: 600;
         border: 1px solid #ff16f4;
@@ -10704,7 +10872,7 @@ body{
         border: 1px solid #d100d9;
     }
     footer{
-        height: 40vh;
+        height: 300px;
         width: 100%;
         display: grid;
         place-content: center;
@@ -10744,18 +10912,20 @@ body{
     }
     .email_footer{
         color: orangered;
+        text-decoration: none;
+        font-size: 34px;
     }
 }
 @media screen and (min-width:1047px) and (max-width:1097px){
     header{
-        height: 16vh;
+        height: 80px;
         width: 100%;
         display: flex;
         justify-content: center;
         align-items: center;
     }
     nav{
-        height: 10vh;
+        height: 70px;
         width: 100%;
         display: flex;
         justify-content: space-evenly;
@@ -10782,7 +10952,7 @@ body{
         justify-content: space-evenly;
     }
     .nav_links>a{
-        height: 6vh;
+        height: 35px;
         width: 8vw;
         display: inline-block;
         text-decoration: none;
@@ -10801,7 +10971,7 @@ body{
         transition-duration: 300ms;
     }
     .Resume{
-        height: 6vh;
+        height: 35px;
         width: 8vw;
         border-radius: 18px 18px 18px 18px;
         display: inline-block;
@@ -10818,7 +10988,7 @@ body{
         box-shadow: 0px 0px 18px #ff16f4;
     }
     section{
-        height: 650vh;
+        height: 3600px;
         width: 100%;
         border: 2px solid white;
         border-top: none;
@@ -10826,14 +10996,14 @@ body{
         border-right: none;
     }
     .About{
-        height: 90vh;
+        height: 600px;
         width: 100%;
         display: flex;
         justify-content: space-evenly;
         align-items: center;
     }
     .About_img{
-        height: 80vh;
+        height: 500px;
         width: 30vw;
     }
     .About_img>img{
@@ -10842,7 +11012,7 @@ body{
         border-radius: 100px 100px 100px 100px;
     }
     .About_info{
-        height: 70vh;
+        height: 400px;
         width: 40vw;
     }
     .name{
@@ -10856,7 +11026,7 @@ body{
         color: #ff16f4;
     }
     .info{
-        height: 19vh;
+        height: 130px;
         width: 100%;
     }
     .info>p{
@@ -10882,13 +11052,13 @@ body{
         color: white;
     }
     .download_resume{
-        height: 15vh;
+        height: 100px;
         width: 100%;
         align-content: center;
         text-align: center;
     }
     .download_resume>a{
-        height: 9vh;
+        height: 60px;
         width: 16vw;
         display: inline-block;
         align-content: center;
@@ -10905,7 +11075,7 @@ body{
         box-shadow: 0px 0px 18px #ad00b1;
     }
     .tech_stack{
-        height: 68vh;
+        height: 350px;
         width: 100%;
         align-content: center;
     }
@@ -10916,13 +11086,13 @@ body{
         font-size: 35px;
     }
     .stack_div{
-        height: 40vh;
+        height: 200px;
         width: 100%;
         text-align: center;
         align-content: center;
     }
     .html,.css,.javascript,.tailwind,.bootstrap,.php,.mysql{
-        height: 16vh;
+        height: 100px;
         width: 10vw;
         background-color: transparent;
         border-radius: 8px 8px 8px 8px;
@@ -10936,7 +11106,7 @@ body{
         background-color: #9999993d;
     }
     .html>img{
-        height: 5vh;
+        height: 29px;
     }
     .html>p{
         color: white;
@@ -10951,7 +11121,7 @@ body{
         transition-duration: 300ms;
     }
     .css>img{
-        height: 4.5vh;
+        height: 27px;
     }
     .css>p{
         color: white;
@@ -10966,7 +11136,7 @@ body{
         transition-duration: 300ms;
     }
     .javascript>img{
-        height: 4.8vh;
+        height: 29px;
     }
     .javascript>p{
         color: white;
@@ -10976,7 +11146,7 @@ body{
         border: 1.5px solid lightblue;
     }
     .tailwind>img{
-        height: 4.5vh;
+        height: 28px;
     }
     .tailwind>p{
         color: white;
@@ -10996,7 +11166,7 @@ body{
         transition-duration: 300ms;
     }
     .bootstrap>img{
-        height: 4.5vh;
+        height: 28px;
     }
     .bootstrap>p{
         color: white;
@@ -11011,7 +11181,7 @@ body{
         background-color: #9999993d;
     }
     .php>img{
-        height: 4.5vh;
+        height: 28px;
     }
     .php>p{
         color: white;
@@ -11026,14 +11196,14 @@ body{
         background-color: #9999993d;
     }
     .mysql>img{
-        height: 4.5vh;
+        height: 28px;
     }
     .mysql>p{
         color: white;
         font-weight: 600;
     }
     .services{
-        height: 80vh;
+        height: 450px;
         width: 100%;
         align-content: center;
     }
@@ -11044,14 +11214,14 @@ body{
         font-size: 34px;
     }
     .my_offer{
-        height: 60vh;
+        height: 360px;
         display: flex;
         justify-content: space-evenly;
         align-items: center;
         flex-wrap: wrap;
     }
     .the_offers{
-        height: 20vh;
+        height: 140px;
         width: 30vw;
         text-align: center;
         align-content: center;
@@ -11059,7 +11229,7 @@ body{
     }
     .the_offers:hover{
         transition-duration: 300ms;
-        box-shadow: 0px 0px 30px #ff16f4;
+        box-shadow: 0px 0px 20px #ff16f4;
     }
     .the_offers>i{
         font-size: 20px;
@@ -11077,7 +11247,7 @@ body{
         color: white;
     }
     .projects{
-        height: 120vh;
+        height: 700px;
         width: 100%;
         align-content: center;
     }
@@ -11088,15 +11258,14 @@ body{
         text-align: center;
     }
     .projects_div{
-        height: 90vh;
+        height: 530px;
         width: 100%;
-
         display: flex;
         justify-content: space-evenly;
         align-items: center;
     }
     .projects_div>div{
-        height: 76vh;
+        height: 450px;
         width: 35vw;
         border: 2px solid #ff16f4;
         align-content: center;
@@ -11115,16 +11284,15 @@ body{
         color: #ff16f4;
     }
     .project_img{
-        height: 32vh;
+        height: 200px;
         width: 30vw;
     }
     .project_info{
-        height: 13vh;
+        height: 60px;
         color: white;
         border: 1px solid black;
         text-align: center;
         align-content: center;
-        font-size: 15px;
     }
     .project_stack{
         display: flex;
@@ -11135,7 +11303,7 @@ body{
     }
     .project_stack>p{
         width: 6vw;
-        height: 4vh;
+        height: 30px;
         border: 1px solid #ff16f4;
         align-content: center;
         border-radius: 18px 18px 18px 18px;
@@ -11151,7 +11319,7 @@ body{
         margin-top: 10px;
     }
     .github_repo{
-        height: 5vh;
+        height: 30px;
         width: 8vw;
         transition-duration: 300ms;
         text-align: center;
@@ -11177,7 +11345,7 @@ body{
         color: black;
         display: inline-block;
         width: 10vw;
-        height: 5vh;
+        height: 30px;
         text-decoration: none;
         text-align: center;
         align-content: center;
@@ -11190,8 +11358,9 @@ body{
         background-color: purple;
     }
     .certifications{
-        height: 150vh;
+        height: 500px;
         width: 100%;
+        align-content: center;
     }
     .certifications_heading{
         color: #ff16f4;
@@ -11200,16 +11369,57 @@ body{
         text-align: center;
     }
     .certifications_div{
-        height: 140vh;
-        display: grid;
-        place-content: center;
+        height: 350px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
     }
-    .freecodecamp_cert{
-        height: 120vh;
-        width: 50vw;
+    .certificates{
+        height: 300px;
+        width: 30vw;
+        border-radius: 20px 20px 20px 20px;
+        text-align: center;
+        align-content: center;
+    }
+    .certificates:hover{
+        transition-duration: 300ms;
+        box-shadow: 0px 0px 25px #ff16f4;
+    }
+    .certificate_name{
+        color: #ff16f4;
+        font-weight: 600;
+        font-size: 18px;
+    }
+    .platform{
+        color: white;
+        font-weight: 600;
+        font-size: 16px;
+    }
+    .view_certificate{
+        height: 80px;
+        width: 100%;
+        align-content: center;
+    }
+    
+    .view_certificate>a{
+        height: 35px;
+        width: 10vw;
+        border: 1px solid #ff16f4;
+        background-color: #ff16f4;
+        color: black;
+        display: inline-block;
+        align-content: center;
+        border-radius: 10px 10px 10px 10px;
+        text-decoration: none;
+        font-weight: 600;
+    }
+    .view_certificate>a:hover{
+        transition: 300ms;
+        box-shadow: 0px 0px 10px #ff16f4;
     }
     .contacts{
-        height: 120vh;
+        height: 800px;
         width: 100%;
         display: grid;
         place-content: center;
@@ -11222,7 +11432,7 @@ body{
     }
     
     form{
-        height: 95vh;
+        height: 600px;
         width: 50vw;
         border: 2px solid #ff16f4;
         display: grid;
@@ -11237,13 +11447,13 @@ body{
         text-align: center;
     }
     .fullname,.email{
-        height: 15vh;
+        height: 80px;
         width: 40vw;
         color: white;
         font-weight: 500;
     }
     .fullname>input,.email>input{
-        height: 6vh;
+        height: 40px;
         width: 39vw;
         border-radius: 6px 6px 6px 6px;
         border: 1.5px solid white;
@@ -11256,13 +11466,13 @@ body{
         outline: 1.5px solid #ff16f4;
     }
     .message{
-        height: 24vh;
+        height: 130px;
         width: 40vw;
         align-content: center;
         color: white;
     }
     .message>textarea{
-        height: 15vh;
+        height: 85px;
         width: 39vw;
         text-indent: 20px;
         background-color: transparent;
@@ -11275,7 +11485,7 @@ body{
         outline: 1.5px solid #ff16f4;
     }
     .submit{
-        height: 8vh;
+        height: 50px;
         font-size: 20px;
         font-weight: 600;
         border: 1px solid #ff16f4;
@@ -11289,7 +11499,7 @@ body{
         border: 1px solid #d100d9;
     }
     footer{
-        height: 40vh;
+        height: 300px;
         width: 100%;
         display: grid;
         place-content: center;
@@ -11329,18 +11539,20 @@ body{
     }
     .email_footer{
         color: orangered;
+        text-decoration: none;
+        font-size: 34px;
     }
 }
 @media screen and (min-width:1098px) and (max-width:1148px){
     header{
-        height: 16vh;
+        height: 80px;
         width: 100%;
         display: flex;
         justify-content: center;
         align-items: center;
     }
     nav{
-        height: 10vh;
+        height: 70px;
         width: 100%;
         display: flex;
         justify-content: space-evenly;
@@ -11367,7 +11579,7 @@ body{
         justify-content: space-evenly;
     }
     .nav_links>a{
-        height: 6vh;
+        height: 35px;
         width: 8vw;
         display: inline-block;
         text-decoration: none;
@@ -11386,7 +11598,7 @@ body{
         transition-duration: 300ms;
     }
     .Resume{
-        height: 6vh;
+        height: 35px;
         width: 8vw;
         border-radius: 18px 18px 18px 18px;
         display: inline-block;
@@ -11403,7 +11615,7 @@ body{
         box-shadow: 0px 0px 18px #ff16f4;
     }
     section{
-        height: 650vh;
+        height: 3600px;
         width: 100%;
         border: 2px solid white;
         border-top: none;
@@ -11411,14 +11623,14 @@ body{
         border-right: none;
     }
     .About{
-        height: 90vh;
+        height: 600px;
         width: 100%;
         display: flex;
         justify-content: space-evenly;
         align-items: center;
     }
     .About_img{
-        height: 80vh;
+        height: 500px;
         width: 30vw;
     }
     .About_img>img{
@@ -11427,7 +11639,7 @@ body{
         border-radius: 100px 100px 100px 100px;
     }
     .About_info{
-        height: 70vh;
+        height: 400px;
         width: 40vw;
     }
     .name{
@@ -11441,7 +11653,7 @@ body{
         color: #ff16f4;
     }
     .info{
-        height: 19vh;
+        height: 130px;
         width: 100%;
     }
     .info>p{
@@ -11467,13 +11679,13 @@ body{
         color: white;
     }
     .download_resume{
-        height: 15vh;
+        height: 100px;
         width: 100%;
         align-content: center;
         text-align: center;
     }
     .download_resume>a{
-        height: 9vh;
+        height: 60px;
         width: 16vw;
         display: inline-block;
         align-content: center;
@@ -11490,7 +11702,7 @@ body{
         box-shadow: 0px 0px 18px #ad00b1;
     }
     .tech_stack{
-        height: 68vh;
+        height: 350px;
         width: 100%;
         align-content: center;
     }
@@ -11501,13 +11713,13 @@ body{
         font-size: 35px;
     }
     .stack_div{
-        height: 40vh;
+        height: 200px;
         width: 100%;
         text-align: center;
         align-content: center;
     }
     .html,.css,.javascript,.tailwind,.bootstrap,.php,.mysql{
-        height: 16vh;
+        height: 100px;
         width: 10vw;
         background-color: transparent;
         border-radius: 8px 8px 8px 8px;
@@ -11521,7 +11733,7 @@ body{
         background-color: #9999993d;
     }
     .html>img{
-        height: 5vh;
+        height: 29px;
     }
     .html>p{
         color: white;
@@ -11536,7 +11748,7 @@ body{
         transition-duration: 300ms;
     }
     .css>img{
-        height: 4.5vh;
+        height: 27px;
     }
     .css>p{
         color: white;
@@ -11551,7 +11763,7 @@ body{
         transition-duration: 300ms;
     }
     .javascript>img{
-        height: 4.8vh;
+        height: 29px;
     }
     .javascript>p{
         color: white;
@@ -11561,7 +11773,7 @@ body{
         border: 1.5px solid lightblue;
     }
     .tailwind>img{
-        height: 4.5vh;
+        height: 28px;
     }
     .tailwind>p{
         color: white;
@@ -11581,7 +11793,7 @@ body{
         transition-duration: 300ms;
     }
     .bootstrap>img{
-        height: 4.5vh;
+        height: 28px;
     }
     .bootstrap>p{
         color: white;
@@ -11596,7 +11808,7 @@ body{
         background-color: #9999993d;
     }
     .php>img{
-        height: 4.5vh;
+        height: 28px;
     }
     .php>p{
         color: white;
@@ -11611,14 +11823,14 @@ body{
         background-color: #9999993d;
     }
     .mysql>img{
-        height: 4.5vh;
+        height: 28px;
     }
     .mysql>p{
         color: white;
         font-weight: 600;
     }
     .services{
-        height: 80vh;
+        height: 450px;
         width: 100%;
         align-content: center;
     }
@@ -11629,14 +11841,14 @@ body{
         font-size: 34px;
     }
     .my_offer{
-        height: 60vh;
+        height: 360px;
         display: flex;
         justify-content: space-evenly;
         align-items: center;
         flex-wrap: wrap;
     }
     .the_offers{
-        height: 20vh;
+        height: 140px;
         width: 30vw;
         text-align: center;
         align-content: center;
@@ -11662,7 +11874,7 @@ body{
         color: white;
     }
     .projects{
-        height: 120vh;
+        height: 700px;
         width: 100%;
         align-content: center;
     }
@@ -11673,15 +11885,14 @@ body{
         text-align: center;
     }
     .projects_div{
-        height: 90vh;
+        height: 530px;
         width: 100%;
-
         display: flex;
         justify-content: space-evenly;
         align-items: center;
     }
     .projects_div>div{
-        height: 76vh;
+        height: 450px;
         width: 35vw;
         border: 2px solid #ff16f4;
         align-content: center;
@@ -11700,16 +11911,15 @@ body{
         color: #ff16f4;
     }
     .project_img{
-        height: 32vh;
+        height: 200px;
         width: 30vw;
     }
     .project_info{
-        height: 13vh;
+        height: 60px;
         color: white;
         border: 1px solid black;
         text-align: center;
         align-content: center;
-        font-size: 16px;
     }
     .project_stack{
         display: flex;
@@ -11720,7 +11930,7 @@ body{
     }
     .project_stack>p{
         width: 6vw;
-        height: 4vh;
+        height: 30px;
         border: 1px solid #ff16f4;
         align-content: center;
         border-radius: 18px 18px 18px 18px;
@@ -11736,7 +11946,7 @@ body{
         margin-top: 10px;
     }
     .github_repo{
-        height: 5vh;
+        height: 30px;
         width: 8vw;
         transition-duration: 300ms;
         text-align: center;
@@ -11762,7 +11972,7 @@ body{
         color: black;
         display: inline-block;
         width: 10vw;
-        height: 5vh;
+        height: 30px;
         text-decoration: none;
         text-align: center;
         align-content: center;
@@ -11775,8 +11985,9 @@ body{
         background-color: purple;
     }
     .certifications{
-        height: 150vh;
+        height: 500px;
         width: 100%;
+        align-content: center;
     }
     .certifications_heading{
         color: #ff16f4;
@@ -11785,16 +11996,57 @@ body{
         text-align: center;
     }
     .certifications_div{
-        height: 140vh;
-        display: grid;
-        place-content: center;
+        height: 350px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
     }
-    .freecodecamp_cert{
-        height: 120vh;
-        width: 50vw;
+    .certificates{
+        height: 300px;
+        width: 30vw;
+        border-radius: 20px 20px 20px 20px;
+        text-align: center;
+        align-content: center;
+    }
+    .certificates:hover{
+        transition-duration: 300ms;
+        box-shadow: 0px 0px 25px #ff16f4;
+    }
+    .certificate_name{
+        color: #ff16f4;
+        font-weight: 600;
+        font-size: 18px;
+    }
+    .platform{
+        color: white;
+        font-weight: 600;
+        font-size: 16px;
+    }
+    .view_certificate{
+        height: 80px;
+        width: 100%;
+        align-content: center;
+    }
+    
+    .view_certificate>a{
+        height: 35px;
+        width: 10vw;
+        border: 1px solid #ff16f4;
+        background-color: #ff16f4;
+        color: black;
+        display: inline-block;
+        align-content: center;
+        border-radius: 10px 10px 10px 10px;
+        text-decoration: none;
+        font-weight: 600;
+    }
+    .view_certificate>a:hover{
+        transition: 300ms;
+        box-shadow: 0px 0px 10px #ff16f4;
     }
     .contacts{
-        height: 120vh;
+        height: 800px;
         width: 100%;
         display: grid;
         place-content: center;
@@ -11807,7 +12059,7 @@ body{
     }
     
     form{
-        height: 95vh;
+        height: 600px;
         width: 50vw;
         border: 2px solid #ff16f4;
         display: grid;
@@ -11822,13 +12074,13 @@ body{
         text-align: center;
     }
     .fullname,.email{
-        height: 15vh;
+        height: 80px;
         width: 40vw;
         color: white;
         font-weight: 500;
     }
     .fullname>input,.email>input{
-        height: 6vh;
+        height: 40px;
         width: 39vw;
         border-radius: 6px 6px 6px 6px;
         border: 1.5px solid white;
@@ -11841,13 +12093,13 @@ body{
         outline: 1.5px solid #ff16f4;
     }
     .message{
-        height: 24vh;
+        height: 130px;
         width: 40vw;
         align-content: center;
         color: white;
     }
     .message>textarea{
-        height: 15vh;
+        height: 85px;
         width: 39vw;
         text-indent: 20px;
         background-color: transparent;
@@ -11860,7 +12112,7 @@ body{
         outline: 1.5px solid #ff16f4;
     }
     .submit{
-        height: 8vh;
+        height: 50px;
         font-size: 20px;
         font-weight: 600;
         border: 1px solid #ff16f4;
@@ -11874,7 +12126,7 @@ body{
         border: 1px solid #d100d9;
     }
     footer{
-        height: 40vh;
+        height: 300px;
         width: 100%;
         display: grid;
         place-content: center;
@@ -11914,18 +12166,20 @@ body{
     }
     .email_footer{
         color: orangered;
+        text-decoration: none;
+        font-size: 34px;
     }
 }
 @media screen and (min-width:1149px) and (max-width:1199px){
     header{
-        height: 16vh;
+        height: 80px;
         width: 100%;
         display: flex;
         justify-content: center;
         align-items: center;
     }
     nav{
-        height: 10vh;
+        height: 70px;
         width: 100%;
         display: flex;
         justify-content: space-evenly;
@@ -11952,7 +12206,7 @@ body{
         justify-content: space-evenly;
     }
     .nav_links>a{
-        height: 6vh;
+        height: 35px;
         width: 8vw;
         display: inline-block;
         text-decoration: none;
@@ -11971,7 +12225,7 @@ body{
         transition-duration: 300ms;
     }
     .Resume{
-        height: 6vh;
+        height: 35px;
         width: 8vw;
         border-radius: 18px 18px 18px 18px;
         display: inline-block;
@@ -11988,7 +12242,7 @@ body{
         box-shadow: 0px 0px 18px #ff16f4;
     }
     section{
-        height: 650vh;
+        height: 3600px;
         width: 100%;
         border: 2px solid white;
         border-top: none;
@@ -11996,14 +12250,14 @@ body{
         border-right: none;
     }
     .About{
-        height: 90vh;
+        height: 600px;
         width: 100%;
         display: flex;
         justify-content: space-evenly;
         align-items: center;
     }
     .About_img{
-        height: 80vh;
+        height: 500px;
         width: 30vw;
     }
     .About_img>img{
@@ -12012,7 +12266,7 @@ body{
         border-radius: 100px 100px 100px 100px;
     }
     .About_info{
-        height: 70vh;
+        height: 400px;
         width: 40vw;
     }
     .name{
@@ -12026,7 +12280,7 @@ body{
         color: #ff16f4;
     }
     .info{
-        height: 19vh;
+        height: 130px;
         width: 100%;
     }
     .info>p{
@@ -12052,13 +12306,13 @@ body{
         color: white;
     }
     .download_resume{
-        height: 15vh;
+        height: 100px;
         width: 100%;
         align-content: center;
         text-align: center;
     }
     .download_resume>a{
-        height: 9vh;
+        height: 60px;
         width: 16vw;
         display: inline-block;
         align-content: center;
@@ -12075,7 +12329,7 @@ body{
         box-shadow: 0px 0px 18px #ad00b1;
     }
     .tech_stack{
-        height: 68vh;
+        height: 350px;
         width: 100%;
         align-content: center;
     }
@@ -12086,13 +12340,13 @@ body{
         font-size: 35px;
     }
     .stack_div{
-        height: 40vh;
+        height: 200px;
         width: 100%;
         text-align: center;
         align-content: center;
     }
     .html,.css,.javascript,.tailwind,.bootstrap,.php,.mysql{
-        height: 16vh;
+        height: 100px;
         width: 10vw;
         background-color: transparent;
         border-radius: 8px 8px 8px 8px;
@@ -12106,7 +12360,7 @@ body{
         background-color: #9999993d;
     }
     .html>img{
-        height: 5vh;
+        height: 29px;
     }
     .html>p{
         color: white;
@@ -12121,7 +12375,7 @@ body{
         transition-duration: 300ms;
     }
     .css>img{
-        height: 4.5vh;
+        height: 27px;
     }
     .css>p{
         color: white;
@@ -12136,7 +12390,7 @@ body{
         transition-duration: 300ms;
     }
     .javascript>img{
-        height: 4.8vh;
+        height: 29px;
     }
     .javascript>p{
         color: white;
@@ -12146,7 +12400,7 @@ body{
         border: 1.5px solid lightblue;
     }
     .tailwind>img{
-        height: 4.5vh;
+        height: 28px;
     }
     .tailwind>p{
         color: white;
@@ -12166,7 +12420,7 @@ body{
         transition-duration: 300ms;
     }
     .bootstrap>img{
-        height: 4.5vh;
+        height: 28px;
     }
     .bootstrap>p{
         color: white;
@@ -12181,7 +12435,7 @@ body{
         background-color: #9999993d;
     }
     .php>img{
-        height: 4.5vh;
+        height: 28px;
     }
     .php>p{
         color: white;
@@ -12196,14 +12450,14 @@ body{
         background-color: #9999993d;
     }
     .mysql>img{
-        height: 4.5vh;
+        height: 28px;
     }
     .mysql>p{
         color: white;
         font-weight: 600;
     }
     .services{
-        height: 80vh;
+        height: 450px;
         width: 100%;
         align-content: center;
     }
@@ -12214,14 +12468,14 @@ body{
         font-size: 34px;
     }
     .my_offer{
-        height: 60vh;
+        height: 360px;
         display: flex;
         justify-content: space-evenly;
         align-items: center;
         flex-wrap: wrap;
     }
     .the_offers{
-        height: 20vh;
+        height: 140px;
         width: 30vw;
         text-align: center;
         align-content: center;
@@ -12247,7 +12501,7 @@ body{
         color: white;
     }
     .projects{
-        height: 120vh;
+        height: 700px;
         width: 100%;
         align-content: center;
     }
@@ -12258,15 +12512,14 @@ body{
         text-align: center;
     }
     .projects_div{
-        height: 90vh;
+        height: 530px;
         width: 100%;
-
         display: flex;
         justify-content: space-evenly;
         align-items: center;
     }
     .projects_div>div{
-        height: 76vh;
+        height: 450px;
         width: 35vw;
         border: 2px solid #ff16f4;
         align-content: center;
@@ -12285,16 +12538,15 @@ body{
         color: #ff16f4;
     }
     .project_img{
-        height: 36vh;
+        height: 200px;
         width: 30vw;
     }
     .project_info{
-        height: 13vh;
+        height: 60px;
         color: white;
         border: 1px solid black;
         text-align: center;
         align-content: center;
-        font-size: 17px;
     }
     .project_stack{
         display: flex;
@@ -12305,7 +12557,7 @@ body{
     }
     .project_stack>p{
         width: 6vw;
-        height: 4vh;
+        height: 30px;
         border: 1px solid #ff16f4;
         align-content: center;
         border-radius: 18px 18px 18px 18px;
@@ -12321,7 +12573,7 @@ body{
         margin-top: 10px;
     }
     .github_repo{
-        height: 5vh;
+        height: 30px;
         width: 8vw;
         transition-duration: 300ms;
         text-align: center;
@@ -12347,7 +12599,7 @@ body{
         color: black;
         display: inline-block;
         width: 10vw;
-        height: 5vh;
+        height: 30px;
         text-decoration: none;
         text-align: center;
         align-content: center;
@@ -12360,8 +12612,9 @@ body{
         background-color: purple;
     }
     .certifications{
-        height: 150vh;
+        height: 500px;
         width: 100%;
+        align-content: center;
     }
     .certifications_heading{
         color: #ff16f4;
@@ -12370,16 +12623,57 @@ body{
         text-align: center;
     }
     .certifications_div{
-        height: 140vh;
-        display: grid;
-        place-content: center;
+        height: 350px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
     }
-    .freecodecamp_cert{
-        height: 120vh;
-        width: 50vw;
+    .certificates{
+        height: 300px;
+        width: 30vw;
+        border-radius: 20px 20px 20px 20px;
+        text-align: center;
+        align-content: center;
+    }
+    .certificates:hover{
+        transition-duration: 300ms;
+        box-shadow: 0px 0px 25px #ff16f4;
+    }
+    .certificate_name{
+        color: #ff16f4;
+        font-weight: 600;
+        font-size: 18px;
+    }
+    .platform{
+        color: white;
+        font-weight: 600;
+        font-size: 16px;
+    }
+    .view_certificate{
+        height: 80px;
+        width: 100%;
+        align-content: center;
+    }
+    
+    .view_certificate>a{
+        height: 35px;
+        width: 10vw;
+        border: 1px solid #ff16f4;
+        background-color: #ff16f4;
+        color: black;
+        display: inline-block;
+        align-content: center;
+        border-radius: 10px 10px 10px 10px;
+        text-decoration: none;
+        font-weight: 600;
+    }
+    .view_certificate>a:hover{
+        transition: 300ms;
+        box-shadow: 0px 0px 10px #ff16f4;
     }
     .contacts{
-        height: 120vh;
+        height: 800px;
         width: 100%;
         display: grid;
         place-content: center;
@@ -12392,7 +12686,7 @@ body{
     }
     
     form{
-        height: 95vh;
+        height: 600px;
         width: 50vw;
         border: 2px solid #ff16f4;
         display: grid;
@@ -12407,13 +12701,13 @@ body{
         text-align: center;
     }
     .fullname,.email{
-        height: 15vh;
+        height: 80px;
         width: 40vw;
         color: white;
         font-weight: 500;
     }
     .fullname>input,.email>input{
-        height: 6vh;
+        height: 40px;
         width: 39vw;
         border-radius: 6px 6px 6px 6px;
         border: 1.5px solid white;
@@ -12426,13 +12720,13 @@ body{
         outline: 1.5px solid #ff16f4;
     }
     .message{
-        height: 24vh;
+        height: 130px;
         width: 40vw;
         align-content: center;
         color: white;
     }
     .message>textarea{
-        height: 15vh;
+        height: 85px;
         width: 39vw;
         text-indent: 20px;
         background-color: transparent;
@@ -12445,7 +12739,7 @@ body{
         outline: 1.5px solid #ff16f4;
     }
     .submit{
-        height: 8vh;
+        height: 50px;
         font-size: 20px;
         font-weight: 600;
         border: 1px solid #ff16f4;
@@ -12459,7 +12753,7 @@ body{
         border: 1px solid #d100d9;
     }
     footer{
-        height: 40vh;
+        height: 300px;
         width: 100%;
         display: grid;
         place-content: center;
@@ -12499,6 +12793,8 @@ body{
     }
     .email_footer{
         color: orangered;
+        text-decoration: none;
+        font-size: 34px;
     }
 }
 @media screen and (min-width:1200px){
