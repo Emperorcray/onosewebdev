@@ -2021,14 +2021,14 @@ body{
 }
 @media screen and (min-width:500px) and (max-width:504px){
     header{
-        height: 16vh;
+        height: 74px;
         width: 100%;
         display: flex;
         justify-content: center;
         align-items: center;
     }
     nav{
-        height: 10vh;
+        height: 70px;
         width: 100%;
         display: flex;
         justify-content: space-evenly;
@@ -2038,7 +2038,7 @@ body{
     }
    /* The side navigation menu */
     .sidenav {
-        height: 60vh; /* 100% Full-height */
+        height: 300px; /* 100% Full-height */
         width: 0; /* 0 width - change this with JavaScript */
         position: fixed; /* Stay in place */
         z-index: 1; /* Stay on top */
@@ -2101,7 +2101,7 @@ body{
         display: none;
     }
     .Resume{
-        height: 6vh;
+        height: 30px;
         width: 15vw;
         border-radius: 18px 18px 18px 18px;
         display: inline-block;
@@ -2119,7 +2119,7 @@ body{
         box-shadow: 0px 0px 18px #ff16f4;
     }
     section{
-        height: 800vh;
+        height: 4000px;
         width: 100%;
         border: 2px solid white;
         border-top: none;
@@ -2127,14 +2127,14 @@ body{
         border-right: none;
     }
     .About{
-        height: 160vh;
+        height: 1000px;
         width: 100%;
         display: grid;
         place-content: center;
         gap: 20px;
     }
     .About_img{
-        height: 75vh;
+        height: 450px;
         width: 60vw;
     }
     .About_img>img{
@@ -2143,7 +2143,7 @@ body{
         border-radius: 100px 100px 100px 100px;
     }
     .About_info{
-        height: 70vh;
+        height: 400px;
         width: 60vw;
     }
     .name{
@@ -2159,7 +2159,7 @@ body{
         text-align: center;
     }
     .info{
-        height: 19vh;
+        height: 150px;
         width: 100%;
     }
     .info>p{
@@ -2185,14 +2185,14 @@ body{
         color: white;
     }
     .download_resume{
-        height: 15vh;
+        height: 100px;
         width: 100%;
         align-content: center;
         text-align: center;
         font-size: 14px;
     }
     .download_resume>a{
-        height: 8vh;
+        height: 50px;
         width: 30vw;
         display: inline-block;
         align-content: center;
@@ -2210,7 +2210,7 @@ body{
         box-shadow: 0px 0px 18px #ad00b1;
     }
     .tech_stack{
-        height: 68vh;
+        height: 320px;
         width: 100%;
         align-content: center;
     }
@@ -2221,13 +2221,13 @@ body{
         font-size: 30px;
     }
     .stack_div{
-        height: 40vh;
+        height: 250px;
         width: 100%;
         text-align: center;
         align-content: center;
     }
     .html,.css,.javascript,.tailwind,.bootstrap,.php,.mysql{
-        height: 16vh;
+        height: 80px;
         width: 18vw;
         background-color: transparent;
         border-radius: 8px 8px 8px 8px;
@@ -2241,7 +2241,7 @@ body{
         background-color: #9999993d;
     }
     .html>img{
-        height: 5vh;
+        height: 25px;
     }
     .html>p{
         color: white;
@@ -2256,7 +2256,7 @@ body{
         transition-duration: 300ms;
     }
     .css>img{
-        height: 4.5vh;
+        height: 23px;
     }
     .css>p{
         color: white;
@@ -2271,7 +2271,7 @@ body{
         transition-duration: 300ms;
     }
     .javascript>img{
-        height: 4.8vh;
+        height: 24px;
     }
     .javascript>p{
         color: white;
@@ -2281,7 +2281,7 @@ body{
         border: 1.5px solid lightblue;
     }
     .tailwind>img{
-        height: 4.5vh;
+        height: 24px;
     }
     .tailwind>p{
         color: white;
@@ -2301,7 +2301,7 @@ body{
         transition-duration: 300ms;
     }
     .bootstrap>img{
-        height: 4.5vh;
+        height: 24px;
     }
     .bootstrap>p{
         color: white;
@@ -2316,7 +2316,7 @@ body{
         background-color: #9999993d;
     }
     .php>img{
-        height: 4.5vh;
+        height: 23px;
     }
     .php>p{
         color: white;
@@ -2331,14 +2331,14 @@ body{
         background-color: #9999993d;
     }
     .mysql>img{
-        height: 4.5vh;
+        height: 23px;
     }
     .mysql>p{
         color: white;
         font-weight: 600;
     }
     .services{
-        height: 170vh;
+        height: 1000px;
         width: 100%;
         align-content: center;
     }
@@ -2349,7 +2349,7 @@ body{
         font-size: 34px;
     }
     .my_offer{
-        height: 150vh;
+        height: 850px;
         width: 100%;
         display: flex;
         justify-content: space-evenly;
@@ -2357,7 +2357,7 @@ body{
         flex-wrap: wrap;
     }
     .the_offers{
-        height: 30vh;
+        height: 160px;
         width: 60vw;
         display: grid;
         place-content: center;
@@ -2383,8 +2383,9 @@ body{
         color: white;
     }
     .projects{
-        height: 190vh;
+        height: 1200px;
         width: 100%;
+        border: 1px solid white;
         align-content: center;
     }
     .projects_heading{
@@ -2394,18 +2395,18 @@ body{
         text-align: center;
     }
     .projects_div{
-        height: 170vh;
+        height: 900px;
         width: 100%;
+        border: 1px solid white;
         display: flex;
         justify-content: space-evenly;
         align-items: center;
         flex-wrap: wrap;
     }
     .projects_div>div{
-        height: 76vh;
+        height: 400px;
         width: 60vw;
         border: 2px solid #ff16f4;
-        align-content: center;
         text-align: center;
         border-radius: 18px 18px 18px 18px;
     }
@@ -2421,11 +2422,14 @@ body{
         color: #ff16f4;
     }
     .project_img{
-        height: 26vh;
+        height: 150px;
         width: 100%;
+        border-top-left-radius: inherit;
+        border-top-right-radius: inherit;
+        border-bottom: 2px solid #ff16f4;
     }
     .project_info{
-        height: 13vh;
+        height: 80px;
         color: white;
         border: 1px solid black;
         text-align: center;
@@ -2433,7 +2437,7 @@ body{
         font-size: 13px;
     }
     .project_stack{
-        height: 13vh;
+        height: 60px;
         display: flex;
         justify-content: space-evenly;
         flex-wrap: wrap;
@@ -2442,7 +2446,7 @@ body{
     }
     .project_stack>p{
         width: 12vw;
-        height: 4vh;
+        height: 25px;
         border: 1px solid #ff16f4;
         align-content: center;
         border-radius: 18px 18px 18px 18px;
@@ -7654,7 +7658,6 @@ body{
         height: 450px;
         width: 40vw;
         border: 2px solid #ff16f4;
-        align-content: center;
         text-align: center;
         border-radius: 18px 18px 18px 18px;
     }
@@ -7670,8 +7673,11 @@ body{
         color: #ff16f4;
     }
     .project_img{
-        height: 150px;
-        width: 34vw;
+        height: 180px;
+        width: 100%;
+        border-top-left-radius: inherit;
+        border-top-right-radius: inherit;
+        border-bottom: 2px solid #ff16f4;
     }
     .project_info{
         height: 60px;
@@ -8297,7 +8303,6 @@ body{
         height: 450px;
         width: 40vw;
         border: 2px solid #ff16f4;
-        align-content: center;
         text-align: center;
         border-radius: 18px 18px 18px 18px;
     }
@@ -8314,7 +8319,10 @@ body{
     }
     .project_img{
         height: 200px;
-        width: 34vw;
+        width: 100%;
+        border-top-left-radius: inherit;
+        border-top-right-radius: inherit;
+        border-bottom: 2px solid #ff16f4;
     }
     .project_info{
         height: 60px;
@@ -8930,7 +8938,6 @@ body{
         height: 450px;
         width: 40vw;
         border: 2px solid #ff16f4;
-        align-content: center;
         text-align: center;
         border-radius: 18px 18px 18px 18px;
     }
@@ -8947,7 +8954,10 @@ body{
     }
     .project_img{
         height: 200px;
-        width: 34vw;
+        width: 100%;
+        border-top-left-radius: inherit;
+        border-top-right-radius: inherit;
+        border-bottom: 2px solid #ff16f4;
     }
     .project_info{
         height: 60px;
@@ -9561,7 +9571,6 @@ body{
         height: 450px;
         width: 35vw;
         border: 2px solid #ff16f4;
-        align-content: center;
         text-align: center;
         border-radius: 18px 18px 18px 18px;
     }
@@ -9577,8 +9586,11 @@ body{
         color: #ff16f4;
     }
     .project_img{
-        height: 200px;
-        width: 34vw;
+        height: 180px;
+        width: 100%;
+        border-top-left-radius: inherit;
+        border-top-right-radius: inherit;
+        border-bottom: 2px solid #ff16f4;
     }
     .project_info{
         height: 60px;
@@ -10192,7 +10204,6 @@ body{
         height: 450px;
         width: 35vw;
         border: 2px solid #ff16f4;
-        align-content: center;
         text-align: center;
         border-radius: 18px 18px 18px 18px;
     }
@@ -10209,7 +10220,10 @@ body{
     }
     .project_img{
         height: 200px;
-        width: 34vw;
+        width: 100%;
+        border-top-left-radius: inherit;
+        border-top-right-radius: inherit;
+        border-bottom: 2px solid #ff16f4;
     }
     .project_info{
         height: 60px;
@@ -10820,7 +10834,6 @@ body{
         height: 450px;
         width: 35vw;
         border: 2px solid #ff16f4;
-        align-content: center;
         text-align: center;
         border-radius: 18px 18px 18px 18px;
     }
@@ -10837,7 +10850,10 @@ body{
     }
     .project_img{
         height: 200px;
-        width: 30vw;
+        width: 100%;
+        border-top-left-radius: inherit;
+        border-top-right-radius: inherit;
+        border-bottom: 2px solid #ff16f4;
     }
     .project_info{
         height: 60px;
@@ -11447,7 +11463,6 @@ body{
         height: 450px;
         width: 35vw;
         border: 2px solid #ff16f4;
-        align-content: center;
         text-align: center;
         border-radius: 18px 18px 18px 18px;
     }
@@ -11464,7 +11479,10 @@ body{
     }
     .project_img{
         height: 200px;
-        width: 30vw;
+        width: 100%;
+        border-top-left-radius: inherit;
+        border-top-right-radius: inherit;
+        border-bottom: 2px solid #ff16f4;
     }
     .project_info{
         height: 60px;
@@ -12074,7 +12092,6 @@ body{
         height: 450px;
         width: 35vw;
         border: 2px solid #ff16f4;
-        align-content: center;
         text-align: center;
         border-radius: 18px 18px 18px 18px;
     }
@@ -12091,7 +12108,10 @@ body{
     }
     .project_img{
         height: 200px;
-        width: 30vw;
+        width: 100%;
+        border-top-left-radius: inherit;
+        border-top-right-radius: inherit;
+        border-bottom: 2px solid #ff16f4;
     }
     .project_info{
         height: 60px;
