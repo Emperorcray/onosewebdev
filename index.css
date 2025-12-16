@@ -12682,7 +12682,6 @@ body{
     .the_offers{
         height: 140px;
         width: 30vw;
-        text-align: center;
         align-content: center;
         border-radius: 8px 8px 8px 8px;
     }
@@ -12693,17 +12692,20 @@ body{
     .the_offers>i{
         font-size: 20px;
         color: #ff16f4;
-        text-align: center;
+        text-indent: 40px;
     }
     .the_offers>p{
         font-weight: 600;
         font-size: 18px;
         color: white;
-        text-align: center;
+        text-indent: 40px;
+        margin-top: 4px;
     }
     .the_offers>div{
         font-size: 13px;
         color: white;
+        padding-left: 40px;
+        margin-top: 4px;
     }
     .projects{
         height: 700px;
@@ -12941,9 +12943,16 @@ body{
         border: 1.5px solid white;
         color: white;
         margin-top: 10px;
+        font-family: inherit;
+        padding-top: 10px;
+
     }
     .message>textarea:focus{
         outline: 1.5px solid #ff16f4;
+    }
+    .message>textarea:placeholder-shown{
+        font-family: inherit;
+        padding-top: 10px;
     }
     .submit{
         height: 50px;
