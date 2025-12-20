@@ -12842,7 +12842,6 @@ body{
         height: 300px;
         width: 30vw;
         border-radius: 20px 20px 20px 20px;
-        text-align: center;
         align-content: center;
     }
     .certificates:hover{
@@ -12853,15 +12852,18 @@ body{
         color: #ff16f4;
         font-weight: 600;
         font-size: 18px;
+        padding-left: 30px;
     }
     .platform{
         color: white;
         font-weight: 600;
         font-size: 16px;
+        text-indent: 30px;
     }
     .view_certificate{
         height: 80px;
         width: 100%;
+        text-align: center;
         align-content: center;
     }
     
