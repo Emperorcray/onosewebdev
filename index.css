@@ -5368,48 +5368,61 @@ body{
         backdrop-filter: blur(30px);
         position: fixed;
     }
-    .sidenav{
-        position: fixed;
-        z-index: 1;
-        height: 70vh;
-        width: 30vw;
-        border-radius: 18px 18px 18px 18px;
-        margin-left: -130px;
-        background-color: black;
-        display: none;
-        place-content: center;
-        gap: 10px;
-        transition-duration: 300ms;
-    }
-    .sidenav>a{
-        border: 1px solid black;
-        color: white;
-        display: inline-block;
-        width: 20vw;
-        height: 8vh;
-        text-align: center;
-        align-content: center;
-        text-decoration: none;
-        border-radius: 18px 18px 18px 18px;
-        font-weight: 600;
-    }
-    .sidenav>a:hover{
-        transition-duration: 300ms;
-        background-color: #ff16f4;
-        border: 1px solid #ff16f4;
-        color: black;
-        box-shadow: 0px 0px 20px #ff16f4;
-    }
     .sidemenu{
+        cursor: pointer;
         color: white;
     }
-    .closebtn{
-        text-align: end;
+    /* The side navigation menu */
+    .sidenav {
+        height: 300px; /* 100% Full-height */
+        width: 0; /* 0 width - change this with JavaScript */
+        position: fixed; /* Stay in place */
+        z-index: 1; /* Stay on top */
+        top: 0; /* Stay at the top */
+        left: 0;
+        background-color: #111; /* Black*/
+        overflow-x: hidden; /* Disable horizontal scroll */
+        padding-top: 60px; /* Place content 60px from the top */
+        transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+        margin-left: 40px;
+        border-radius: 18px 18px 18px 18px;
+        align-content: center;
     }
-    .closebtn>a{
-        font-size: 30px;
-        color: white;
+
+    /* The navigation menu links */
+    .sidenav a {
+        padding: 8px 8px 8px 32px;
         text-decoration: none;
+        font-size: 25px;
+        color: #818181;
+        display: block;
+        transition: 0.3s;
+        text-align: center;
+    }
+
+    /* When you mouse over the navigation links, change their color */
+    .sidenav a:hover {
+    color: #ff16f4;
+    transition-duration: 300ms
+    }
+
+    /* Position and style the close button (top right corner) */
+    .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+        margin-left: 50px;
+        color: white;
+        border: none;
+        background-color: transparent;
+        cursor: pointer;
+    }
+
+    /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+    #main {
+    transition: margin-left .5s;
+    padding: 20px;
     }
     .logo{
         font-size: 20px;
@@ -5466,12 +5479,12 @@ body{
         width: 40vw;
     }
     .name{
-        font-size: 26px;
+        font-size: 22px;
         font-weight: 700;
         color: white;
     }
     .job{
-        font-size: 26px;
+        font-size: 22px;
         font-weight: 700;
         color: #ff16f4;
     }
@@ -5481,24 +5494,24 @@ body{
     }
     .info>p{
         color: white;
-        font-size: 16px;
+        font-size: 14px;
         font-weight: 500;
     }
     .profiles{
         text-align: center;
     }
     .github_link{
-        font-size: 28px;
+        font-size: 20px;
         color: white;
     }
     .linkedin_link{
         text-decoration: none;
-        font-size: 28px;
+        font-size: 20px;
         color: #5676ff;
     }
     .x_link{
         text-decoration: none;
-        font-size: 28px;
+        font-size: 20px;
         color: white;
     }
     .download_resume{
@@ -5541,12 +5554,12 @@ body{
         width: 100%;
         display: flex;
         justify-content: space-evenly;
-        align-content: center;
+        align-items: center;
         flex-wrap: wrap;
     }
     .html,.css,.javascript,.tailwind,.bootstrap,.php,.mysql{
-        height: 100px;
-        width: 16vw;
+        height: 80px;
+        width: 14vw;
         background-color: transparent;
         border-radius: 8px 8px 8px 8px;
     }
@@ -5676,7 +5689,6 @@ body{
     .the_offers{
         height: 140px;
         width: 40vw;
-        text-align: center;
         align-content: center;
         border-radius: 8px 8px 8px 8px;
     }
@@ -5687,17 +5699,18 @@ body{
     .the_offers>i{
         font-size: 20px;
         color: #ff16f4;
-        text-align: center;
+        text-indent: 20px;
     }
     .the_offers>p{
         font-weight: 600;
         font-size: 18px;
         color: white;
-        text-align: center;
+        text-indent: 20px;
     }
     .the_offers>div{
         font-size: 13px;
         color: white;
+        padding-left: 20px;
     }
     .projects{
         height: 700px;
@@ -5721,7 +5734,6 @@ body{
         height: 450px;
         width: 40vw;
         border: 2px solid #ff16f4;
-        text-align: center;
         border-radius: 20px 20px 20px 20px;
     }
     .projects_div>div:hover{
@@ -5730,8 +5742,8 @@ body{
         background-color: #9999993d;
     }
     .project_name{
-        font-size: 20px;
-        text-align: center;
+        font-size: 15px;
+        text-indent: 20px;
         font-weight: 700;
         color: #ff16f4;
     }
@@ -5743,12 +5755,11 @@ body{
         border-bottom: 2px solid #ff16f4;
     }
     .project_info{
-        height: 60px;
+        height: 80px;
         color: white;
-        border: 1px solid black;
-        text-align: center;
+        padding-left: 10px;
         align-content: center;
-        font-size: 14px;
+        font-size: 13px;
     }
     .project_stack{
         display: flex;
@@ -5760,6 +5771,7 @@ body{
     .project_stack>p{
         width: 9vw;
         height: 30px;
+        text-align: center;
         border: 1px solid #ff16f4;
         align-content: center;
         border-radius: 18px 18px 18px 18px;
@@ -5835,7 +5847,6 @@ body{
         height: 250px;
         width: 36vw;
         border-radius: 20px 20px 20px 20px;
-        text-align: center;
         align-content: center;
     }
     .certificates:hover{
@@ -5846,16 +5857,19 @@ body{
         color: #ff16f4;
         font-weight: 600;
         font-size: 16px;
+        padding-left: 20px;
     }
     .platform{
         color: white;
         font-weight: 600;
         font-size: 16px;
+        text-indent: 20px;
     }
     .view_certificate{
         height: 80px;
         width: 100%;
         align-content: center;
+        text-align: center;
     }
     
     .view_certificate>a{
@@ -5869,6 +5883,7 @@ body{
         border-radius: 10px 10px 10px 10px;
         text-decoration: none;
         font-weight: 600;
+        text-align: center;
     }
     .view_certificate>a:hover{
         transition: 300ms;
@@ -5936,6 +5951,9 @@ body{
         border: 1.5px solid white;
         color: white;
         margin-top: 10px;
+        padding-top: 10px;
+        font-family: inherit;
+        font-size: 14px;
     }
     .message>textarea:focus{
         outline: 1.5px solid #ff16f4;
@@ -6016,48 +6034,61 @@ body{
         backdrop-filter: blur(30px);
         position: fixed;
     }
-    .sidenav{
-        position: fixed;
-        z-index: 1;
-        height: 70vh;
-        width: 30vw;
-        border-radius: 18px 18px 18px 18px;
-        margin-left: -130px;
-        background-color: black;
-        display: none;
-        place-content: center;
-        gap: 10px;
-        transition-duration: 300ms;
-    }
-    .sidenav>a{
-        border: 1px solid black;
-        color: white;
-        display: inline-block;
-        width: 20vw;
-        height: 8vh;
-        text-align: center;
-        align-content: center;
-        text-decoration: none;
-        border-radius: 18px 18px 18px 18px;
-        font-weight: 600;
-    }
-    .sidenav>a:hover{
-        transition-duration: 300ms;
-        background-color: #ff16f4;
-        border: 1px solid #ff16f4;
-        color: black;
-        box-shadow: 0px 0px 20px #ff16f4;
-    }
     .sidemenu{
         color: white;
+        cursor: pointer;
     }
-    .closebtn{
-        text-align: end;
+    /* The side navigation menu */
+    .sidenav {
+        height: 300px; /* 100% Full-height */
+        width: 0; /* 0 width - change this with JavaScript */
+        position: fixed; /* Stay in place */
+        z-index: 1; /* Stay on top */
+        top: 0; /* Stay at the top */
+        left: 0;
+        background-color: #111; /* Black*/
+        overflow-x: hidden; /* Disable horizontal scroll */
+        padding-top: 60px; /* Place content 60px from the top */
+        transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+        margin-left: 40px;
+        border-radius: 18px 18px 18px 18px;
+        align-content: center;
     }
-    .closebtn>a{
-        font-size: 30px;
-        color: white;
+
+    /* The navigation menu links */
+    .sidenav a {
+        padding: 8px 8px 8px 32px;
         text-decoration: none;
+        font-size: 25px;
+        color: #818181;
+        display: block;
+        transition: 0.3s;
+        text-align: center;
+    }
+
+    /* When you mouse over the navigation links, change their color */
+    .sidenav a:hover {
+    color: #ff16f4;
+    transition-duration: 300ms
+    }
+
+    /* Position and style the close button (top right corner) */
+    .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+        margin-left: 50px;
+        color: white;
+        border: none;
+        background-color: transparent;
+        cursor: pointer;
+    }
+
+    /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+    #main {
+    transition: margin-left .5s;
+    padding: 20px;
     }
     .logo{
         font-size: 20px;
@@ -6113,18 +6144,19 @@ body{
         width: 40vw;
     }
     .name{
-        font-size: 26px;
+        font-size: 22px;
         font-weight: 700;
         color: white;
     }
     .job{
-        font-size: 26px;
+        font-size: 22px;
         font-weight: 700;
         color: #ff16f4;
     }
     .info{
         height: 130px;
         width: 100%;
+        font-size: 14px;
     }
     .info>p{
         color: white;
@@ -6192,7 +6224,7 @@ body{
         flex-wrap: wrap;
     }
     .html,.css,.javascript,.tailwind,.bootstrap,.php,.mysql{
-        height: 100px;
+        height: 80px;
         width: 12vw;
         background-color: transparent;
         border-radius: 8px 8px 8px 8px;
@@ -6206,11 +6238,12 @@ body{
         background-color: #9999993d;
     }
     .html>img{
-        height: 29px;
+        height: 24px;
     }
     .html>p{
         color: white;
         font-weight: 600;
+        font-size: 12px;
     }
     .css{
         border: 1.5px solid blue;
@@ -6221,11 +6254,12 @@ body{
         transition-duration: 300ms;
     }
     .css>img{
-        height: 27px;
+        height: 23px;
     }
     .css>p{
         color: white;
         font-weight: 600;
+        font-size: 12px;
     }
     .javascript{
         border: 1.5px solid yellow;
@@ -6236,21 +6270,23 @@ body{
         transition-duration: 300ms;
     }
     .javascript>img{
-        height: 29px;
+        height: 24px;
     }
     .javascript>p{
         color: white;
         font-weight: 600;
+        font-size: 12px;
     }
     .tailwind{
         border: 1.5px solid lightblue;
     }
     .tailwind>img{
-        height: 28px;
+        height: 24px;
     }
     .tailwind>p{
         color: white;
         font-weight: 600;
+        font-size: 12px;
     }
     .tailwind:hover{
         transition-duration: 300ms;
@@ -6323,7 +6359,6 @@ body{
     .the_offers{
         height: 140px;
         width: 36vw;
-        text-align: center;
         align-content: center;
         border-radius: 8px 8px 8px 8px;
     }
@@ -6334,17 +6369,18 @@ body{
     .the_offers>i{
         font-size: 20px;
         color: #ff16f4;
-        text-align: center;
+        text-indent: 20px;
     }
     .the_offers>p{
         font-weight: 600;
         font-size: 18px;
         color: white;
-        text-align: center;
+        text-indent: 20px;
     }
     .the_offers>div{
         font-size: 13px;
         color: white;
+        padding-left: 20px;
     }
     .projects{
         height: 700px;
@@ -6368,7 +6404,6 @@ body{
         height: 450px;
         width: 40vw;
         border: 2px solid #ff16f4;
-        text-align: center;
         border-radius: 20px 20px 20px 20px;
     }
     .projects_div>div:hover{
@@ -6377,8 +6412,8 @@ body{
         background-color: #9999993d;
     }
     .project_name{
-        font-size: 20px;
-        text-align: center;
+        font-size: 16px;
+        text-indent: 20px;
         font-weight: 700;
         color: #ff16f4;
     }
@@ -6390,12 +6425,11 @@ body{
         border-bottom: 2px solid #ff16f4;
     }
     .project_info{
-        height: 60px;
+        height: 80px;
         color: white;
-        border: 1px solid black;
-        text-align: center;
+        padding-left: 15px;
         align-content: center;
-        font-size: 14px;
+        font-size: 13px;
     }
     .project_stack{
         display: flex;
@@ -6408,6 +6442,7 @@ body{
         width: 9vw;
         height: 30px;
         border: 1px solid #ff16f4;
+        text-align: center;
         align-content: center;
         border-radius: 18px 18px 18px 18px;
         background-color: #ff16f4;
@@ -6479,10 +6514,9 @@ body{
         justify-content: space-evenly;
     }
     .certificates{
-        height: 300px;
+        height: 200px;
         width: 36vw;
         border-radius: 20px 20px 20px 20px;
-        text-align: center;
         align-content: center;
     }
     .certificates:hover{
@@ -6493,16 +6527,19 @@ body{
         color: #ff16f4;
         font-weight: 600;
         font-size: 16px;
+        padding-left: 20px;
     }
     .platform{
         color: white;
         font-weight: 600;
         font-size: 16px;
+        text-indent: 20px;
     }
     .view_certificate{
         height: 80px;
         width: 100%;
         align-content: center;
+        text-align: center;
     }
     
     .view_certificate>a{
@@ -6583,6 +6620,9 @@ body{
         border: 1.5px solid white;
         color: white;
         margin-top: 10px;
+        padding-top: 10px;
+        font-family: inherit;
+        font-size: 14px;
     }
     .message>textarea:focus{
         outline: 1.5px solid #ff16f4;
