@@ -2122,7 +2122,7 @@ body{
         box-shadow: 0px 0px 18px #ff16f4;
     }
     section{
-        height: 4000px;
+        height: 4800px;
         width: 100%;
         border: 2px solid white;
         border-top: none;
@@ -2386,9 +2386,8 @@ body{
         color: white;
     }
     .projects{
-        height: 1200px;
+        height: 1100px;
         width: 100%;
-        border: 1px solid white;
         align-content: center;
     }
     .projects_heading{
@@ -2400,7 +2399,6 @@ body{
     .projects_div{
         height: 900px;
         width: 100%;
-        border: 1px solid white;
         display: flex;
         justify-content: space-evenly;
         align-items: center;
@@ -2410,7 +2408,6 @@ body{
         height: 400px;
         width: 60vw;
         border: 2px solid #ff16f4;
-        text-align: center;
         border-radius: 18px 18px 18px 18px;
     }
     .projects_div>div:hover{
@@ -2419,8 +2416,8 @@ body{
         background-color: #9999993d;
     }
     .project_name{
-        font-size: 20px;
-        text-align: center;
+        font-size: 18px;
+        text-indent: 20px;
         font-weight: 700;
         color: #ff16f4;
     }
@@ -2434,10 +2431,9 @@ body{
     .project_info{
         height: 80px;
         color: white;
-        border: 1px solid black;
-        text-align: center;
+        padding-left: 10px;
         align-content: center;
-        font-size: 13px;
+        font-size: 12px;
     }
     .project_stack{
         height: 60px;
@@ -2457,6 +2453,7 @@ body{
         font-size: 11px;
         box-shadow: 3px 3px 0px white;
         font-weight: 600;
+        text-align: center;
     }
    
     .project_links{
@@ -2465,8 +2462,8 @@ body{
         margin-top: 10px;
     }
     .github_repo{
-        height: 5vh;
-        width: 13vw;
+        height: 30px;
+        width: 16vw;
         transition-duration: 300ms;
         text-align: center;
         align-content: center;
@@ -2505,7 +2502,7 @@ body{
         background-color: purple;
     }
     .certifications{
-        height: 80vh;
+        height: 500px;
         width: 100%;
         align-content: center;
     }
@@ -2516,7 +2513,7 @@ body{
         text-align: center;
     }
     .certifications_div{
-        height: 60vh;
+        height: 350px;
         width: 100%;
         display: grid;
         place-content: center;
@@ -2524,7 +2521,7 @@ body{
         gap: 15px;
     }
     .certificates{
-        height: 30vh;
+        height: 200px;
         width: 40vw;
         align-content: center;
         border-radius: 10px 10px 10px 10px;
@@ -2534,19 +2531,19 @@ body{
         box-shadow: 0px 0px 15px #ff16f4;
     }
     .certificate_name{
-        text-align: center;
+        padding-left: 20px;
         color: #d100d9;
         font-weight: 600;
-        font-size: 18px;
+        font-size: 15px;
     }
     .platform{
-        text-align: center;
+        text-indent: 20px;
         color: white;
         font-weight: 600;
-        font-size: 14px;
+        font-size: 13px;
     }
     .view_certificate{
-        height: 10vh;
+        height: 60px;
         width: 100%;
         text-align: center;
         align-content: center;
@@ -2559,7 +2556,7 @@ body{
         display: inline-block;
         text-align: center;
         align-content: center;
-        height: 6vh;
+        height: 35px;
         width: 14vw;
         border-radius: 10px 10px 10px 10px;
     }
@@ -2568,7 +2565,7 @@ body{
         box-shadow: 0px 0px 15px #ff16f4;
     }
     .contacts{
-        height: 120vh;
+        height: 600px;
         width: 100%;
         display: grid;
         place-content: center;
@@ -2581,7 +2578,7 @@ body{
     }
     
     form{
-        height: 80vh;
+        height: 500px;
         width: 60vw;
         border: 2px solid #ff16f4;
         display: grid;
@@ -2596,14 +2593,14 @@ body{
         text-align: center;
     }
     .fullname,.email{
-        height: 10vh;
+        height: 60px;
         width: 40vw;
         color: white;
         font-weight: 500;
         font-size: 14px;
     }
     .fullname>input,.email>input{
-        height: 5vh;
+        height: 30px;
         width: 39vw;
         border-radius: 6px 6px 6px 6px;
         border: 1.5px solid white;
@@ -2616,14 +2613,14 @@ body{
         outline: 1.5px solid #ff16f4;
     }
     .message{
-        height: 24vh;
+        height: 150px;
         width: 40vw;
         align-content: center;
         color: white;
         font-size: 14px;
     }
     .message>textarea{
-        height: 15vh;
+        height: 80px;
         width: 39vw;
         text-indent: 20px;
         background-color: transparent;
@@ -2631,12 +2628,15 @@ body{
         border: 1.5px solid white;
         color: white;
         margin-top: 10px;
+        padding-top: 10px;
+        font-family: inherit;
+        font-size: 13px;
     }
     .message>textarea:focus{
         outline: 1.5px solid #ff16f4;
     }
     .submit{
-        height: 8vh;
+        height: 40px;
         font-size: 18px;
         font-weight: 600;
         border: 1px solid #ff16f4;
@@ -2650,7 +2650,7 @@ body{
         border: 1px solid #d100d9;
     }
     footer{
-        height: 40vh;
+        height: 250px;
         width: 100%;
         display: grid;
         place-content: center;
@@ -2696,14 +2696,14 @@ body{
 }
 @media screen and (min-width:505px) and (max-width:555px){
     header{
-        height: 16vh;
+        height: 80px;
         width: 100%;
         display: flex;
         justify-content: center;
         align-items: center;
     }
     nav{
-        height: 10vh;
+        height: 60px;
         width: 100%;
         display: flex;
         justify-content: space-evenly;
@@ -2776,7 +2776,7 @@ body{
         display: none;
     }
     .Resume{
-        height: 6vh;
+        height: 30px;
         width: 15vw;
         border-radius: 18px 18px 18px 18px;
         display: inline-block;
@@ -2794,7 +2794,7 @@ body{
         box-shadow: 0px 0px 18px #ff16f4;
     }
     section{
-        height: 800vh;
+        height: 5000px;
         width: 100%;
         border: 2px solid white;
         border-top: none;
@@ -2802,14 +2802,14 @@ body{
         border-right: none;
     }
     .About{
-        height: 160vh;
+        height: 1000px;
         width: 100%;
         display: grid;
         place-content: center;
-        gap: 20px;
+        gap: 50px;
     }
     .About_img{
-        height: 75vh;
+        height: 450px;
         width: 60vw;
     }
     .About_img>img{
@@ -2818,7 +2818,7 @@ body{
         border-radius: 100px 100px 100px 100px;
     }
     .About_info{
-        height: 70vh;
+        height: 300px;
         width: 60vw;
     }
     .name{
@@ -2834,7 +2834,7 @@ body{
         text-align: center;
     }
     .info{
-        height: 19vh;
+        height: 120px;
         width: 100%;
     }
     .info>p{
@@ -2860,14 +2860,14 @@ body{
         color: white;
     }
     .download_resume{
-        height: 15vh;
+        height: 80px;
         width: 100%;
         align-content: center;
         text-align: center;
         font-size: 14px;
     }
     .download_resume>a{
-        height: 8vh;
+        height: 50px;
         width: 30vw;
         display: inline-block;
         align-content: center;
@@ -2885,7 +2885,7 @@ body{
         box-shadow: 0px 0px 18px #ad00b1;
     }
     .tech_stack{
-        height: 68vh;
+        height: 450px;
         width: 100%;
         align-content: center;
     }
@@ -2896,13 +2896,13 @@ body{
         font-size: 30px;
     }
     .stack_div{
-        height: 40vh;
+        height: 250px;
         width: 100%;
         text-align: center;
         align-content: center;
     }
     .html,.css,.javascript,.tailwind,.bootstrap,.php,.mysql{
-        height: 16vh;
+        height: 80px;
         width: 18vw;
         background-color: transparent;
         border-radius: 8px 8px 8px 8px;
@@ -3013,7 +3013,7 @@ body{
         font-weight: 600;
     }
     .services{
-        height: 170vh;
+        height: 1000px;
         width: 100%;
         align-content: center;
     }
@@ -3024,7 +3024,7 @@ body{
         font-size: 34px;
     }
     .my_offer{
-        height: 150vh;
+        height: 800px;
         width: 100%;
         display: flex;
         justify-content: space-evenly;
@@ -3032,11 +3032,11 @@ body{
         flex-wrap: wrap;
     }
     .the_offers{
-        height: 30vh;
+        height: 160px;
         width: 60vw;
         display: grid;
-        place-content: center;
-        gap: 10px;
+        gap: 6px;
+        align-content: center;
         border-radius: 8px 8px 8px 8px;
     }
     .the_offers:hover{
@@ -3046,19 +3046,21 @@ body{
     .the_offers>i{
         font-size: 20px;
         color: #ff16f4;
+        text-indent: 10px;
     }
     .the_offers>p{
         font-weight: 600;
         font-size: 18px;
         color: white;
+        text-indent: 20px;
     }
     .the_offers>div{
-        width: 50vw;
+        padding-left: 20px;
         font-size: 13px;
         color: white;
     }
     .projects{
-        height: 190vh;
+        height: 1200px;
         width: 100%;
         align-content: center;
     }
@@ -3069,7 +3071,7 @@ body{
         text-align: center;
     }
     .projects_div{
-        height: 170vh;
+        height: 1100px;
         width: 100%;
         display: flex;
         justify-content: space-evenly;
@@ -3077,11 +3079,9 @@ body{
         flex-wrap: wrap;
     }
     .projects_div>div{
-        height: 76vh;
+        height: 400px;
         width: 60vw;
         border: 2px solid #ff16f4;
-        align-content: center;
-        text-align: center;
         border-radius: 18px 18px 18px 18px;
     }
     .projects_div>div:hover{
@@ -3090,25 +3090,27 @@ body{
         background-color: #9999993d;
     }
     .project_name{
-        font-size: 20px;
-        text-align: center;
+        font-size: 18px;
+        text-indent: 20px;
         font-weight: 700;
         color: #ff16f4;
     }
     .project_img{
-        height: 26vh;
+        height: 150px;
         width: 100%;
+        border-top-left-radius: inherit;
+        border-top-right-radius: inherit;
+        border-bottom: 2px solid #ff16f4;
     }
     .project_info{
-        height: 13vh;
+        height: 80px;
         color: white;
-        border: 1px solid black;
-        text-align: center;
+        padding-left: 10px;
         align-content: center;
-        font-size: 13px;
+        font-size: 12px;
     }
     .project_stack{
-        height: 13vh;
+        height: 50px;
         display: flex;
         justify-content: space-evenly;
         flex-wrap: wrap;
@@ -3117,7 +3119,7 @@ body{
     }
     .project_stack>p{
         width: 12vw;
-        height: 4vh;
+        height: 25px;
         border: 1px solid #ff16f4;
         align-content: center;
         border-radius: 18px 18px 18px 18px;
@@ -3125,6 +3127,7 @@ body{
         font-size: 11px;
         box-shadow: 3px 3px 0px white;
         font-weight: 600;
+        text-align: center;
     }
    
     .project_links{
@@ -3133,7 +3136,7 @@ body{
         margin-top: 10px;
     }
     .github_repo{
-        height: 5vh;
+        height: 30px;
         width: 13vw;
         transition-duration: 300ms;
         text-align: center;
@@ -3173,7 +3176,7 @@ body{
         background-color: purple;
     }
     .certifications{
-        height: 80vh;
+        height: 500px;
         width: 100%;
         align-content: center;
     }
@@ -3184,7 +3187,7 @@ body{
         text-align: center;
     }
     .certifications_div{
-        height: 60vh;
+        height: 300px;
         width: 100%;
         display: grid;
         place-content: center;
@@ -3192,7 +3195,7 @@ body{
         gap: 15px;
     }
     .certificates{
-        height: 30vh;
+        height: 200px;
         width: 40vw;
         align-content: center;
         border-radius: 10px 10px 10px 10px;
@@ -3202,19 +3205,19 @@ body{
         box-shadow: 0px 0px 15px #ff16f4;
     }
     .certificate_name{
-        text-align: center;
+        padding-left: 20px;
         color: #d100d9;
         font-weight: 600;
-        font-size: 18px;
+        font-size: 16px;
     }
     .platform{
-        text-align: center;
+        text-indent: 20px;
         color: white;
         font-weight: 600;
         font-size: 14px;
     }
     .view_certificate{
-        height: 10vh;
+        height: 60px;
         width: 100%;
         text-align: center;
         align-content: center;
@@ -3227,7 +3230,7 @@ body{
         display: inline-block;
         text-align: center;
         align-content: center;
-        height: 6vh;
+        height: 30px;
         width: 14vw;
         border-radius: 10px 10px 10px 10px;
     }
@@ -3236,7 +3239,7 @@ body{
         box-shadow: 0px 0px 15px #ff16f4;
     }
     .contacts{
-        height: 120vh;
+        height: 700px;
         width: 100%;
         display: grid;
         place-content: center;
@@ -3249,7 +3252,7 @@ body{
     }
     
     form{
-        height: 80vh;
+        height: 500px;
         width: 60vw;
         border: 2px solid #ff16f4;
         display: grid;
@@ -3264,14 +3267,14 @@ body{
         text-align: center;
     }
     .fullname,.email{
-        height: 10vh;
+        height: 60px;
         width: 40vw;
         color: white;
         font-weight: 500;
         font-size: 14px;
     }
     .fullname>input,.email>input{
-        height: 5vh;
+        height: 26px;
         width: 39vw;
         border-radius: 6px 6px 6px 6px;
         border: 1.5px solid white;
@@ -3284,14 +3287,14 @@ body{
         outline: 1.5px solid #ff16f4;
     }
     .message{
-        height: 24vh;
+        height: 120px;
         width: 40vw;
         align-content: center;
         color: white;
         font-size: 14px;
     }
     .message>textarea{
-        height: 15vh;
+        height: 80px;
         width: 39vw;
         text-indent: 20px;
         background-color: transparent;
@@ -3299,12 +3302,15 @@ body{
         border: 1.5px solid white;
         color: white;
         margin-top: 10px;
+        padding-top: 10px;
+        font-family: inherit;
+        font-size: 13px;
     }
     .message>textarea:focus{
         outline: 1.5px solid #ff16f4;
     }
     .submit{
-        height: 8vh;
+        height: 45px;
         font-size: 18px;
         font-weight: 600;
         border: 1px solid #ff16f4;
@@ -3717,18 +3723,18 @@ body{
     }
     .the_offers>p{
         font-weight: 600;
-        font-size: 18px;
+        font-size: 16px;
         color: white;
         text-indent: 20px;
     }
     .the_offers>div{
         width: 30vw;
-        font-size: 13px;
+        font-size: 12px;
         color: white;
         padding-left: 20px;
     }
     .projects{
-        height: 190vh;
+        height: 1250px;
         width: 100%;
         align-content: center;
     }
@@ -3739,7 +3745,7 @@ body{
         text-align: center;
     }
     .projects_div{
-        height: 170vh;
+        height: 1100px;
         width: 100%;
         display: flex;
         justify-content: space-evenly;
@@ -3747,11 +3753,9 @@ body{
         flex-wrap: wrap;
     }
     .projects_div>div{
-        height: 76vh;
+        height: 400px;
         width: 50vw;
         border: 2px solid #ff16f4;
-        align-content: center;
-        text-align: center;
         border-radius: 18px 18px 18px 18px;
     }
     .projects_div>div:hover{
@@ -3760,20 +3764,21 @@ body{
         background-color: #9999993d;
     }
     .project_name{
-        font-size: 20px;
-        text-align: center;
+        font-size: 18px;
+        text-indent: 20px;
         font-weight: 700;
         color: #ff16f4;
     }
     .project_img{
-        height: 30vh;
+        height: 150px;
         width: 100%;
+        border-top-left-radius: inherit;
+        border-top-right-radius: inherit;
     }
     .project_info{
-        height: 13vh;
+        height: 80px;
         color: white;
-        border: 1px solid black;
-        text-align: center;
+        padding-left: 15px;
         align-content: center;
         font-size: 13px;
     }
@@ -3786,9 +3791,10 @@ body{
         margin-top: 4px;
     }
     .project_stack>p{
-        width: 9vw;
-        height: 4vh;
+        width: 10vw;
+        height: 28px;
         border: 1px solid #ff16f4;
+        text-align: center;
         align-content: center;
         border-radius: 18px 18px 18px 18px;
         background-color: #ff16f4;
@@ -3843,7 +3849,7 @@ body{
         background-color: purple;
     }
     .certifications{
-        height: 80vh;
+        height: 450px;
         width: 100%;
         align-content: center;
     }
@@ -3854,7 +3860,7 @@ body{
         text-align: center;
     }
     .certifications_div{
-        height: 60vh;
+        height: 300px;
         width: 100%;
         display: grid;
         place-content: center;
@@ -3862,7 +3868,7 @@ body{
         gap: 15px;
     }
     .certificates{
-        height: 30vh;
+        height: 200px;
         width: 40vw;
         align-content: center;
         border-radius: 10px 10px 10px 10px;
@@ -3872,13 +3878,13 @@ body{
         box-shadow: 0px 0px 15px #ff16f4;
     }
     .certificate_name{
-        text-align: center;
+        padding-left: 20px;
         color: #d100d9;
         font-weight: 600;
-        font-size: 20px;
+        font-size: 16px;
     }
     .platform{
-        text-align: center;
+        text-indent: 20px;
         color: white;
         font-weight: 600;
     }
@@ -3905,7 +3911,7 @@ body{
         box-shadow: 0px 0px 15px #ff16f4;
     }
     .contacts{
-        height: 120vh;
+        height: 750px;
         width: 100%;
         display: grid;
         place-content: center;
@@ -3918,7 +3924,7 @@ body{
     }
     
     form{
-        height: 93vh;
+        height: 600px;
         width: 50vw;
         border: 2px solid #ff16f4;
         display: grid;
@@ -3933,14 +3939,14 @@ body{
         text-align: center;
     }
     .fullname,.email{
-        height: 12vh;
+        height: 60px;
         width: 40vw;
         color: white;
         font-weight: 500;
         font-size: 14px;
     }
     .fullname>input,.email>input{
-        height: 5vh;
+        height: 30px;
         width: 39vw;
         border-radius: 6px 6px 6px 6px;
         border: 1.5px solid white;
@@ -3953,14 +3959,14 @@ body{
         outline: 1.5px solid #ff16f4;
     }
     .message{
-        height: 24vh;
+        height: 150px;
         width: 40vw;
         align-content: center;
         color: white;
         font-size: 14px;
     }
     .message>textarea{
-        height: 15vh;
+        height: 80px;
         width: 39vw;
         text-indent: 20px;
         background-color: transparent;
@@ -3968,12 +3974,15 @@ body{
         border: 1.5px solid white;
         color: white;
         margin-top: 10px;
+        padding-top: 10px;
+        font-family: inherit;
+        font-size: 14px;
     }
     .message>textarea:focus{
         outline: 1.5px solid #ff16f4;
     }
     .submit{
-        height: 8vh;
+        height: 50px;
         font-size: 18px;
         font-weight: 600;
         border: 1px solid #ff16f4;
