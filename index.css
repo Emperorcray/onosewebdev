@@ -2395,7 +2395,7 @@ body{
         color: white;
     }
     .projects{
-        height: 1200px;
+        height: 1100px;
         width: 100%;
         align-content: center;
     }
@@ -2442,7 +2442,7 @@ body{
         color: white;
         padding-left: 10px;
         align-content: center;
-        font-size: 13px;
+        font-size: 12px;
     }
     .project_stack{
         height: 60px;
@@ -2530,7 +2530,7 @@ body{
         gap: 15px;
     }
     .certificates{
-        height: 180px;
+        height: 30vh;
         width: 40vw;
         align-content: center;
         border-radius: 10px 10px 10px 10px;
@@ -2540,19 +2540,19 @@ body{
         box-shadow: 0px 0px 15px #ff16f4;
     }
     .certificate_name{
-        padding-left: 10px;
+        text-align: center;
         color: #d100d9;
         font-weight: 600;
-        font-size: 16px;
+        font-size: 18px;
     }
     .platform{
-        text-indent: 10px;
+        text-align: center;
         color: white;
         font-weight: 600;
         font-size: 13px;
     }
     .view_certificate{
-        height: 40px;
+        height: 10vh;
         width: 100%;
         text-align: center;
         align-content: center;
@@ -2565,7 +2565,7 @@ body{
         display: inline-block;
         text-align: center;
         align-content: center;
-        height: 30px;
+        height: 6vh;
         width: 14vw;
         border-radius: 10px 10px 10px 10px;
     }
@@ -2622,14 +2622,14 @@ body{
         outline: 1.5px solid #ff16f4;
     }
     .message{
-        height: 100px;
+        height: 24vh;
         width: 40vw;
         align-content: center;
         color: white;
         font-size: 14px;
     }
     .message>textarea{
-        height: 70px;
+        height: 15vh;
         width: 39vw;
         text-indent: 20px;
         background-color: transparent;
@@ -2659,7 +2659,7 @@ body{
         border: 1px solid #d100d9;
     }
     footer{
-        height: 300px;
+        height: 40vh;
         width: 100%;
         display: grid;
         place-content: center;
@@ -2705,14 +2705,14 @@ body{
 }
 @media screen and (min-width:505px) and (max-width:555px){
     header{
-        height: 74px;
+        height: 16vh;
         width: 100%;
         display: flex;
         justify-content: center;
         align-items: center;
     }
     nav{
-        height: 70px;
+        height: 10vh;
         width: 100%;
         display: flex;
         justify-content: space-evenly;
@@ -2803,7 +2803,7 @@ body{
         box-shadow: 0px 0px 18px #ff16f4;
     }
     section{
-        height: 4000px;
+        height: 800vh;
         width: 100%;
         border: 2px solid white;
         border-top: none;
@@ -2816,10 +2816,10 @@ body{
         border: 1px solid white;
         display: grid;
         place-content: center;
-        gap: 20px;
+        gap: 50px;
     }
     .About_img{
-        height: 400px;
+        height: 75vh;
         width: 60vw;
     }
     .About_img>img{
@@ -2828,7 +2828,7 @@ body{
         border-radius: 100px 100px 100px 100px;
     }
     .About_info{
-        height: 70vh;
+        height: 300px;
         width: 60vw;
     }
     .name{
@@ -2844,7 +2844,7 @@ body{
         text-align: center;
     }
     .info{
-        height: 19vh;
+        height: 120px;
         width: 100%;
     }
     .info>p{
@@ -2870,14 +2870,14 @@ body{
         color: white;
     }
     .download_resume{
-        height: 15vh;
+        height: 80px;
         width: 100%;
         align-content: center;
         text-align: center;
         font-size: 14px;
     }
     .download_resume>a{
-        height: 8vh;
+        height: 50px;
         width: 30vw;
         display: inline-block;
         align-content: center;
@@ -2895,7 +2895,7 @@ body{
         box-shadow: 0px 0px 18px #ad00b1;
     }
     .tech_stack{
-        height: 68vh;
+        height: 450px;
         width: 100%;
         align-content: center;
     }
@@ -2906,13 +2906,13 @@ body{
         font-size: 30px;
     }
     .stack_div{
-        height: 40vh;
+        height: 250px;
         width: 100%;
         text-align: center;
         align-content: center;
     }
     .html,.css,.javascript,.tailwind,.bootstrap,.php,.mysql{
-        height: 16vh;
+        height: 80px;
         width: 18vw;
         background-color: transparent;
         border-radius: 8px 8px 8px 8px;
@@ -3023,7 +3023,7 @@ body{
         font-weight: 600;
     }
     .services{
-        height: 170vh;
+        height: 1000px;
         width: 100%;
         align-content: center;
     }
@@ -3034,7 +3034,7 @@ body{
         font-size: 34px;
     }
     .my_offer{
-        height: 150vh;
+        height: 800px;
         width: 100%;
         display: flex;
         justify-content: space-evenly;
@@ -3042,11 +3042,11 @@ body{
         flex-wrap: wrap;
     }
     .the_offers{
-        height: 30vh;
+        height: 160px;
         width: 60vw;
         display: grid;
-        place-content: center;
-        gap: 10px;
+        gap: 6px;
+        align-content: center;
         border-radius: 8px 8px 8px 8px;
     }
     .the_offers:hover{
@@ -3056,19 +3056,21 @@ body{
     .the_offers>i{
         font-size: 20px;
         color: #ff16f4;
+        text-indent: 10px;
     }
     .the_offers>p{
         font-weight: 600;
         font-size: 18px;
         color: white;
+        text-indent: 20px;
     }
     .the_offers>div{
-        width: 50vw;
+        padding-left: 20px;
         font-size: 13px;
         color: white;
     }
     .projects{
-        height: 190vh;
+        height: 1200px;
         width: 100%;
         align-content: center;
     }
@@ -3079,7 +3081,7 @@ body{
         text-align: center;
     }
     .projects_div{
-        height: 170vh;
+        height: 1100px;
         width: 100%;
         display: flex;
         justify-content: space-evenly;
@@ -3087,11 +3089,9 @@ body{
         flex-wrap: wrap;
     }
     .projects_div>div{
-        height: 76vh;
+        height: 400px;
         width: 60vw;
         border: 2px solid #ff16f4;
-        align-content: center;
-        text-align: center;
         border-radius: 18px 18px 18px 18px;
     }
     .projects_div>div:hover{
@@ -3100,25 +3100,27 @@ body{
         background-color: #9999993d;
     }
     .project_name{
-        font-size: 20px;
-        text-align: center;
+        font-size: 18px;
+        text-indent: 20px;
         font-weight: 700;
         color: #ff16f4;
     }
     .project_img{
-        height: 26vh;
+        height: 150px;
         width: 100%;
+        border-top-left-radius: inherit;
+        border-top-right-radius: inherit;
+        border-bottom: 2px solid #ff16f4;
     }
     .project_info{
-        height: 13vh;
+        height: 80px;
         color: white;
-        border: 1px solid black;
-        text-align: center;
+        padding-left: 10px;
         align-content: center;
-        font-size: 13px;
+        font-size: 12px;
     }
     .project_stack{
-        height: 13vh;
+        height: 50px;
         display: flex;
         justify-content: space-evenly;
         flex-wrap: wrap;
@@ -3127,7 +3129,7 @@ body{
     }
     .project_stack>p{
         width: 12vw;
-        height: 4vh;
+        height: 25px;
         border: 1px solid #ff16f4;
         align-content: center;
         border-radius: 18px 18px 18px 18px;
@@ -3135,6 +3137,7 @@ body{
         font-size: 11px;
         box-shadow: 3px 3px 0px white;
         font-weight: 600;
+        text-align: center;
     }
    
     .project_links{
@@ -3143,7 +3146,7 @@ body{
         margin-top: 10px;
     }
     .github_repo{
-        height: 5vh;
+        height: 30px;
         width: 13vw;
         transition-duration: 300ms;
         text-align: center;
@@ -3183,7 +3186,7 @@ body{
         background-color: purple;
     }
     .certifications{
-        height: 80vh;
+        height: 500px;
         width: 100%;
         align-content: center;
     }
@@ -3194,7 +3197,7 @@ body{
         text-align: center;
     }
     .certifications_div{
-        height: 60vh;
+        height: 300px;
         width: 100%;
         display: grid;
         place-content: center;
@@ -3202,7 +3205,7 @@ body{
         gap: 15px;
     }
     .certificates{
-        height: 30vh;
+        height: 200px;
         width: 40vw;
         align-content: center;
         border-radius: 10px 10px 10px 10px;
@@ -3212,19 +3215,19 @@ body{
         box-shadow: 0px 0px 15px #ff16f4;
     }
     .certificate_name{
-        text-align: center;
+        padding-left: 20px;
         color: #d100d9;
         font-weight: 600;
-        font-size: 18px;
+        font-size: 16px;
     }
     .platform{
-        text-align: center;
+        text-indent: 20px;
         color: white;
         font-weight: 600;
         font-size: 14px;
     }
     .view_certificate{
-        height: 10vh;
+        height: 60px;
         width: 100%;
         text-align: center;
         align-content: center;
@@ -3237,7 +3240,7 @@ body{
         display: inline-block;
         text-align: center;
         align-content: center;
-        height: 6vh;
+        height: 30px;
         width: 14vw;
         border-radius: 10px 10px 10px 10px;
     }
@@ -3246,7 +3249,7 @@ body{
         box-shadow: 0px 0px 15px #ff16f4;
     }
     .contacts{
-        height: 120vh;
+        height: 700px;
         width: 100%;
         display: grid;
         place-content: center;
@@ -3259,7 +3262,7 @@ body{
     }
     
     form{
-        height: 80vh;
+        height: 500px;
         width: 60vw;
         border: 2px solid #ff16f4;
         display: grid;
@@ -3274,14 +3277,14 @@ body{
         text-align: center;
     }
     .fullname,.email{
-        height: 10vh;
+        height: 60px;
         width: 40vw;
         color: white;
         font-weight: 500;
         font-size: 14px;
     }
     .fullname>input,.email>input{
-        height: 5vh;
+        height: 26px;
         width: 39vw;
         border-radius: 6px 6px 6px 6px;
         border: 1.5px solid white;
@@ -3294,14 +3297,14 @@ body{
         outline: 1.5px solid #ff16f4;
     }
     .message{
-        height: 24vh;
+        height: 120px;
         width: 40vw;
         align-content: center;
         color: white;
         font-size: 14px;
     }
     .message>textarea{
-        height: 15vh;
+        height: 80px;
         width: 39vw;
         text-indent: 20px;
         background-color: transparent;
@@ -3309,12 +3312,15 @@ body{
         border: 1.5px solid white;
         color: white;
         margin-top: 10px;
+        padding-top: 10px;
+        font-family: inherit;
+        font-size: 13px;
     }
     .message>textarea:focus{
         outline: 1.5px solid #ff16f4;
     }
     .submit{
-        height: 8vh;
+        height: 45px;
         font-size: 18px;
         font-weight: 600;
         border: 1px solid #ff16f4;
@@ -3472,7 +3478,7 @@ body{
         box-shadow: 0px 0px 18px #ff16f4;
     }
     section{
-        height: 3500px;
+        height: 4500px;
         width: 100%;
         border: 2px solid white;
         border-top: none;
@@ -3480,12 +3486,11 @@ body{
         border-right: none;
     }
     .About{
-        height: 700px;
+        height: 950px;
         width: 100%;
-        border: 1px solid white;
         display: grid;
         place-content: center;
-        gap: 20px;
+        gap: 30px;
     }
     .About_img{
         height: 400px;
@@ -3497,7 +3502,7 @@ body{
         border-radius: 100px 100px 100px 100px;
     }
     .About_info{
-        height: 70vh;
+        height: 300px;
         width: 50vw;
     }
     .name{
@@ -3515,6 +3520,7 @@ body{
     .info{
         height: 19vh;
         width: 100%;
+        padding-left: 10px;
     }
     .info>p{
         color: white;
@@ -3564,7 +3570,7 @@ body{
         box-shadow: 0px 0px 18px #ad00b1;
     }
     .tech_stack{
-        height: 68vh;
+        height: 400px;
         width: 100%;
         align-content: center;
     }
@@ -3575,14 +3581,14 @@ body{
         font-size: 35px;
     }
     .stack_div{
-        height: 40vh;
+        height: 250px;
         width: 100%;
-        text-align: center;
         align-content: center;
+        padding-left: 30px;
     }
     .html,.css,.javascript,.tailwind,.bootstrap,.php,.mysql{
-        height: 16vh;
-        width: 18vw;
+        height: 80px;
+        width: 16vw;
         background-color: transparent;
         border-radius: 8px 8px 8px 8px;
     }
@@ -3692,7 +3698,7 @@ body{
         font-weight: 600;
     }
     .services{
-        height: 80vh;
+        height: 500px;
         width: 100%;
         align-content: center;
     }
@@ -3703,7 +3709,7 @@ body{
         font-size: 34px;
     }
     .my_offer{
-        height: 60vh;
+        height: 400px;
         width: 100%;
         display: flex;
         justify-content: space-evenly;
@@ -3711,12 +3717,10 @@ body{
         flex-wrap: wrap;
     }
     .the_offers{
-        height: 25vh;
+        height: 160px;
         width: 38vw;
-        display: grid;
-        place-content: center;
-        gap: 10px;
         border-radius: 8px 8px 8px 8px;
+        align-content: center;
     }
     .the_offers:hover{
         transition-duration: 300ms;
@@ -3725,19 +3729,22 @@ body{
     .the_offers>i{
         font-size: 20px;
         color: #ff16f4;
+        text-indent: 20px;
     }
     .the_offers>p{
         font-weight: 600;
-        font-size: 18px;
+        font-size: 16px;
         color: white;
+        text-indent: 20px;
     }
     .the_offers>div{
         width: 30vw;
-        font-size: 13px;
+        font-size: 12px;
         color: white;
+        padding-left: 20px;
     }
     .projects{
-        height: 190vh;
+        height: 1250px;
         width: 100%;
         align-content: center;
     }
@@ -3748,7 +3755,7 @@ body{
         text-align: center;
     }
     .projects_div{
-        height: 170vh;
+        height: 1100px;
         width: 100%;
         display: flex;
         justify-content: space-evenly;
@@ -3756,11 +3763,9 @@ body{
         flex-wrap: wrap;
     }
     .projects_div>div{
-        height: 76vh;
+        height: 400px;
         width: 50vw;
         border: 2px solid #ff16f4;
-        align-content: center;
-        text-align: center;
         border-radius: 18px 18px 18px 18px;
     }
     .projects_div>div:hover{
@@ -3769,20 +3774,21 @@ body{
         background-color: #9999993d;
     }
     .project_name{
-        font-size: 20px;
-        text-align: center;
+        font-size: 18px;
+        text-indent: 20px;
         font-weight: 700;
         color: #ff16f4;
     }
     .project_img{
-        height: 30vh;
+        height: 150px;
         width: 100%;
+        border-top-left-radius: inherit;
+        border-top-right-radius: inherit;
     }
     .project_info{
-        height: 13vh;
+        height: 80px;
         color: white;
-        border: 1px solid black;
-        text-align: center;
+        padding-left: 15px;
         align-content: center;
         font-size: 13px;
     }
@@ -3795,9 +3801,10 @@ body{
         margin-top: 4px;
     }
     .project_stack>p{
-        width: 9vw;
-        height: 4vh;
+        width: 10vw;
+        height: 28px;
         border: 1px solid #ff16f4;
+        text-align: center;
         align-content: center;
         border-radius: 18px 18px 18px 18px;
         background-color: #ff16f4;
@@ -3852,7 +3859,7 @@ body{
         background-color: purple;
     }
     .certifications{
-        height: 80vh;
+        height: 450px;
         width: 100%;
         align-content: center;
     }
@@ -3863,7 +3870,7 @@ body{
         text-align: center;
     }
     .certifications_div{
-        height: 60vh;
+        height: 300px;
         width: 100%;
         display: grid;
         place-content: center;
@@ -3871,7 +3878,7 @@ body{
         gap: 15px;
     }
     .certificates{
-        height: 30vh;
+        height: 200px;
         width: 40vw;
         align-content: center;
         border-radius: 10px 10px 10px 10px;
@@ -3881,13 +3888,13 @@ body{
         box-shadow: 0px 0px 15px #ff16f4;
     }
     .certificate_name{
-        text-align: center;
+        padding-left: 20px;
         color: #d100d9;
         font-weight: 600;
-        font-size: 20px;
+        font-size: 16px;
     }
     .platform{
-        text-align: center;
+        text-indent: 20px;
         color: white;
         font-weight: 600;
     }
@@ -3914,7 +3921,7 @@ body{
         box-shadow: 0px 0px 15px #ff16f4;
     }
     .contacts{
-        height: 120vh;
+        height: 750px;
         width: 100%;
         display: grid;
         place-content: center;
@@ -3927,7 +3934,7 @@ body{
     }
     
     form{
-        height: 93vh;
+        height: 600px;
         width: 50vw;
         border: 2px solid #ff16f4;
         display: grid;
@@ -3942,14 +3949,14 @@ body{
         text-align: center;
     }
     .fullname,.email{
-        height: 12vh;
+        height: 60px;
         width: 40vw;
         color: white;
         font-weight: 500;
         font-size: 14px;
     }
     .fullname>input,.email>input{
-        height: 5vh;
+        height: 30px;
         width: 39vw;
         border-radius: 6px 6px 6px 6px;
         border: 1.5px solid white;
@@ -3962,14 +3969,14 @@ body{
         outline: 1.5px solid #ff16f4;
     }
     .message{
-        height: 24vh;
+        height: 150px;
         width: 40vw;
         align-content: center;
         color: white;
         font-size: 14px;
     }
     .message>textarea{
-        height: 15vh;
+        height: 80px;
         width: 39vw;
         text-indent: 20px;
         background-color: transparent;
@@ -3977,12 +3984,15 @@ body{
         border: 1.5px solid white;
         color: white;
         margin-top: 10px;
+        padding-top: 10px;
+        font-family: inherit;
+        font-size: 14px;
     }
     .message>textarea:focus{
         outline: 1.5px solid #ff16f4;
     }
     .submit{
-        height: 8vh;
+        height: 50px;
         font-size: 18px;
         font-weight: 600;
         border: 1px solid #ff16f4;
@@ -4247,8 +4257,8 @@ body{
         flex-wrap: wrap;
     }
     .html,.css,.javascript,.tailwind,.bootstrap,.php,.mysql{
-        height: 100px;
-        width: 18vw;
+        height: 80px;
+        width: 16vw;
         background-color: transparent;
         border-radius: 8px 8px 8px 8px;
     }
@@ -4261,7 +4271,7 @@ body{
         background-color: #9999993d;
     }
     .html>img{
-        height: 29px;
+        height: 24px;
     }
     .html>p{
         color: white;
@@ -4276,7 +4286,7 @@ body{
         transition-duration: 300ms;
     }
     .css>img{
-        height: 27px;
+        height: 23px;
     }
     .css>p{
         color: white;
@@ -4291,7 +4301,7 @@ body{
         transition-duration: 300ms;
     }
     .javascript>img{
-        height: 29px;
+        height: 24px;
     }
     .javascript>p{
         color: white;
@@ -4301,7 +4311,7 @@ body{
         border: 1.5px solid lightblue;
     }
     .tailwind>img{
-        height: 28px;
+        height: 24px;
     }
     .tailwind>p{
         color: white;
@@ -4378,7 +4388,6 @@ body{
     .the_offers{
         height: 140px;
         width: 40vw;
-        text-align: center;
         align-content: center;
         border-radius: 8px 8px 8px 8px;
     }
@@ -4389,17 +4398,18 @@ body{
     .the_offers>i{
         font-size: 20px;
         color: #ff16f4;
-        text-align: center;
+        text-indent: 20px;
     }
     .the_offers>p{
         font-weight: 600;
         font-size: 18px;
         color: white;
-        text-align: center;
+        text-indent: 20px;
     }
     .the_offers>div{
         font-size: 13px;
         color: white;
+        padding-left: 20px;
     }
     .projects{
         height: 700px;
@@ -4423,7 +4433,6 @@ body{
         height: 450px;
         width: 40vw;
         border: 2px solid #ff16f4;
-        text-align: center;
         border-radius: 20px 20px 20px 20px;
     }
     .projects_div>div:hover{
@@ -4432,8 +4441,8 @@ body{
         background-color: #9999993d;
     }
     .project_name{
-        font-size: 20px;
-        text-align: center;
+        font-size: 16px;
+        text-indent: 20px;
         font-weight: 700;
         color: #ff16f4;
     }
@@ -4445,12 +4454,11 @@ body{
         border-bottom: 2px solid #ff16f4;
     }
     .project_info{
-        height: 60px;
+        height: 80px;
         color: white;
-        border: 1px solid black;
-        text-align: center;
+        padding-left: 10px;
         align-content: center;
-        font-size: 14px;
+        font-size: 12px;
     }
     .project_stack{
         display: flex;
@@ -4460,7 +4468,7 @@ body{
         margin-top: 4px;
     }
     .project_stack>p{
-        width: 9vw;
+        width: 10vw;
         height: 30px;
         border: 1px solid #ff16f4;
         align-content: center;
@@ -4469,6 +4477,7 @@ body{
         font-size: 12px;
         box-shadow: 3px 3px 0px white;
         font-weight: 600;
+        text-align: center;
     }
    
     .project_links{
@@ -4478,7 +4487,7 @@ body{
     }
     .github_repo{
         height: 30px;
-        width: 10vw;
+        width: 12vw;
         transition-duration: 300ms;
         text-align: center;
         align-content: center;
@@ -4537,7 +4546,6 @@ body{
         height: 250px;
         width: 36vw;
         border-radius: 20px 20px 20px 20px;
-        text-align: center;
         align-content: center;
     }
     .certificates:hover{
@@ -4548,16 +4556,19 @@ body{
         color: #ff16f4;
         font-weight: 600;
         font-size: 16px;
+        padding-left: 20px;
     }
     .platform{
         color: white;
         font-weight: 600;
         font-size: 16px;
+        text-indent: 20px;
     }
     .view_certificate{
         height: 80px;
         width: 100%;
         align-content: center;
+        text-align: center;
     }
     
     .view_certificate>a{
@@ -4638,6 +4649,9 @@ body{
         border: 1.5px solid white;
         color: white;
         margin-top: 10px;
+        font-family: inherit;
+        font-size: 13px;
+        padding-top: 10px;
     }
     .message>textarea:focus{
         outline: 1.5px solid #ff16f4;
@@ -4907,8 +4921,8 @@ body{
         flex-wrap: wrap;
     }
     .html,.css,.javascript,.tailwind,.bootstrap,.php,.mysql{
-        height: 100px;
-        width: 16vw;
+        height: 80px;
+        width: 14vw;
         background-color: transparent;
         border-radius: 8px 8px 8px 8px;
     }
@@ -4921,7 +4935,7 @@ body{
         background-color: #9999993d;
     }
     .html>img{
-        height: 29px;
+        height: 24px;
     }
     .html>p{
         color: white;
@@ -4936,7 +4950,7 @@ body{
         transition-duration: 300ms;
     }
     .css>img{
-        height: 27px;
+        height: 23px;
     }
     .css>p{
         color: white;
@@ -4951,7 +4965,7 @@ body{
         transition-duration: 300ms;
     }
     .javascript>img{
-        height: 29px;
+        height: 24px;
     }
     .javascript>p{
         color: white;
@@ -4961,7 +4975,7 @@ body{
         border: 1.5px solid lightblue;
     }
     .tailwind>img{
-        height: 28px;
+        height: 23px;
     }
     .tailwind>p{
         color: white;
@@ -5038,7 +5052,6 @@ body{
     .the_offers{
         height: 140px;
         width: 40vw;
-        text-align: center;
         align-content: center;
         border-radius: 8px 8px 8px 8px;
     }
@@ -5049,17 +5062,18 @@ body{
     .the_offers>i{
         font-size: 20px;
         color: #ff16f4;
-        text-align: center;
+        text-indent: 20px;
     }
     .the_offers>p{
         font-weight: 600;
         font-size: 18px;
         color: white;
-        text-align: center;
+        text-indent: 20px;
     }
     .the_offers>div{
         font-size: 13px;
         color: white;
+        padding-left: 20px;
     }
     .projects{
         height: 700px;
@@ -5083,7 +5097,6 @@ body{
         height: 450px;
         width: 40vw;
         border: 2px solid #ff16f4;
-        text-align: center;
         border-radius: 20px 20px 20px 20px;
     }
     .projects_div>div:hover{
@@ -5092,8 +5105,8 @@ body{
         background-color: #9999993d;
     }
     .project_name{
-        font-size: 20px;
-        text-align: center;
+        font-size: 16px;
+        text-indent: 20px;
         font-weight: 700;
         color: #ff16f4;
     }
@@ -5105,12 +5118,11 @@ body{
         border-bottom: 2px solid #ff16f4;
     }
     .project_info{
-        height: 60px;
+        height: 80px;
         color: white;
-        border: 1px solid black;
-        text-align: center;
         align-content: center;
-        font-size: 14px;
+        font-size: 12px;
+        padding-left: 10px;
     }
     .project_stack{
         display: flex;
@@ -5129,6 +5141,7 @@ body{
         font-size: 12px;
         box-shadow: 3px 3px 0px white;
         font-weight: 600;
+        text-align: center;
     }
    
     .project_links{
@@ -5197,7 +5210,6 @@ body{
         height: 250px;
         width: 36vw;
         border-radius: 20px 20px 20px 20px;
-        text-align: center;
         align-content: center;
     }
     .certificates:hover{
@@ -5208,16 +5220,19 @@ body{
         color: #ff16f4;
         font-weight: 600;
         font-size: 16px;
+        padding-left: 20px;
     }
     .platform{
         color: white;
         font-weight: 600;
         font-size: 16px;
+        text-indent: 20px;
     }
     .view_certificate{
         height: 80px;
         width: 100%;
         align-content: center;
+        text-align: center;
     }
     
     .view_certificate>a{
@@ -5298,6 +5313,9 @@ body{
         border: 1.5px solid white;
         color: white;
         margin-top: 10px;
+        padding-top: 10px;
+        font-size: 14px;
+        font-family: inherit;
     }
     .message>textarea:focus{
         outline: 1.5px solid #ff16f4;
@@ -5378,48 +5396,61 @@ body{
         backdrop-filter: blur(30px);
         position: fixed;
     }
-    .sidenav{
-        position: fixed;
-        z-index: 1;
-        height: 70vh;
-        width: 30vw;
-        border-radius: 18px 18px 18px 18px;
-        margin-left: -130px;
-        background-color: black;
-        display: none;
-        place-content: center;
-        gap: 10px;
-        transition-duration: 300ms;
-    }
-    .sidenav>a{
-        border: 1px solid black;
-        color: white;
-        display: inline-block;
-        width: 20vw;
-        height: 8vh;
-        text-align: center;
-        align-content: center;
-        text-decoration: none;
-        border-radius: 18px 18px 18px 18px;
-        font-weight: 600;
-    }
-    .sidenav>a:hover{
-        transition-duration: 300ms;
-        background-color: #ff16f4;
-        border: 1px solid #ff16f4;
-        color: black;
-        box-shadow: 0px 0px 20px #ff16f4;
-    }
     .sidemenu{
+        cursor: pointer;
         color: white;
     }
-    .closebtn{
-        text-align: end;
+    /* The side navigation menu */
+    .sidenav {
+        height: 300px; /* 100% Full-height */
+        width: 0; /* 0 width - change this with JavaScript */
+        position: fixed; /* Stay in place */
+        z-index: 1; /* Stay on top */
+        top: 0; /* Stay at the top */
+        left: 0;
+        background-color: #111; /* Black*/
+        overflow-x: hidden; /* Disable horizontal scroll */
+        padding-top: 60px; /* Place content 60px from the top */
+        transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+        margin-left: 40px;
+        border-radius: 18px 18px 18px 18px;
+        align-content: center;
     }
-    .closebtn>a{
-        font-size: 30px;
-        color: white;
+
+    /* The navigation menu links */
+    .sidenav a {
+        padding: 8px 8px 8px 32px;
         text-decoration: none;
+        font-size: 25px;
+        color: #818181;
+        display: block;
+        transition: 0.3s;
+        text-align: center;
+    }
+
+    /* When you mouse over the navigation links, change their color */
+    .sidenav a:hover {
+    color: #ff16f4;
+    transition-duration: 300ms
+    }
+
+    /* Position and style the close button (top right corner) */
+    .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+        margin-left: 50px;
+        color: white;
+        border: none;
+        background-color: transparent;
+        cursor: pointer;
+    }
+
+    /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+    #main {
+    transition: margin-left .5s;
+    padding: 20px;
     }
     .logo{
         font-size: 20px;
@@ -5476,12 +5507,12 @@ body{
         width: 40vw;
     }
     .name{
-        font-size: 26px;
+        font-size: 22px;
         font-weight: 700;
         color: white;
     }
     .job{
-        font-size: 26px;
+        font-size: 22px;
         font-weight: 700;
         color: #ff16f4;
     }
@@ -5491,24 +5522,24 @@ body{
     }
     .info>p{
         color: white;
-        font-size: 16px;
+        font-size: 14px;
         font-weight: 500;
     }
     .profiles{
         text-align: center;
     }
     .github_link{
-        font-size: 28px;
+        font-size: 20px;
         color: white;
     }
     .linkedin_link{
         text-decoration: none;
-        font-size: 28px;
+        font-size: 20px;
         color: #5676ff;
     }
     .x_link{
         text-decoration: none;
-        font-size: 28px;
+        font-size: 20px;
         color: white;
     }
     .download_resume{
@@ -5551,12 +5582,12 @@ body{
         width: 100%;
         display: flex;
         justify-content: space-evenly;
-        align-content: center;
+        align-items: center;
         flex-wrap: wrap;
     }
     .html,.css,.javascript,.tailwind,.bootstrap,.php,.mysql{
-        height: 100px;
-        width: 16vw;
+        height: 80px;
+        width: 14vw;
         background-color: transparent;
         border-radius: 8px 8px 8px 8px;
     }
@@ -5686,7 +5717,6 @@ body{
     .the_offers{
         height: 140px;
         width: 40vw;
-        text-align: center;
         align-content: center;
         border-radius: 8px 8px 8px 8px;
     }
@@ -5697,17 +5727,18 @@ body{
     .the_offers>i{
         font-size: 20px;
         color: #ff16f4;
-        text-align: center;
+        text-indent: 20px;
     }
     .the_offers>p{
         font-weight: 600;
         font-size: 18px;
         color: white;
-        text-align: center;
+        text-indent: 20px;
     }
     .the_offers>div{
         font-size: 13px;
         color: white;
+        padding-left: 20px;
     }
     .projects{
         height: 700px;
@@ -5731,7 +5762,6 @@ body{
         height: 450px;
         width: 40vw;
         border: 2px solid #ff16f4;
-        text-align: center;
         border-radius: 20px 20px 20px 20px;
     }
     .projects_div>div:hover{
@@ -5740,8 +5770,8 @@ body{
         background-color: #9999993d;
     }
     .project_name{
-        font-size: 20px;
-        text-align: center;
+        font-size: 15px;
+        text-indent: 20px;
         font-weight: 700;
         color: #ff16f4;
     }
@@ -5753,12 +5783,11 @@ body{
         border-bottom: 2px solid #ff16f4;
     }
     .project_info{
-        height: 60px;
+        height: 80px;
         color: white;
-        border: 1px solid black;
-        text-align: center;
+        padding-left: 10px;
         align-content: center;
-        font-size: 14px;
+        font-size: 13px;
     }
     .project_stack{
         display: flex;
@@ -5770,6 +5799,7 @@ body{
     .project_stack>p{
         width: 9vw;
         height: 30px;
+        text-align: center;
         border: 1px solid #ff16f4;
         align-content: center;
         border-radius: 18px 18px 18px 18px;
@@ -5845,7 +5875,6 @@ body{
         height: 250px;
         width: 36vw;
         border-radius: 20px 20px 20px 20px;
-        text-align: center;
         align-content: center;
     }
     .certificates:hover{
@@ -5856,16 +5885,19 @@ body{
         color: #ff16f4;
         font-weight: 600;
         font-size: 16px;
+        padding-left: 20px;
     }
     .platform{
         color: white;
         font-weight: 600;
         font-size: 16px;
+        text-indent: 20px;
     }
     .view_certificate{
         height: 80px;
         width: 100%;
         align-content: center;
+        text-align: center;
     }
     
     .view_certificate>a{
@@ -5879,6 +5911,7 @@ body{
         border-radius: 10px 10px 10px 10px;
         text-decoration: none;
         font-weight: 600;
+        text-align: center;
     }
     .view_certificate>a:hover{
         transition: 300ms;
@@ -5946,6 +5979,9 @@ body{
         border: 1.5px solid white;
         color: white;
         margin-top: 10px;
+        padding-top: 10px;
+        font-family: inherit;
+        font-size: 14px;
     }
     .message>textarea:focus{
         outline: 1.5px solid #ff16f4;
@@ -6026,48 +6062,61 @@ body{
         backdrop-filter: blur(30px);
         position: fixed;
     }
-    .sidenav{
-        position: fixed;
-        z-index: 1;
-        height: 70vh;
-        width: 30vw;
-        border-radius: 18px 18px 18px 18px;
-        margin-left: -130px;
-        background-color: black;
-        display: none;
-        place-content: center;
-        gap: 10px;
-        transition-duration: 300ms;
-    }
-    .sidenav>a{
-        border: 1px solid black;
-        color: white;
-        display: inline-block;
-        width: 20vw;
-        height: 8vh;
-        text-align: center;
-        align-content: center;
-        text-decoration: none;
-        border-radius: 18px 18px 18px 18px;
-        font-weight: 600;
-    }
-    .sidenav>a:hover{
-        transition-duration: 300ms;
-        background-color: #ff16f4;
-        border: 1px solid #ff16f4;
-        color: black;
-        box-shadow: 0px 0px 20px #ff16f4;
-    }
     .sidemenu{
         color: white;
+        cursor: pointer;
     }
-    .closebtn{
-        text-align: end;
+    /* The side navigation menu */
+    .sidenav {
+        height: 300px; /* 100% Full-height */
+        width: 0; /* 0 width - change this with JavaScript */
+        position: fixed; /* Stay in place */
+        z-index: 1; /* Stay on top */
+        top: 0; /* Stay at the top */
+        left: 0;
+        background-color: #111; /* Black*/
+        overflow-x: hidden; /* Disable horizontal scroll */
+        padding-top: 60px; /* Place content 60px from the top */
+        transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+        margin-left: 40px;
+        border-radius: 18px 18px 18px 18px;
+        align-content: center;
     }
-    .closebtn>a{
-        font-size: 30px;
-        color: white;
+
+    /* The navigation menu links */
+    .sidenav a {
+        padding: 8px 8px 8px 32px;
         text-decoration: none;
+        font-size: 25px;
+        color: #818181;
+        display: block;
+        transition: 0.3s;
+        text-align: center;
+    }
+
+    /* When you mouse over the navigation links, change their color */
+    .sidenav a:hover {
+    color: #ff16f4;
+    transition-duration: 300ms
+    }
+
+    /* Position and style the close button (top right corner) */
+    .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+        margin-left: 50px;
+        color: white;
+        border: none;
+        background-color: transparent;
+        cursor: pointer;
+    }
+
+    /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+    #main {
+    transition: margin-left .5s;
+    padding: 20px;
     }
     .logo{
         font-size: 20px;
@@ -6123,18 +6172,19 @@ body{
         width: 40vw;
     }
     .name{
-        font-size: 26px;
+        font-size: 22px;
         font-weight: 700;
         color: white;
     }
     .job{
-        font-size: 26px;
+        font-size: 22px;
         font-weight: 700;
         color: #ff16f4;
     }
     .info{
         height: 130px;
         width: 100%;
+        font-size: 14px;
     }
     .info>p{
         color: white;
@@ -6202,7 +6252,7 @@ body{
         flex-wrap: wrap;
     }
     .html,.css,.javascript,.tailwind,.bootstrap,.php,.mysql{
-        height: 100px;
+        height: 80px;
         width: 12vw;
         background-color: transparent;
         border-radius: 8px 8px 8px 8px;
@@ -6216,11 +6266,12 @@ body{
         background-color: #9999993d;
     }
     .html>img{
-        height: 29px;
+        height: 24px;
     }
     .html>p{
         color: white;
         font-weight: 600;
+        font-size: 12px;
     }
     .css{
         border: 1.5px solid blue;
@@ -6231,11 +6282,12 @@ body{
         transition-duration: 300ms;
     }
     .css>img{
-        height: 27px;
+        height: 23px;
     }
     .css>p{
         color: white;
         font-weight: 600;
+        font-size: 12px;
     }
     .javascript{
         border: 1.5px solid yellow;
@@ -6246,21 +6298,23 @@ body{
         transition-duration: 300ms;
     }
     .javascript>img{
-        height: 29px;
+        height: 24px;
     }
     .javascript>p{
         color: white;
         font-weight: 600;
+        font-size: 12px;
     }
     .tailwind{
         border: 1.5px solid lightblue;
     }
     .tailwind>img{
-        height: 28px;
+        height: 24px;
     }
     .tailwind>p{
         color: white;
         font-weight: 600;
+        font-size: 12px;
     }
     .tailwind:hover{
         transition-duration: 300ms;
@@ -6333,7 +6387,6 @@ body{
     .the_offers{
         height: 140px;
         width: 36vw;
-        text-align: center;
         align-content: center;
         border-radius: 8px 8px 8px 8px;
     }
@@ -6344,17 +6397,18 @@ body{
     .the_offers>i{
         font-size: 20px;
         color: #ff16f4;
-        text-align: center;
+        text-indent: 20px;
     }
     .the_offers>p{
         font-weight: 600;
         font-size: 18px;
         color: white;
-        text-align: center;
+        text-indent: 20px;
     }
     .the_offers>div{
         font-size: 13px;
         color: white;
+        padding-left: 20px;
     }
     .projects{
         height: 700px;
@@ -6378,7 +6432,6 @@ body{
         height: 450px;
         width: 40vw;
         border: 2px solid #ff16f4;
-        text-align: center;
         border-radius: 20px 20px 20px 20px;
     }
     .projects_div>div:hover{
@@ -6387,8 +6440,8 @@ body{
         background-color: #9999993d;
     }
     .project_name{
-        font-size: 20px;
-        text-align: center;
+        font-size: 16px;
+        text-indent: 20px;
         font-weight: 700;
         color: #ff16f4;
     }
@@ -6400,12 +6453,11 @@ body{
         border-bottom: 2px solid #ff16f4;
     }
     .project_info{
-        height: 60px;
+        height: 80px;
         color: white;
-        border: 1px solid black;
-        text-align: center;
+        padding-left: 15px;
         align-content: center;
-        font-size: 14px;
+        font-size: 13px;
     }
     .project_stack{
         display: flex;
@@ -6418,6 +6470,7 @@ body{
         width: 9vw;
         height: 30px;
         border: 1px solid #ff16f4;
+        text-align: center;
         align-content: center;
         border-radius: 18px 18px 18px 18px;
         background-color: #ff16f4;
@@ -6489,10 +6542,9 @@ body{
         justify-content: space-evenly;
     }
     .certificates{
-        height: 300px;
+        height: 200px;
         width: 36vw;
         border-radius: 20px 20px 20px 20px;
-        text-align: center;
         align-content: center;
     }
     .certificates:hover{
@@ -6503,16 +6555,19 @@ body{
         color: #ff16f4;
         font-weight: 600;
         font-size: 16px;
+        padding-left: 20px;
     }
     .platform{
         color: white;
         font-weight: 600;
         font-size: 16px;
+        text-indent: 20px;
     }
     .view_certificate{
         height: 80px;
         width: 100%;
         align-content: center;
+        text-align: center;
     }
     
     .view_certificate>a{
@@ -6593,6 +6648,9 @@ body{
         border: 1.5px solid white;
         color: white;
         margin-top: 10px;
+        padding-top: 10px;
+        font-family: inherit;
+        font-size: 14px;
     }
     .message>textarea:focus{
         outline: 1.5px solid #ff16f4;
@@ -6771,12 +6829,12 @@ body{
         width: 40vw;
     }
     .name{
-        font-size: 26px;
+        font-size: 24px;
         font-weight: 700;
         color: white;
     }
     .job{
-        font-size: 26px;
+        font-size: 24px;
         font-weight: 700;
         color: #ff16f4;
     }
@@ -6786,7 +6844,7 @@ body{
     }
     .info>p{
         color: white;
-        font-size: 16px;
+        font-size: 15px;
         font-weight: 500;
     }
     .profiles{
@@ -6850,7 +6908,7 @@ body{
         flex-wrap: wrap;
     }
     .html,.css,.javascript,.tailwind,.bootstrap,.php,.mysql{
-        height: 100px;
+        height: 80px;
         width: 12vw;
         background-color: transparent;
         border-radius: 8px 8px 8px 8px;
@@ -6864,7 +6922,7 @@ body{
         background-color: #9999993d;
     }
     .html>img{
-        height: 29px;
+        height: 24px;
     }
     .html>p{
         color: white;
@@ -6879,7 +6937,7 @@ body{
         transition-duration: 300ms;
     }
     .css>img{
-        height: 27px;
+        height: 23px;
     }
     .css>p{
         color: white;
@@ -6904,7 +6962,7 @@ body{
         border: 1.5px solid lightblue;
     }
     .tailwind>img{
-        height: 28px;
+        height: 24px;
     }
     .tailwind>p{
         color: white;
@@ -6924,7 +6982,7 @@ body{
         transition-duration: 300ms;
     }
     .bootstrap>img{
-        height: 28px;
+        height: 24px;
     }
     .bootstrap>p{
         color: white;
@@ -6939,7 +6997,7 @@ body{
         background-color: #9999993d;
     }
     .php>img{
-        height: 28px;
+        height: 24px;
     }
     .php>p{
         color: white;
@@ -6954,7 +7012,7 @@ body{
         background-color: #9999993d;
     }
     .mysql>img{
-        height: 28px;
+        height: 24px;
     }
     .mysql>p{
         color: white;
@@ -6981,7 +7039,6 @@ body{
     .the_offers{
         height: 140px;
         width: 36vw;
-        text-align: center;
         align-content: center;
         border-radius: 8px 8px 8px 8px;
     }
@@ -6992,17 +7049,18 @@ body{
     .the_offers>i{
         font-size: 20px;
         color: #ff16f4;
-        text-align: center;
+        text-indent: 20px;
     }
     .the_offers>p{
         font-weight: 600;
         font-size: 18px;
         color: white;
-        text-align: center;
+        text-indent: 20px;
     }
     .the_offers>div{
         font-size: 13px;
         color: white;
+        padding-left: 20px;
     }
     .projects{
         height: 700px;
@@ -7026,7 +7084,6 @@ body{
         height: 450px;
         width: 40vw;
         border: 2px solid #ff16f4;
-        text-align: center;
         border-radius: 20px 20px 20px 20px;
     }
     .projects_div>div:hover{
@@ -7035,8 +7092,8 @@ body{
         background-color: #9999993d;
     }
     .project_name{
-        font-size: 20px;
-        text-align: center;
+        font-size: 16px;
+        text-indent: 20px;
         font-weight: 700;
         color: #ff16f4;
     }
@@ -7048,12 +7105,11 @@ body{
         border-bottom: 2px solid #ff16f4;
     }
     .project_info{
-        height: 60px;
+        height: 80px;
         color: white;
-        border: 1px solid black;
-        text-align: center;
+        padding-left: 15px;
         align-content: center;
-        font-size: 14px;
+        font-size: 13px;
     }
     .project_stack{
         display: flex;
@@ -7061,9 +7117,10 @@ body{
         flex-wrap: wrap;
         color: white;
         margin-top: 4px;
+        text-align: center;
     }
     .project_stack>p{
-        width: 7vw;
+        width: 9vw;
         height: 30px;
         border: 1px solid #ff16f4;
         align-content: center;
@@ -7081,7 +7138,7 @@ body{
     }
     .github_repo{
         height: 30px;
-        width: 10vw;
+        width: 11vw;
         transition-duration: 300ms;
         text-align: center;
         align-content: center;
@@ -7137,10 +7194,9 @@ body{
         justify-content: space-evenly;
     }
     .certificates{
-        height: 300px;
+        height: 200px;
         width: 36vw;
         border-radius: 20px 20px 20px 20px;
-        text-align: center;
         align-content: center;
     }
     .certificates:hover{
@@ -7150,17 +7206,20 @@ body{
     .certificate_name{
         color: #ff16f4;
         font-weight: 600;
-        font-size: 18px;
+        font-size: 16px;
+        padding-left: 20px;
     }
     .platform{
         color: white;
         font-weight: 600;
         font-size: 16px;
+        text-indent: 20px;
     }
     .view_certificate{
         height: 80px;
         width: 100%;
         align-content: center;
+        text-align: center;
     }
     
     .view_certificate>a{
@@ -7241,6 +7300,9 @@ body{
         border: 1.5px solid white;
         color: white;
         margin-top: 10px;
+        padding-top: 10px;
+        font-family: inherit;
+        font-size: 13px;
     }
     .message>textarea:focus{
         outline: 1.5px solid #ff16f4;
@@ -7418,12 +7480,12 @@ body{
         width: 40vw;
     }
     .name{
-        font-size: 26px;
+        font-size: 24px;
         font-weight: 700;
         color: white;
     }
     .job{
-        font-size: 26px;
+        font-size: 24px;
         font-weight: 700;
         color: #ff16f4;
     }
@@ -7433,7 +7495,7 @@ body{
     }
     .info>p{
         color: white;
-        font-size: 16px;
+        font-size: 15px;
         font-weight: 500;
     }
     .profiles{
@@ -7495,7 +7557,7 @@ body{
         align-content: center;
     }
     .html,.css,.javascript,.tailwind,.bootstrap,.php,.mysql{
-        height: 100px;
+        height: 80px;
         width: 12vw;
         background-color: transparent;
         border-radius: 8px 8px 8px 8px;
@@ -7509,7 +7571,7 @@ body{
         background-color: #9999993d;
     }
     .html>img{
-        height: 29px;
+        height: 24px;
     }
     .html>p{
         color: white;
@@ -7524,7 +7586,7 @@ body{
         transition-duration: 300ms;
     }
     .css>img{
-        height: 27px;
+        height: 23px;
     }
     .css>p{
         color: white;
@@ -7539,7 +7601,7 @@ body{
         transition-duration: 300ms;
     }
     .javascript>img{
-        height: 29px;
+        height: 24px;
     }
     .javascript>p{
         color: white;
@@ -7549,7 +7611,7 @@ body{
         border: 1.5px solid lightblue;
     }
     .tailwind>img{
-        height: 28px;
+        height: 24px;
     }
     .tailwind>p{
         color: white;
@@ -7569,7 +7631,7 @@ body{
         transition-duration: 300ms;
     }
     .bootstrap>img{
-        height: 28px;
+        height: 24px;
     }
     .bootstrap>p{
         color: white;
@@ -7584,7 +7646,7 @@ body{
         background-color: #9999993d;
     }
     .php>img{
-        height: 28px;
+        height: 24px;
     }
     .php>p{
         color: white;
@@ -7626,7 +7688,6 @@ body{
     .the_offers{
         height: 140px;
         width: 36vw;
-        text-align: center;
         align-content: center;
         border-radius: 8px 8px 8px 8px;
     }
@@ -7637,17 +7698,18 @@ body{
     .the_offers>i{
         font-size: 20px;
         color: #ff16f4;
-        text-align: center;
+        text-indent: 20px;
     }
     .the_offers>p{
         font-weight: 600;
         font-size: 18px;
         color: white;
-        text-align: center;
+        text-indent: 20px;
     }
     .the_offers>div{
         font-size: 13px;
         color: white;
+        padding-left: 20px;
     }
     .projects{
         height: 700px;
@@ -7671,7 +7733,6 @@ body{
         height: 450px;
         width: 40vw;
         border: 2px solid #ff16f4;
-        text-align: center;
         border-radius: 18px 18px 18px 18px;
     }
     .projects_div>div:hover{
@@ -7680,8 +7741,8 @@ body{
         background-color: #9999993d;
     }
     .project_name{
-        font-size: 20px;
-        text-align: center;
+        font-size: 18px;
+        text-indent: 20px;
         font-weight: 700;
         color: #ff16f4;
     }
@@ -7693,12 +7754,11 @@ body{
         border-bottom: 2px solid #ff16f4;
     }
     .project_info{
-        height: 60px;
+        height: 80px;
         color: white;
-        border: 1px solid black;
-        text-align: center;
+        padding-left: 15px;
         align-content: center;
-        font-size: 14px;
+        font-size: 13px;
     }
     .project_stack{
         display: flex;
@@ -7706,9 +7766,10 @@ body{
         flex-wrap: wrap;
         color: white;
         margin-top: 4px;
+        text-align: center;
     }
     .project_stack>p{
-        width: 7vw;
+        width: 8vw;
         height: 30px;
         border: 1px solid #ff16f4;
         align-content: center;
@@ -7726,7 +7787,7 @@ body{
     }
     .github_repo{
         height: 30px;
-        width: 8vw;
+        width: 9vw;
         transition-duration: 300ms;
         text-align: center;
         align-content: center;
@@ -8063,12 +8124,12 @@ body{
         width: 40vw;
     }
     .name{
-        font-size: 26px;
+        font-size: 24px;
         font-weight: 700;
         color: white;
     }
     .job{
-        font-size: 26px;
+        font-size: 24px;
         font-weight: 700;
         color: #ff16f4;
     }
@@ -8078,7 +8139,7 @@ body{
     }
     .info>p{
         color: white;
-        font-size: 16px;
+        font-size: 15px;
         font-weight: 500;
     }
     .profiles{
@@ -8131,7 +8192,7 @@ body{
         color: #ff16f4;
         font-weight: 700;
         text-align: center;
-        font-size: 35px;
+        font-size: 30px;
     }
     .stack_div{
         height: 200px;
@@ -8140,7 +8201,7 @@ body{
         align-content: center;
     }
     .html,.css,.javascript,.tailwind,.bootstrap,.php,.mysql{
-        height: 100px;
+        height: 80px;
         width: 12vw;
         background-color: transparent;
         border-radius: 8px 8px 8px 8px;
@@ -8154,7 +8215,7 @@ body{
         background-color: #9999993d;
     }
     .html>img{
-        height: 29px;
+        height: 24px;
     }
     .html>p{
         color: white;
@@ -8169,7 +8230,7 @@ body{
         transition-duration: 300ms;
     }
     .css>img{
-        height: 27px;
+        height: 23px;
     }
     .css>p{
         color: white;
@@ -8184,7 +8245,7 @@ body{
         transition-duration: 300ms;
     }
     .javascript>img{
-        height: 29px;
+        height: 24px;
     }
     .javascript>p{
         color: white;
@@ -8194,7 +8255,7 @@ body{
         border: 1.5px solid lightblue;
     }
     .tailwind>img{
-        height: 28px;
+        height: 24px;
     }
     .tailwind>p{
         color: white;
@@ -8214,7 +8275,7 @@ body{
         transition-duration: 300ms;
     }
     .bootstrap>img{
-        height: 28px;
+        height: 24px;
     }
     .bootstrap>p{
         color: white;
@@ -8229,7 +8290,7 @@ body{
         background-color: #9999993d;
     }
     .php>img{
-        height: 28px;
+        height: 24px;
     }
     .php>p{
         color: white;
@@ -8271,7 +8332,6 @@ body{
     .the_offers{
         height: 140px;
         width: 36vw;
-        text-align: center;
         align-content: center;
         border-radius: 8px 8px 8px 8px;
     }
@@ -8282,17 +8342,18 @@ body{
     .the_offers>i{
         font-size: 20px;
         color: #ff16f4;
-        text-align: center;
+        text-indent: 20px;
     }
     .the_offers>p{
         font-weight: 600;
         font-size: 18px;
         color: white;
-        text-align: center;
+        text-indent: 20px;
     }
     .the_offers>div{
         font-size: 13px;
         color: white;
+        padding-left: 20px;
     }
     .projects{
         height: 700px;
@@ -8316,7 +8377,6 @@ body{
         height: 450px;
         width: 40vw;
         border: 2px solid #ff16f4;
-        text-align: center;
         border-radius: 18px 18px 18px 18px;
     }
     .projects_div>div:hover{
@@ -8325,8 +8385,8 @@ body{
         background-color: #9999993d;
     }
     .project_name{
-        font-size: 20px;
-        text-align: center;
+        font-size: 18px;
+        text-indent: 20px;
         font-weight: 700;
         color: #ff16f4;
     }
@@ -8338,12 +8398,11 @@ body{
         border-bottom: 2px solid #ff16f4;
     }
     .project_info{
-        height: 60px;
+        height: 80px;
         color: white;
-        border: 1px solid black;
-        text-align: center;
+        padding-left: 15px;
         align-content: center;
-        font-size: 14px;
+        font-size: 13px;
     }
     .project_stack{
         display: flex;
@@ -8351,9 +8410,10 @@ body{
         flex-wrap: wrap;
         color: white;
         margin-top: 4px;
+        text-align: center;
     }
     .project_stack>p{
-        width: 7vw;
+        width: 8vw;
         height: 30px;
         border: 1px solid #ff16f4;
         align-content: center;
@@ -8371,7 +8431,7 @@ body{
     }
     .github_repo{
         height: 30px;
-        width: 8vw;
+        width: 9vw;
         transition-duration: 300ms;
         text-align: center;
         align-content: center;
@@ -8427,10 +8487,9 @@ body{
         justify-content: space-evenly;
     }
     .certificates{
-        height: 300px;
+        height: 200px;
         width: 36vw;
         border-radius: 20px 20px 20px 20px;
-        text-align: center;
         align-content: center;
     }
     .certificates:hover{
@@ -8440,17 +8499,20 @@ body{
     .certificate_name{
         color: #ff16f4;
         font-weight: 600;
-        font-size: 18px;
+        font-size: 16px;
+        padding-left: 20px;
     }
     .platform{
         color: white;
         font-weight: 600;
         font-size: 16px;
+        padding-left: 20px;
     }
     .view_certificate{
         height: 80px;
         width: 100%;
         align-content: center;
+        text-align: center;
     }
     
     .view_certificate>a{
@@ -8531,6 +8593,9 @@ body{
         border: 1.5px solid white;
         color: white;
         margin-top: 10px;
+        padding-top: 10px;
+        font-family: inherit;
+        font-size: 14px;
     }
     .message>textarea:focus{
         outline: 1.5px solid #ff16f4;
@@ -8906,7 +8971,6 @@ body{
     .the_offers{
         height: 140px;
         width: 36vw;
-        text-align: center;
         align-content: center;
         border-radius: 8px 8px 8px 8px;
     }
@@ -8917,17 +8981,18 @@ body{
     .the_offers>i{
         font-size: 20px;
         color: #ff16f4;
-        text-align: center;
+        text-indent: 20px;
     }
     .the_offers>p{
         font-weight: 600;
         font-size: 18px;
         color: white;
-        text-align: center;
+        text-indent: 20px;
     }
     .the_offers>div{
         font-size: 13px;
         color: white;
+        padding-left: 20px;
     }
     .projects{
         height: 700px;
@@ -8951,7 +9016,6 @@ body{
         height: 450px;
         width: 40vw;
         border: 2px solid #ff16f4;
-        text-align: center;
         border-radius: 18px 18px 18px 18px;
     }
     .projects_div>div:hover{
@@ -8960,8 +9024,8 @@ body{
         background-color: #9999993d;
     }
     .project_name{
-        font-size: 20px;
-        text-align: center;
+        font-size: 18px;
+        text-indent: 20px;
         font-weight: 700;
         color: #ff16f4;
     }
@@ -8973,12 +9037,11 @@ body{
         border-bottom: 2px solid #ff16f4;
     }
     .project_info{
-        height: 60px;
+        height: 80px;
         color: white;
-        border: 1px solid black;
-        text-align: center;
         align-content: center;
         font-size: 14px;
+        padding-left: 15px;
     }
     .project_stack{
         display: flex;
@@ -8988,7 +9051,7 @@ body{
         margin-top: 4px;
     }
     .project_stack>p{
-        width: 7vw;
+        width: 9vw;
         height: 30px;
         border: 1px solid #ff16f4;
         align-content: center;
@@ -8997,6 +9060,7 @@ body{
         font-size: 12px;
         box-shadow: 3px 3px 0px white;
         font-weight: 600;
+        text-align: center;
     }
    
     .project_links{
@@ -9006,7 +9070,7 @@ body{
     }
     .github_repo{
         height: 30px;
-        width: 8vw;
+        width: 9vw;
         transition-duration: 300ms;
         text-align: center;
         align-content: center;
@@ -9062,10 +9126,9 @@ body{
         justify-content: space-evenly;
     }
     .certificates{
-        height: 300px;
+        height: 200px;
         width: 36vw;
         border-radius: 20px 20px 20px 20px;
-        text-align: center;
         align-content: center;
     }
     .certificates:hover{
@@ -9076,16 +9139,19 @@ body{
         color: #ff16f4;
         font-weight: 600;
         font-size: 18px;
+        padding-left: 20px;
     }
     .platform{
         color: white;
         font-weight: 600;
         font-size: 16px;
+        text-indent: 20px;
     }
     .view_certificate{
         height: 80px;
         width: 100%;
         align-content: center;
+        text-align: center;
     }
     
     .view_certificate>a{
@@ -9166,6 +9232,9 @@ body{
         border: 1.5px solid white;
         color: white;
         margin-top: 10px;
+        padding-top: 10px;
+        font-family: inherit;
+        font-size: 14px;
     }
     .message>textarea:focus{
         outline: 1.5px solid #ff16f4;
@@ -9347,7 +9416,7 @@ body{
     }
     .info>p{
         color: white;
-        font-size: 18px;
+        font-size: 16px;
         font-weight: 500;
     }
     .profiles{
@@ -9539,7 +9608,6 @@ body{
     .the_offers{
         height: 140px;
         width: 30vw;
-        text-align: center;
         align-content: center;
         border-radius: 8px 8px 8px 8px;
     }
@@ -9550,17 +9618,18 @@ body{
     .the_offers>i{
         font-size: 20px;
         color: #ff16f4;
-        text-align: center;
+        text-indent: 20px;
     }
     .the_offers>p{
         font-weight: 600;
         font-size: 18px;
         color: white;
-        text-align: center;
+        text-indent: 20px;
     }
     .the_offers>div{
         font-size: 13px;
         color: white;
+        padding-left: 20px;
     }
     .projects{
         height: 700px;
@@ -9584,7 +9653,6 @@ body{
         height: 450px;
         width: 35vw;
         border: 2px solid #ff16f4;
-        text-align: center;
         border-radius: 18px 18px 18px 18px;
     }
     .projects_div>div:hover{
@@ -9593,8 +9661,8 @@ body{
         background-color: #9999993d;
     }
     .project_name{
-        font-size: 20px;
-        text-align: center;
+        font-size: 19px;
+        text-indent: 20px;
         font-weight: 700;
         color: #ff16f4;
     }
@@ -9606,10 +9674,9 @@ body{
         border-bottom: 2px solid #ff16f4;
     }
     .project_info{
-        height: 60px;
+        height: 80px;
         color: white;
-        border: 1px solid black;
-        text-align: center;
+        padding-left: 15px;
         align-content: center;
         font-size: 14px;
     }
@@ -9630,6 +9697,7 @@ body{
         font-size: 12px;
         box-shadow: 3px 3px 0px white;
         font-weight: 600;
+        text-align: center;
     }
    
     .project_links{
@@ -9695,10 +9763,9 @@ body{
         justify-content: space-evenly;
     }
     .certificates{
-        height: 300px;
+        height: 200px;
         width: 30vw;
         border-radius: 20px 20px 20px 20px;
-        text-align: center;
         align-content: center;
     }
     .certificates:hover{
@@ -9708,17 +9775,20 @@ body{
     .certificate_name{
         color: #ff16f4;
         font-weight: 600;
-        font-size: 18px;
+        font-size: 16px;
+        padding-left: 20px;
     }
     .platform{
         color: white;
         font-weight: 600;
         font-size: 16px;
+        text-indent: 20px;
     }
     .view_certificate{
         height: 80px;
         width: 100%;
         align-content: center;
+        text-align: center;
     }
     
     .view_certificate>a{
@@ -9799,6 +9869,9 @@ body{
         border: 1.5px solid white;
         color: white;
         margin-top: 10px;
+        padding-top: 10px;
+        font-family: inherit;
+        font-size: 14px;
     }
     .message>textarea:focus{
         outline: 1.5px solid #ff16f4;
@@ -10172,7 +10245,6 @@ body{
     .the_offers{
         height: 140px;
         width: 30vw;
-        text-align: center;
         align-content: center;
         border-radius: 8px 8px 8px 8px;
     }
@@ -10183,17 +10255,18 @@ body{
     .the_offers>i{
         font-size: 20px;
         color: #ff16f4;
-        text-align: center;
+        text-indent: 20px;
     }
     .the_offers>p{
         font-weight: 600;
-        font-size: 18px;
+        font-size: 16px;
         color: white;
-        text-align: center;
+        text-indent: 20px;
     }
     .the_offers>div{
         font-size: 13px;
         color: white;
+        padding-left: 20px;
     }
     .projects{
         height: 700px;
@@ -10217,7 +10290,6 @@ body{
         height: 450px;
         width: 35vw;
         border: 2px solid #ff16f4;
-        text-align: center;
         border-radius: 18px 18px 18px 18px;
     }
     .projects_div>div:hover{
@@ -10227,22 +10299,21 @@ body{
     }
     .project_name{
         font-size: 20px;
-        text-align: center;
+        text-indent: 20px;
         font-weight: 700;
         color: #ff16f4;
     }
     .project_img{
-        height: 200px;
+        height: 180px;
         width: 100%;
         border-top-left-radius: inherit;
         border-top-right-radius: inherit;
         border-bottom: 2px solid #ff16f4;
     }
     .project_info{
-        height: 60px;
+        height: 80px;
         color: white;
-        border: 1px solid black;
-        text-align: center;
+        padding-left: 20px;
         align-content: center;
         font-size: 14px;
     }
@@ -10263,6 +10334,7 @@ body{
         font-size: 12px;
         box-shadow: 3px 3px 0px white;
         font-weight: 600;
+        text-align: center;
     }
    
     .project_links{
@@ -10331,7 +10403,6 @@ body{
         height: 300px;
         width: 30vw;
         border-radius: 20px 20px 20px 20px;
-        text-align: center;
         align-content: center;
     }
     .certificates:hover{
@@ -10342,16 +10413,19 @@ body{
         color: #ff16f4;
         font-weight: 600;
         font-size: 18px;
+        padding-left: 20px;
     }
     .platform{
         color: white;
         font-weight: 600;
         font-size: 16px;
+        text-indent: 20px;
     }
     .view_certificate{
         height: 80px;
         width: 100%;
         align-content: center;
+        text-align: center;
     }
     
     .view_certificate>a{
@@ -10432,6 +10506,9 @@ body{
         border: 1.5px solid white;
         color: white;
         margin-top: 10px;
+        padding-top: 20px;
+        font-family: inherit;
+        font-size: 14px;
     }
     .message>textarea:focus{
         outline: 1.5px solid #ff16f4;
@@ -10802,7 +10879,6 @@ body{
     .the_offers{
         height: 140px;
         width: 30vw;
-        text-align: center;
         align-content: center;
         border-radius: 8px 8px 8px 8px;
     }
@@ -10813,17 +10889,18 @@ body{
     .the_offers>i{
         font-size: 20px;
         color: #ff16f4;
-        text-align: center;
+        text-indent: 20px;
     }
     .the_offers>p{
         font-weight: 600;
         font-size: 18px;
         color: white;
-        text-align: center;
+        text-indent: 20px;
     }
     .the_offers>div{
         font-size: 13px;
         color: white;
+        padding-left: 20px;
     }
     .projects{
         height: 700px;
@@ -10847,7 +10924,6 @@ body{
         height: 450px;
         width: 35vw;
         border: 2px solid #ff16f4;
-        text-align: center;
         border-radius: 18px 18px 18px 18px;
     }
     .projects_div>div:hover{
@@ -10857,7 +10933,7 @@ body{
     }
     .project_name{
         font-size: 20px;
-        text-align: center;
+        text-indent: 20px;
         font-weight: 700;
         color: #ff16f4;
     }
@@ -10869,11 +10945,11 @@ body{
         border-bottom: 2px solid #ff16f4;
     }
     .project_info{
-        height: 60px;
+        height: 80px;
         color: white;
-        border: 1px solid black;
-        text-align: center;
+        padding-left: 20px;
         align-content: center;
+        font-size: 14px;
     }
     .project_stack{
         display: flex;
@@ -10892,6 +10968,7 @@ body{
         font-size: 13px;
         box-shadow: 3px 3px 0px white;
         font-weight: 600;
+        text-align: center;
     }
    
     .project_links{
@@ -10960,7 +11037,6 @@ body{
         height: 300px;
         width: 30vw;
         border-radius: 20px 20px 20px 20px;
-        text-align: center;
         align-content: center;
     }
     .certificates:hover{
@@ -10971,16 +11047,19 @@ body{
         color: #ff16f4;
         font-weight: 600;
         font-size: 18px;
+        padding-left: 20px;
     }
     .platform{
         color: white;
         font-weight: 600;
         font-size: 16px;
+        text-indent: 20px;
     }
     .view_certificate{
         height: 80px;
         width: 100%;
         align-content: center;
+        text-align: center;
     }
     
     .view_certificate>a{
@@ -11061,6 +11140,9 @@ body{
         border: 1.5px solid white;
         color: white;
         margin-top: 10px;
+        padding-top: 20px;
+        font-family: inherit;
+        font-size: 15px;
     }
     .message>textarea:focus{
         outline: 1.5px solid #ff16f4;
@@ -11431,7 +11513,6 @@ body{
     .the_offers{
         height: 140px;
         width: 30vw;
-        text-align: center;
         align-content: center;
         border-radius: 8px 8px 8px 8px;
     }
@@ -11442,17 +11523,18 @@ body{
     .the_offers>i{
         font-size: 20px;
         color: #ff16f4;
-        text-align: center;
+        text-indent: 20px;
     }
     .the_offers>p{
         font-weight: 600;
         font-size: 18px;
         color: white;
-        text-align: center;
+        text-indent: 20px;
     }
     .the_offers>div{
         font-size: 13px;
         color: white;
+        padding-left: 20px;
     }
     .projects{
         height: 700px;
@@ -11476,7 +11558,6 @@ body{
         height: 450px;
         width: 35vw;
         border: 2px solid #ff16f4;
-        text-align: center;
         border-radius: 18px 18px 18px 18px;
     }
     .projects_div>div:hover{
@@ -11486,9 +11567,9 @@ body{
     }
     .project_name{
         font-size: 20px;
-        text-align: center;
         font-weight: 700;
         color: #ff16f4;
+        text-indent: 20px;
     }
     .project_img{
         height: 200px;
@@ -11498,11 +11579,11 @@ body{
         border-bottom: 2px solid #ff16f4;
     }
     .project_info{
-        height: 60px;
+        height: 80px;
         color: white;
-        border: 1px solid black;
-        text-align: center;
         align-content: center;
+        padding-left: 20px;
+        font-size: 15px;
     }
     .project_stack{
         display: flex;
@@ -11521,6 +11602,7 @@ body{
         font-size: 13px;
         box-shadow: 3px 3px 0px white;
         font-weight: 600;
+        text-align: center;
     }
    
     .project_links{
@@ -11589,7 +11671,6 @@ body{
         height: 300px;
         width: 30vw;
         border-radius: 20px 20px 20px 20px;
-        text-align: center;
         align-content: center;
     }
     .certificates:hover{
@@ -11600,16 +11681,19 @@ body{
         color: #ff16f4;
         font-weight: 600;
         font-size: 18px;
+        padding-left: 20px;
     }
     .platform{
         color: white;
         font-weight: 600;
         font-size: 16px;
+        text-indent: 20px;
     }
     .view_certificate{
         height: 80px;
         width: 100%;
         align-content: center;
+        text-align: center;
     }
     
     .view_certificate>a{
@@ -11690,6 +11774,9 @@ body{
         border: 1.5px solid white;
         color: white;
         margin-top: 10px;
+        padding-top: 20px;
+        font-family: inherit;
+        font-size: 15px;
     }
     .message>textarea:focus{
         outline: 1.5px solid #ff16f4;
@@ -12060,7 +12147,6 @@ body{
     .the_offers{
         height: 140px;
         width: 30vw;
-        text-align: center;
         align-content: center;
         border-radius: 8px 8px 8px 8px;
     }
@@ -12072,16 +12158,18 @@ body{
         font-size: 20px;
         color: #ff16f4;
         text-align: center;
+        text-indent: 20px;
     }
     .the_offers>p{
         font-weight: 600;
         font-size: 18px;
         color: white;
-        text-align: center;
+        text-indent: 20px;
     }
     .the_offers>div{
         font-size: 13px;
         color: white;
+        padding-left: 20px;
     }
     .projects{
         height: 700px;
@@ -12105,7 +12193,6 @@ body{
         height: 450px;
         width: 35vw;
         border: 2px solid #ff16f4;
-        text-align: center;
         border-radius: 18px 18px 18px 18px;
     }
     .projects_div>div:hover{
@@ -12115,9 +12202,9 @@ body{
     }
     .project_name{
         font-size: 20px;
-        text-align: center;
         font-weight: 700;
         color: #ff16f4;
+        text-indent: 20px;
     }
     .project_img{
         height: 200px;
@@ -12127,11 +12214,11 @@ body{
         border-bottom: 2px solid #ff16f4;
     }
     .project_info{
-        height: 60px;
+        height: 80px;
         color: white;
-        border: 1px solid black;
-        text-align: center;
         align-content: center;
+        padding-left: 20px;
+        font-size: 15px;
     }
     .project_stack{
         display: flex;
@@ -12150,6 +12237,7 @@ body{
         font-size: 13px;
         box-shadow: 3px 3px 0px white;
         font-weight: 600;
+        text-align: center;
     }
    
     .project_links{
@@ -12218,7 +12306,6 @@ body{
         height: 300px;
         width: 30vw;
         border-radius: 20px 20px 20px 20px;
-        text-align: center;
         align-content: center;
     }
     .certificates:hover{
@@ -12229,16 +12316,19 @@ body{
         color: #ff16f4;
         font-weight: 600;
         font-size: 18px;
+        padding-left: 20px;
     }
     .platform{
         color: white;
         font-weight: 600;
         font-size: 16px;
+        text-indent: 20px;
     }
     .view_certificate{
         height: 80px;
         width: 100%;
         align-content: center;
+        text-align: center;
     }
     
     .view_certificate>a{
@@ -12319,6 +12409,9 @@ body{
         border: 1.5px solid white;
         color: white;
         margin-top: 10px;
+        font-family: inherit;
+        padding-top: 20px;
+
     }
     .message>textarea:focus{
         outline: 1.5px solid #ff16f4;
@@ -12702,18 +12795,17 @@ body{
     .the_offers>i{
         font-size: 20px;
         color: #ff16f4;
-        text-indent: 60px;
+        text-align: center;
     }
     .the_offers>p{
         font-weight: 600;
         font-size: 18px;
         color: white;
-        text-indent: 60px;
+        text-align: center;
     }
     .the_offers>div{
         font-size: 13px;
         color: white;
-        padding-left: 60px;
     }
     .projects{
         height: 700px;
@@ -12746,7 +12838,7 @@ body{
     }
     .project_name{
         font-size: 20px;
-        text-indent: 20px;
+        text-align: center;
         font-weight: 700;
         color: #ff16f4;
     }
@@ -12758,8 +12850,10 @@ body{
         border-bottom: 2px solid #ff16f4;
     }
     .project_info{
-        height: 80px;
+        height: 60px;
         color: white;
+        border: 1px solid black;
+        text-align: center;
         align-content: center;
         font-size: 14px;
         padding-left: 20px;
@@ -12850,7 +12944,6 @@ body{
         height: 300px;
         width: 30vw;
         border-radius: 20px 20px 20px 20px;
-        text-align: center;
         align-content: center;
     }
     .certificates:hover{
@@ -12861,15 +12954,18 @@ body{
         color: #ff16f4;
         font-weight: 600;
         font-size: 18px;
+        padding-left: 30px;
     }
     .platform{
         color: white;
         font-weight: 600;
         font-size: 16px;
+        text-indent: 30px;
     }
     .view_certificate{
         height: 80px;
         width: 100%;
+        text-align: center;
         align-content: center;
     }
     
@@ -12951,9 +13047,16 @@ body{
         border: 1.5px solid white;
         color: white;
         margin-top: 10px;
+        font-family: inherit;
+        padding-top: 10px;
+
     }
     .message>textarea:focus{
         outline: 1.5px solid #ff16f4;
+    }
+    .message>textarea:placeholder-shown{
+        font-family: inherit;
+        padding-top: 10px;
     }
     .submit{
         height: 50px;
