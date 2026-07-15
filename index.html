@@ -7,25 +7,17 @@
     <script src="script/script.js"></script>
     <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/3.0.0/uicons-bold-rounded/css/uicons-bold-rounded.css'>
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/3.0.0/uicons-brands/css/uicons-brands.css'>
     <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/3.0.0/uicons-brands/css/uicons-brands.css'>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
     <title> Onose`s portfolio</title>
     <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/3.0.0/uicons-solid-rounded/css/uicons-solid-rounded.css'>
 </head>
 <body>
     <header>
         <nav>
-            <div>
-                <div id="mySidenav" class="sidenav">
-                    <div><button  class="closebtn" onclick="closeNav()">&times;</button></div>
-                    <a href="#About">About</a>
-                    <a href="#services">Services</a>
-                    <a href="#projects">Projects</a>
-                    <a href="#contact">Contact</a>
-                </div>
-                <span onclick="openNav()" class="sidemenu"><i class="fi fi-br-menu-burger"></i></span>
-            </div>
             <div class="logo">Onosetale.E</div>
             <div class="nav_links">
                 <a href="#About">About</a>
@@ -33,14 +25,24 @@
                 <a href="#projects">Projects</a>
                 <a href="#contact">Contact</a>
             </div>
-            <a href="images/Onose`s current resume.pdf" class="Resume" target="_blank">Resume</a>
+            <div class="sidebar">
+                <div id="mySidenav" class="sidenav">
+                    <div><button  class="closebtn" onclick="closeNav()">&times;</button></div>
+                    <a href="#About">About</a><br>
+                    <a href="#services">Services</a><br>
+                    <a href="#projects">Projects</a><br>
+                    <a href="#contact">Contact</a><br>
+                </div>
+                <a href="images/Onose`s current resume.pdf" class="Resume" target="_blank">Resume</a>
+                <span onclick="openNav()" class="sidemenu"><i class="fi fi-br-menu-burger"></i></span>
+            </div>
         </nav>
     </header>
     <section>
         <div class="About" id="About">
             <div class="About_img"><img src="images/profile-image.jpeg" alt=""></div>
             <div class="About_info">
-                <div class="name">Hi, I am Eboh Onosetale</div>
+                <div class="name">Hi, I am Onosetale Eboh</div>
                 <div class="job">Web Developer</div>
                 <div class="info">
                     <p>I am an innovative and skill-driven web Developer with the experience of crafting slick, user-friendly and responsive websites. <br></p>
@@ -50,40 +52,37 @@
                         <a href="https://x.com/Cray77786" target="_blank" class="x_link" title="X"><i class="fi fi-brands-twitter-alt-square"></i></a>
                     </div>
                 </div>
-                <div class="download_resume">
-                    <a href="images/Onose`s current resume.pdf" target="_blank">view Resume <i class="fi fi-sr-down-to-line"></i></a>
+                <div class="main_contact">
+                    <a href="#contact" class="contactMe">Contact Me</a>
+                    <a href="#projects" class="MyWork">My Work</a>
                 </div>
             </div>    
         </div>
         <div class="tech_stack">
             <div class="tech_stack_heading">MY SKILLS</div>
             <div class="stack_div">
-                <button class="html">
-                    <img src="images/html_logo.png" alt="">
+                <button class="stack">
+                    <i class="fa-brands fa-html5"></i>
                     <p>HTML</p>
                 </button>
-                <button class="css">
-                    <img src="images/CSS_logo.png" alt="">
+                <button class="stack">
+                    <i class="fi fi-brands-css3"></i>
                     <p>CSS</p>
                 </button>
-                <button class="javascript">
-                    <img src="images/javacript_logo.webp" alt="">
+                <button class="stack">
+                    <i class="bi bi-javascript"></i>
                     <p>JavaScript</p>
                 </button>
-                <button class="tailwind">
-                    <img src="images/tailwind_logo.png" alt="">
-                    <p>Tailwindcss</p>
-                </button>
-                <button class="bootstrap">
-                    <img src="images/bootstrap_logo.png" alt="">
+                <button class="stack">
+                    <i class="fi fi-brands-bootstrap"></i>
                     <p>Bootstrap</p>
                 </button>
-                <button class="php">
-                    <img src="images/php_logo.png" alt="">
+                <button class="stack">
+                    <i class="fi fi-brands-php"></i>
                     <p>PHP</p>
                 </button>
-                <button class="mysql">
-                    <img src="images/mysql_logo.svg" alt="">
+                <button class="stack">
+                    <i class="fi fi-brands-mysql"></i>
                     <p>MySQL</p>
                 </button>
             </div>
@@ -120,7 +119,7 @@
                 <div>
                     <img src="images/luxelinteriors.png" alt="" class="project_img">
                     <p class="project_name">Luxel-Interiors</p>
-                    <p class="project_info">This is an E-commerce website built to make buying and selling of furniture ans interior decors easier</p>
+                    <p class="project_info">E-commerce Website for Furniture and interior decorations</p>
                     <div class="project_stack">
                         <p>HTML</p>
                         <p>CSS</p>
@@ -132,16 +131,17 @@
                     </div>             
                 </div>
                 <div>
-                    <img src="images/fragrance.png" alt="" class="project_img">
-                    <p class="project_name">FRAGRANCE</p>
-                    <p class="project_info">A modern web app called Fragrance, designed to showcase and explore different perfume collections with a clean, responsive interface and smooth user experience.</p>
+                    <img src="images/findhome.png" alt="" class="project_img">
+                    <p class="project_name">FindHome</p>
+                    <p class="project_info">A real estate listing platform for finding your dream home</p>
                     <div class="project_stack">
                         <p>HTML</p>
                         <p>CSS</p>
                         <p>JavaScript</p>
                     </div>
                     <div class="project_links">
-                        <a href="https://github.com/Emperorcray/Fragrance" class="github_repo" target="_blank">GitHub<i class="bi bi-github"></i></a>
+                        <a href="https://github.com/Emperorcray/FindHome" class="github_repo" target="_blank">GitHub<i class="bi bi-github"></i></a>
+                        <a href="https://findhome.infinityfree.me" class="demo" target="_blank">Live Demo</a>
                     </div>      
                 </div>
             </div>
@@ -161,27 +161,8 @@
                 </div>
             </div>
         </div>
-        <div class="contacts" id="contact">
-            <div class="contacts_heading">Contacts</div>
-            <form action="">
-                <p>Get In Touch</p>
-                <label for="" class="fullname">
-                    Name: <br>
-                    <input type="text" required>
-                </label>
-                <label for="" class="email">
-                    Email: <br>
-                    <input type="email" required>
-                </label>
-                <label for="" class="message">
-                    Message: <br>
-                    <textarea name="" id="" placeholder="Enter your message" required></textarea>
-                </label>
-                <input type="submit" value="Send Message" class="submit">
-            </form>
-        </div>
     </section>
-    <footer>
+    <footer id="contact">
         <div class="footer_heading">STAY CONNECTED</div>
         <p>Follow me on my social media channels and stay updated with me.</p>
         <div class="footer_links">
